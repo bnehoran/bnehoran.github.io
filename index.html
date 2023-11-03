@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Barak Nehoran</title>
+    <style>
+      body {
+	  font-family: sans-serif;
+	  background-color: #222;
+	  margin: 0;
+      }
+
+      #header {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  background-color: #91741A;
+	  color: #fff;
+	  padding: 3em;
+      }
+
+      #header h1 {
+	  font-size: 4em;
+	  margin: 0;
+      }
+
+      #header h2 {
+	  font-size: 2em;
+	  margin: 0;
+      }
+            
+      #header img {
+	  border-radius: 50%;
+	  width: 250px;
+	  height: 250px;
+	  margin-right: 1em;
+	  object-fit: cover;
+      }
+
+      #nav {
+	  display: flex;
+	  justify-content: space-between;
+	  background-color: #91741A;
+	  color: #fff;
+	  padding: 0.5em;
+      }
+
+      #nav ul {
+	  display: flex;
+	  list-style: none;
+      }
+
+      #nav a {
+	  color: #fff;
+	  text-decoration: none;
+	  padding: 0.5em;
+      }
+
+      #nav a:hover {
+	  background-color: #513400;
+      }
+
+      #content {
+	  max-width: 800px;
+	  margin: 0 auto;
+	  padding: 1em;
+      }
+
+      #content h2 {
+	  margin-top: 0;
+      }
+ 
+      #content p {
+	  line-height: 1.5;
+      }
+
+      #content ul {
+	  list-style: none;
+	  margin: 20px 0;
+	  padding: 0;
+      }
+
+      #content li {
+	  margin: 0.5em 0;
+      }
+
+      .card {
+	  background-color: #f1f1f1;
+	  border-radius: 5px;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  margin: 20px 0;
+	  padding: 20px;
+	  width: 100%;
+	  scroll-margin-top: 76px;
+      }
+      .card h2 {
+	  margin: 0;
+      }
+      .card p {
+	  margin: 20px 0;
+      }
+      .sticky {
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	  z-index: 1;
+      }
+
+      .loader {
+	  border: 16px solid #f3f3f3; /* Light grey */
+	  border-top: 16px solid #91741A;
+	  border-radius: 50%;
+	  width: 50px;
+	  height: 50px;
+	  animation: spin 2s linear infinite;
+	  align: center;
+      }
+
+      @keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+      }
+
+    </style>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="header">
+      <h1>Barak Nehoran</h1>
+      <br>
+      <h2>PhD Candidate in Computer Science</h2>
+      <h3>Research interests:  quantum information, cryptography, complexity theory</h3>
+      <img src="https://lh3.googleusercontent.com/pw/ACtC-3ffeCGHrQMpMfEzQ1fOtToroyiY2P0P6tv4-ytX_kavXEc6r7Tq4UvIcT2ZWtk3zWeni-J5ylmsrAUksjotn5ERffOpP7q_Y_asblEDNFU2xyWLRxMFs8s4nfNwm7KX2i05ppkFeQw0m3YlN3P-nvD3uw=w1023-h933-no" alt="Barak Image Barak Image">
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div id="content">
+      <div class="card" id="noise">
+	<p align="center" style="font-size: 130%">
+	  🚧 <i> This webpage is currently under construction, so please forgive the noise! </i>  🚧
+	</p>
+      </div>
+      <div class="card" id="about">
+        <h2>About</h2>
+	<p>I am a fourth-year Ph.D. candidate in theoretical computer science at Princeton University where I&rsquo;m fortunate to be co-advised by Professors <a href="https://engineering.princeton.edu/faculty/ran-raz" target="_blank" rel="noopener">Ran Raz</a> and <a href="https://www.cs.princeton.edu/~mzhandry/" target="_blank" rel="noopener">Mark Zhandry</a>.</p>
+	<p>My research interests lie in the areas of <strong>quantum information, cryptography, and complexity theory</strong>, and more generally at the intersections of physics, information, and computation.</p>
+	<p>In the past (before starting my Ph.D.), I have also done research in electrical engineering, experimental physics, machine learning, and computational neuroscience.</p>
+	<p>I am a co-founder and the core maintainer of <a href="https://www.tigerpath.io/" target="_blank" rel="noopener">TigerPath</a>, a web app now used by thousands of Princeton undergraduate students to plan their four-year schedules. It was written about in the <a href="https://www.dailyprincetonian.com/article/2018/09/tiger-path-app-debut" target="_blank" rel="noopener">Daily Princetonian</a>.</p>
+	<!-- <p>I am also a sometimes-contributor to the open source <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a> machine learning framework. I&rsquo;ve refactored and written code for PyTorch&rsquo;s spatial transformer module, which is used in various applications in image registration, optical flow estimation, and other deep computer vision tasks.</p> -->
+      </div>
+      <div class="card" id="research">
+        <h2>Research</h2>
+        <p>
+	  My research examines the power of quantum computation and quantum information in two contexts:
+        </p>
+	<h3> Quantum Cryptography </h3>
+	<i>How can we use quantum states and quantum information to produce cryptographic primitives and constructions that would not be possible with only classical information? What kinds of cryptographic objects only arise out of the marriage of both the guarantees of quantum no-go theorems and the efficiency assumptions of computational complexity? </i>
+	<h3> Quantum Complexity Theory </h3>
+	<i> How are the capabilities of interacting systems affected by the presence of quantum information? Can we use the power given by quantum no-go theorems to give rise to stronger guarantees on the resources required to perform interactive computation? </i>
+      </div>
+      <div class="card" id="publications">
+        <h2>Publications</h2>
+        <ul id="papers">
+	  <div class="loader"></div>
+        </ul>
+      </div>
+      <div class="card" id="teaching">
+	<h2>Teaching</h2>
+	<ul>
+	  <li>
+	    <a href="https://www.cs.princeton.edu/courses/archive/spring22/cos585/", target="_blank">
+	      Information Theory (COS 585) - Spring 2022
+	    </a>
+	  </li>
+	  <li>
+	    <a href="https://registrar.princeton.edu/course-offerings/course-details?term=1222&courseid=010006", target="_blank">
+	      Quantum Computing (ELE 396 / COS 396) - Fall 2021
+	    </a>
+	  </li>
+	  <li>
+	    <a href="https://www.cs.princeton.edu/~smattw/Teaching/cos445sp21.htm", target="_blank">
+	      Economics and Computation (COS 445) - Spring 2021
+	    </a>
+	  </li>
+	  <li>
+	    <a href="https://faculty.cc.gatech.edu/~ssingla7/courses/COS521.html", target="_blank">
+	      Advanced Algorithm Design (COS 521) - Fall 2020
+	    </a>
+	  </li>
+	</ul>
+      </div>
+      <div class="card" id="contact">
+	<h2>Contact</h2>
+	<p>
+	  I am very friendly, so feel free to reach out to me at
+	  <br>
+	  [<i>my_first_initial</i>][<i>last_name</i>]@princeton.edu
+	</p>
+	<!-- <form> -->
+	<!--   <label for="name">Name:</label><br> -->
+	<!--   <input type="text" id="name" name="name"><br> -->
+	<!--   <label for="email">Email:</label><br> -->
+	<!--   <input type="email" id="email" name="email"><br> -->
+	<!--   <label for="message">Message:</label><br> -->
+	<!--   <textarea id="message" name="message"></textarea><br> -->
+	<!--   <input type="submit" value="Submit"> -->
+	<!-- </form>  -->
+      </div>
+    </div>
+    <script>
+      // window.addEventListener('scroll', function() {
+      // 	  const nav = document.getElementById('nav');
+      // 	  if (window.scrollY > 50) {
+      // 	      nav.classList.add('sticky');
+      // 	  } else {
+      // 	      nav.classList.remove('sticky');
+      // 	  }
+      // });
+      
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+
+      // Get the nav
+      var nav = document.getElementById("nav");
+
+      // Get the offset position of the navbar
+      var sticky = nav.offsetTop;
+
+      // Add the sticky class to the nav when you reach its scroll position. Remove  "sticky" when you leave the scroll position
+      function myFunction() {
+	  if (window.pageYOffset > sticky) {
+	      nav.classList.add("sticky");
+	  } else {
+	      nav.classList.remove("sticky");
+	  }
+      }
+
+      async function fetchAsync (url) {
+	  try {
+	      let response = await fetch(url);
+	      let data = await response.json();
+	      console.log(data);
+	      return data;
+	  } catch (error) {
+	      return {
+		  papers: []
+	      }
+	  }
+      }
+      
+      async function updatePapers() {
+	  var papers = document.getElementById("papers");      
+	  var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
+	  papers.innerHTML = "";
+	  if (papjson.papers.length === 0) {
+	      papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
+	  }
+	  for (pap of papjson.papers) {
+	      console.log(pap);
+	      var litem = document.createElement("li");
+	      litem.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
+	      litem.innerHTML += "<br>";
+
+	      const numAutDisp = 5;
+	      var authorNames = pap.authors.map(a => a.name === "Barak Nehoran" ? "<b>Barak Nehoran</b>" : a.name);
+	      litem.innerHTML += authorNames[0];
+	      for (aut of authorNames.slice(1, numAutDisp)) {
+		  litem.innerHTML += ", " + aut;
+	      }
+	      if (pap.authors.length > numAutDisp) {
+		  litem.innerHTML += ", et al. "
+		  if (!(authorNames.slice(0, numAutDisp).includes("<b>Barak Nehoran</b>"))) {
+		      litem.innerHTML += "including <b>Barak Nehoran</b>";
+		  }
+	      }
+
+	      litem.innerHTML += "<br>";
+	      if (pap.citationCount === 1) {
+		  litem.innerHTML += "[" + pap.citationCount + " citation]";
+	      }
+	      else if (pap.citationCount > 1) {
+		  litem.innerHTML += "[" + pap.citationCount + " citations]";
+	      }
+	      
+	      papers.appendChild(litem);
+	  }
+      }
+
+      updatePapers();
+      
+    </script>
+  </body>
+</html>
