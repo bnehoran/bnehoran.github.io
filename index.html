@@ -260,6 +260,11 @@
       }
       
       async function updatePapers() {
+	  // Extra info to be included on individual papers
+	  const paperComments = {
+		  "fb9632a472ee891a716f49795122cba19e3d5c26": "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>.",
+	  };
+
 	  var papers = document.getElementById("papers");      
 	  var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
 	  papers.innerHTML = "";
@@ -299,9 +304,9 @@
 		  }
 	      }
 
-	      if (pap.paperId === "fb9632a472ee891a716f49795122cba19e3d5c26") {
+	      if (pap.paperId in paperComments) {
 	          litem.innerHTML += "<br>";
-		  litem.innerHTML += "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>";
+		  litem.innerHTML += paperComments[pap.paperId];
 	      }
 
 	      litem.innerHTML += "<br>";
