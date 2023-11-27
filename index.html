@@ -266,6 +266,17 @@
 	  if (papjson.papers.length === 0) {
 	      papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
 	  }
+	  // Place Biology papers at the end of the list
+	  papjson.papers.sort((a, b) => {
+		if (!a.fieldsOfStudy.includes("Biology") && b.fieldsOfStudy.includes("Biology")) {
+			return -1;
+		}
+		if (a.fieldsOfStudy.includes("Biology") && !b.fieldsOfStudy.includes("Biology")) {
+			return 1;
+		}
+		return 0;
+	  });
+	  
 	  for (pap of papjson.papers) {
 	      console.log(pap);
 	      var litem = document.createElement("li");
@@ -293,19 +304,6 @@
 	      }
 	      else if (pap.citationCount > 1) {
 		  litem.innerHTML += "[" + pap.citationCount + " citations]";
-	      }
-
-	      litem.innerHTML += "<br>";
-	      if (pap.publicationVenue) {
-		  litem.innerHTML += pap.publicationVenue;
-	      }
-	      else if (pap.venue > 1) {
-		  litem.innerHTML += pap.venue;
-	      }
-
-	      litem.innerHTML += "<br>";
-	      if (pap.fieldsOfStudy) {
-		  litem.innerHTML += pap.fieldsOfStudy;
 	      }
 
 	      papers.appendChild(litem);
