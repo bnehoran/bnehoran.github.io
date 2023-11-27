@@ -273,7 +273,9 @@
 	      litem.innerHTML += "<br>";
 
 	      const numAutDisp = 5;
-	      var authorNames = pap.authors.map(a => a.name === "Barak Nehoran" ? "<b>Barak Nehoran</b>" : a.name);
+	      var authorNames = pap.authors
+		      .map(a => a.name === "Barak Nehoran" ? "<b>Barak Nehoran</b>" : a.name)
+		      .map(a => a.name === "B. Nehoran" ? "<b>Barak Nehoran</b>" : a.name);
 	      litem.innerHTML += authorNames[0];
 	      for (aut of authorNames.slice(1, numAutDisp)) {
 		  litem.innerHTML += ", " + aut;
@@ -292,7 +294,20 @@
 	      else if (pap.citationCount > 1) {
 		  litem.innerHTML += "[" + pap.citationCount + " citations]";
 	      }
-	      
+
+	      litem.innerHTML += "<br>";
+	      if (pap.publicationVenue) {
+		  litem.innerHTML += pap.publicationVenue;
+	      }
+	      else if (pap.venue > 1) {
+		  litem.innerHTML += pap.venue;
+	      }
+
+	      litem.innerHTML += "<br>";
+	      if (pap.fieldsOfStudy) {
+		  litem.innerHTML += pap.fieldsOfStudy;
+	      }
+
 	      papers.appendChild(litem);
 	  }
       }
