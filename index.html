@@ -268,6 +268,9 @@
 	  }
 	  // Place Biology papers at the end of the list
 	  papjson.papers.sort((a, b) => {
+		if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b)) {
+			return 0;
+		}
 		if (!a.fieldsOfStudy.includes("Biology") && b.fieldsOfStudy.includes("Biology")) {
 			return -1;
 		}
