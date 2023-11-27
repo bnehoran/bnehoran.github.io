@@ -287,9 +287,7 @@
 	      litem.innerHTML += "<br>";
 
 	      const numAutDisp = 5;
-	      var authorNames = pap.authors
-		      .map(a => a.name === "Barak Nehoran" ? "<b>Barak Nehoran</b>" : a.name)
-		      .map(a => a.name === "B. Nehoran" ? "<b>Barak Nehoran</b>" : a.name);
+	      var authorNames = pap.authors.map(a => (a.name === "Barak Nehoran") || (a.name === "B. Nehoran") ? "<b>Barak Nehoran</b>" : a.name);
 	      litem.innerHTML += authorNames[0];
 	      for (aut of authorNames.slice(1, numAutDisp)) {
 		  litem.innerHTML += ", " + aut;
