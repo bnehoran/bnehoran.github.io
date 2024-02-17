@@ -169,6 +169,8 @@
       <ul>
         <li>
           <h3>A Computational Separation Between Quantum No-Cloning and No-Telegraphing</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/watch?v=lf-BgQYtzOk" frameborder="0" allowfullscreen></iframe>
+          <h4>Other versions of this talk:</h4>
           <a href="https://www.youtube.com/watch?v=vT__6ShiRsA" target="_blank">Cornell Theory Seminar</a> /
           <a href="https://www.youtube.com/watch?v=LHfUA-LXTlY" target="_blank">Princeton Theory Lunch</a> /
           <a href="https://www.youtube.com/watch?v=ComfHKBJJb8" target="_blank">Hon Hai Quantum Computing Research Center (Foxconn)</a> /
@@ -248,6 +250,7 @@
       }
     }
     
+    // Scrape publications, process them, and add them to the webpage
     async function updatePapers() {
       // Ad-hoc edits to be made to specific papers
       const paperEdits = {
@@ -278,7 +281,7 @@
         papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
       }
 
-      // Place Biology papers at the end of the list
+      // Place Biology papers at the end of the list (to emphasize CS/Physics papers)
       papjson.papers.sort((a, b) => {
         if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) {
           return 0;
