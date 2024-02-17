@@ -253,6 +253,8 @@
       const paperComments = {
         "fb9632a472ee891a716f49795122cba19e3d5c26": "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>",
       };
+
+      // Ad-hoc edits to be made to specific papers
       const paperEdits = {
         "fb9632a472ee891a716f49795122cba19e3d5c26": function(paper) {
           paper.title = "A Computational Separation Between Quantum No-Cloning and No-Telegraphing";
@@ -272,6 +274,7 @@
       if (papjson.papers.length === 0) {
         papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
       }
+
       // Place Biology papers at the end of the list
       papjson.papers.sort((a, b) => {
         if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) {
@@ -289,7 +292,10 @@
       for (pap of papjson.papers) {
         console.log(pap);
 
-        pap = paperEdits[pap.paperId](pap);
+        // Apply ad-hoc edits to papers
+        if (pap.paperId in paperEdits) {
+          pap = paperEdits[pap.paperId](pap);
+        }
         
         // Drop certain papers from display (for example, duplicates)
         if ("skip" in pap) {
