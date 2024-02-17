@@ -299,7 +299,7 @@
       for (pap of papjson.papers) {
         papLookup[pap.paperId] = pap;
       }
-      for (id of paperMerges) {
+      for (id of Object.keys(paperMerges)) {
         citCount = papLookup[id].citationCount;
         for (subId of paperMerges[id]) {
           citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
