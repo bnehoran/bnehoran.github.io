@@ -249,11 +249,6 @@
     }
     
     async function updatePapers() {
-      // Extra info to be included on individual papers
-      const paperComments = {
-        "fb9632a472ee891a716f49795122cba19e3d5c26": "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>",
-      };
-
       // Ad-hoc edits to be made to specific papers
       const paperEdits = {
         "fb9632a472ee891a716f49795122cba19e3d5c26": function(paper) {
@@ -319,9 +314,9 @@
           }
         }
 
-        if (pap.paperId in paperComments) {
+        if (comment in pap) {
             litem.innerHTML += "<br>";
-            litem.innerHTML += paperComments[pap.paperId];
+            litem.innerHTML += pap.comment;
         }
 
         litem.innerHTML += "<br>";
