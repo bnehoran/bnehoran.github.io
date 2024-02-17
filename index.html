@@ -228,86 +228,104 @@
     
     // Add the sticky class to the nav when you reach its scroll position. Remove  "sticky" when you leave the scroll position
     function myFunction() {
-    	  if (window.pageYOffset > sticky) {
-    	      nav.classList.add("sticky");
-    	  } else {
-    	      nav.classList.remove("sticky");
-    	  }
+      if (window.pageYOffset > sticky) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
     }
     
     async function fetchAsync (url) {
-    	  try {
-    	      let response = await fetch(url);
-    	      let data = await response.json();
-    	      console.log(data);
-    	      return data;
-    	  } catch (error) {
-    	      return {
-    		  papers: []
-    	      }
-    	  }
+      try {
+        let response = await fetch(url);
+        let data = await response.json();
+        console.log(data);
+        return data;
+      } catch (error) {
+        return {
+          papers: []
+        }
+      }
     }
     
     async function updatePapers() {
-    	  // Extra info to be included on individual papers
-    	  const paperComments = {
-    		  "fb9632a472ee891a716f49795122cba19e3d5c26": "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>",
-    	  };
-    
-    	  var papers = document.getElementById("papers");      
-    	  var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
-    	  papers.innerHTML = "";
-    	  if (papjson.papers.length === 0) {
-    	      papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
-    	  }
-    	  // Place Biology papers at the end of the list
-    	  papjson.papers.sort((a, b) => {
-    		if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) {
-    			return 0;
-    		}
-    		if (!a.fieldsOfStudy.includes("Biology") && b.fieldsOfStudy.includes("Biology")) {
-    			return -1;
-    		}
-    		if (a.fieldsOfStudy.includes("Biology") && !b.fieldsOfStudy.includes("Biology")) {
-    			return 1;
-    		}
-    		return 0;
-    	  });
-    	  
-    	  for (pap of papjson.papers) {
-    	      console.log(pap);
-    	      var litem = document.createElement("li");
-    	      litem.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
-    	      litem.innerHTML += "<br>";
-    
-    	      const numAutDisp = 5;
-    	      var authorNames = pap.authors.map(a => (a.name === "Barak Nehoran") || (a.name === "B. Nehoran") ? "<b>Barak Nehoran</b>" : a.name);
-    	      litem.innerHTML += authorNames[0];
-    	      for (aut of authorNames.slice(1, numAutDisp)) {
-    		  litem.innerHTML += ", " + aut;
-    	      }
-    	      if (pap.authors.length > numAutDisp) {
-    		  litem.innerHTML += ", et al. "
-    		  if (!(authorNames.slice(0, numAutDisp).includes("<b>Barak Nehoran</b>"))) {
-    		      litem.innerHTML += "including <b>Barak Nehoran</b>";
-    		  }
-    	      }
-    
-    	      if (pap.paperId in paperComments) {
-    	          litem.innerHTML += "<br>";
-    		  litem.innerHTML += paperComments[pap.paperId];
-    	      }
-    
-    	      litem.innerHTML += "<br>";
-    	      if (pap.citationCount === 1) {
-    		  litem.innerHTML += "[" + pap.citationCount + " citation]";
-    	      }
-    	      else if (pap.citationCount > 1) {
-    		  litem.innerHTML += "[" + pap.citationCount + " citations]";
-    	      }
-    
-    	      papers.appendChild(litem);
-    	  }
+      // Extra info to be included on individual papers
+      const paperComments = {
+        "fb9632a472ee891a716f49795122cba19e3d5c26": "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>",
+      };
+      const paperEdits = {
+        "fb9632a472ee891a716f49795122cba19e3d5c26": function(paper) {
+          paper.title = "A Computational Separation Between Quantum No-Cloning and No-Telegraphing";
+          paper.comment = "Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>";
+          return paper;
+        },
+        "a410b5734ee9d821f5accc7a269d1efe5fc1577e": function(paper) {
+          // Duplicate of "A Computational Separation Between Quantum No-Cloning and No-Telegraphing"
+          paper.skip = true;
+          return paper;
+        },
+      };
+  
+      var papers = document.getElementById("papers");      
+      var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
+      papers.innerHTML = "";
+      if (papjson.papers.length === 0) {
+        papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
+      }
+      // Place Biology papers at the end of the list
+      papjson.papers.sort((a, b) => {
+        if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) {
+          return 0;
+        }
+        if (!a.fieldsOfStudy.includes("Biology") && b.fieldsOfStudy.includes("Biology")) {
+          return -1;
+        }
+        if (a.fieldsOfStudy.includes("Biology") && !b.fieldsOfStudy.includes("Biology")) {
+          return 1;
+        }
+        return 0;
+      });
+      
+      for (pap of papjson.papers) {
+        console.log(pap);
+        
+        // Drop certain papers from display (for example, duplicates)
+        if ("skip" in pap) {
+          continue;
+        }
+
+        var litem = document.createElement("li");
+        litem.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
+        litem.innerHTML += "<br>";
+
+        const numAutDisp = 5;
+        var authorNames = pap.authors.map(a => (a.name === "Barak Nehoran") || (a.name === "B. Nehoran") ? "<b>Barak Nehoran</b>" : a.name);
+        litem.innerHTML += authorNames[0];
+        for (aut of authorNames.slice(1, numAutDisp)) {
+          litem.innerHTML += ", " + aut;
+        }
+        if (pap.authors.length > numAutDisp) {
+          litem.innerHTML += ", et al. "
+          if (!(authorNames.slice(0, numAutDisp).includes("<b>Barak Nehoran</b>"))) {
+              litem.innerHTML += "including <b>Barak Nehoran</b>";
+          }
+        }
+
+        if (pap.paperId in paperComments) {
+            litem.innerHTML += "<br>";
+            litem.innerHTML += paperComments[pap.paperId];
+        }
+
+        litem.innerHTML += "<br>";
+        if (pap.citationCount === 1) {
+          litem.innerHTML += "[" + pap.citationCount + " citation]";
+        }
+        else if (pap.citationCount > 1) {
+          litem.innerHTML += "[" + pap.citationCount + " citations]";
+        }
+
+        papers.appendChild(litem);
+      }
     }
     
     updatePapers();
