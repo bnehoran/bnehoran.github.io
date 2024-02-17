@@ -288,6 +288,8 @@
       
       for (pap of papjson.papers) {
         console.log(pap);
+
+        pap = paperEdits[pap.paperId](pap);
         
         // Drop certain papers from display (for example, duplicates)
         if ("skip" in pap) {
