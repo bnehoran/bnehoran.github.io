@@ -142,9 +142,9 @@
     </ul>
   </div>
   <div id="content">
-    <div class="card" id="noise">
+    <!-- <div class="card" id="noise">
       <p align="center" style="font-size: 130%"> 🚧 <i> This webpage is currently under construction, so please forgive the noise! </i> 🚧 </p>
-    </div>
+    </div> -->
     <div class="card" id="about">
       <h2>About</h2>
       <p>I am a Ph.D. candidate in theoretical computer science at Princeton University where I&rsquo;m fortunate to be co-advised by Professors <a href="https://engineering.princeton.edu/faculty/ran-raz" target="_blank" rel="noopener">Ran Raz</a> and <a href="https://mzhandry.github.io/" target="_blank" rel="noopener">Mark Zhandry</a>.</p>
@@ -162,6 +162,7 @@
       <h2>Publications</h2>
       <ul id="papers">
         <div class="loader"></div>
+        <p>Loading publications... See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>
       </ul>
       <!-- <small>(loaded from my Semantic Scholar <a href="https://www.semanticscholar.org/author/B.-Nehoran/1926235266" target="_blank">profile</a>)</small> -->
     </div>
@@ -288,10 +289,10 @@
   
       var papers = document.getElementById("papers");      
       var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
-      papers.innerHTML = "";
       if (papjson.papers.length === 0) {
         papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
-      }
+        return;
+      } 
 
       // Place Biology papers at the end of the list (to emphasize CS/Physics papers)
       papjson.papers.sort((a, b) => {
@@ -315,12 +316,15 @@
       for (id of Object.keys(paperMerges)) {
         citCount = papLookup[id].citationCount;
         for (subId of paperMerges[id]) {
-          citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
+          if('citationCount' in papLookup[subId]) {
+            citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
+          }
           papLookup[subId].skip = true;  // Skip the duplicate paper
         }
         papLookup[id].citationCount = citCount;
       }
       
+      var first = true;
       for (pap of papjson.papers) {
         console.log(pap);
 
@@ -364,6 +368,11 @@
           litem.innerHTML += "[" + pap.citationCount + " citations]";
         }
 
+        if (first) {
+          // clear the loader before adding the first paper
+          papers.innerHTML = "";
+          first = false;
+        }
         papers.appendChild(litem);
       }
     }
