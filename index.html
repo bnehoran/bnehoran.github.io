@@ -113,7 +113,7 @@
     	  width: 50px;
     	  height: 50px;
     	  animation: spin 2s linear infinite;
-    	  align: center;
+    	  margin: auto; /* Center horizontally and vertically */
     }
     
     @keyframes spin {
@@ -316,10 +316,12 @@
       for (id of Object.keys(paperMerges)) {
         citCount = papLookup[id].citationCount;
         for (subId of paperMerges[id]) {
-          if('citationCount' in papLookup[subId]) {
-            citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
+          if (subId in papLookup) {
+            if ('citationCount' in papLookup[subId]) {
+              citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
+            }
+            papLookup[subId].skip = true;  // Skip the duplicate paper
           }
-          papLookup[subId].skip = true;  // Skip the duplicate paper
         }
         papLookup[id].citationCount = citCount;
       }
