@@ -378,12 +378,20 @@
         ],
       };
   
-      var papers = document.getElementById("papers");      
-      var papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
+      var papers = document.getElementById("papers");
+
+      var papjson;
+      if (typeof window !== 'undefined') {
+        console.log('Skipped loading papers in development environment');
+        papjson = await fetchAsync("https://raw.githubusercontent.com/bnehoran/bnehoran.github.io/dev_papers/papers.json");
+      } else {
+        console.log('Loading papers...');
+        papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
+      }
       if (papjson.papers.length === 0) {
         papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
         return;
-      } 
+      }
 
       // Place Biology papers at the end of the list (to emphasize CS/Physics papers)
       papjson.papers.sort((a, b) => {
