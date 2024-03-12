@@ -340,8 +340,8 @@
         nav.classList.remove("sticky");
       }
     }
-    
-    async function fetchAsync (url) {
+
+        async function fetchAsync (url) {
       try {
         let response = await fetch(url);
         let data = await response.json();
@@ -381,7 +381,7 @@
       var papers = document.getElementById("papers");
 
       var papjson;
-      if (typeof process === 'undefined') {
+      if (window.location.hostname.endsWith('assets.github.dev')) {
         console.log('Skipped loading papers in development environment');
         papjson = await fetchAsync("https://raw.githubusercontent.com/bnehoran/bnehoran.github.io/dev_papers/papers.json");
       } else {
