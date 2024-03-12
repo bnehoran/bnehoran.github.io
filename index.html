@@ -358,17 +358,8 @@
     </div>
   </div>
   <script>
-    // window.addEventListener('scroll', function() {
-    // 	  const nav = document.getElementById('nav');
-    // 	  if (window.scrollY > 50) {
-    // 	      nav.classList.add('sticky');
-    // 	  } else {
-    // 	      nav.classList.remove('sticky');
-    // 	  }
-    // });
-    
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {myFunction()};
+    // When the user scrolls the page, execute toggleSticky
+    window.onscroll = function() {toggleSticky()};
     
     // Get the nav
     var nav = document.getElementById("nav");
@@ -377,7 +368,7 @@
     var sticky = nav.offsetTop;
     
     // Add the sticky class to the nav when you reach its scroll position. Remove  "sticky" when you leave the scroll position
-    function myFunction() {
+    function toggleSticky() {
       if (window.pageYOffset > sticky) {
         nav.classList.add("sticky");
       } else {
