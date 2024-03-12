@@ -90,7 +90,7 @@
     }
     
     #content li {
-    	  margin: 0.5em 0;
+    	  margin: 0.7em 0;
     }
 
     #content table {
@@ -135,6 +135,41 @@
     	  0% { transform: rotate(0deg); }
     	  100% { transform: rotate(360deg); }
     }
+
+    .collapsible {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    .collapsible li {
+      border-bottom: 1px solid #ccc;
+      position: relative; /* Added */
+    }
+    .collapsible li .collapse-section {
+      display: none;
+    }
+    .collapsible li .collapse-section.collapsed {
+      display: none;
+    }
+    .collapsible li .collapse-section.expanded {
+      display: block;
+    }
+    .collapsible li .collapsible-header {
+      cursor: pointer;
+    }
+    .collapsible li .collapsible-header:hover {
+      background-color: blanchedalmond;
+      /* color: white; */
+      /* font-weight: bold; */
+    }
+    .collapsible li .collapsible-header::before {
+      content: "▶";
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .collapsible li .collapsible-header.expanded::before {
+      content: "▼"; /* Rotated state: triangle pointing down */
+    }
     
   </style>
   <meta charset="UTF-8">
@@ -175,7 +210,7 @@
     </div>
     <div class="card" id="publications">
       <h2>Publications</h2>
-      <ul id="papers">
+      <ul class="collapsible" id="papers">
         <div class="loader"></div>
         <p>Loading publications... See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>
       </ul>
@@ -349,7 +384,7 @@
       }
     }
 
-        async function fetchAsync (url) {
+    async function fetchAsync (url) {
       try {
         let response = await fetch(url);
         let data = await response.json();
@@ -447,35 +482,56 @@
           continue;
         }
 
+        // The default state for the list items: collapsed/expanded
+        var defaultState = "expanded";
+
         var litem = document.createElement("li");
-        litem.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
-        litem.innerHTML += "<br>";
+        litem.classList.add("collapsible");
+        
+        var header = document.createElement("div");
+        header.classList.add("collapsible-header", defaultState);
+        header.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
+        // header.innerHTML = "<u><b>" + pap.title + "</b></u> (" + pap.year + ")";
+        litem.appendChild(header);
+
+        var content = document.createElement("div");
+        content.classList.add("collapse-section", defaultState);
 
         const numAutDisp = 5;
         var authorNames = pap.authors.map(a => (a.name === "Barak Nehoran") || (a.name === "B. Nehoran") ? "<b>Barak Nehoran</b>" : a.name);
-        litem.innerHTML += authorNames[0];
+        content.innerHTML += authorNames[0];
         for (aut of authorNames.slice(1, numAutDisp)) {
-          litem.innerHTML += ", " + aut;
+          content.innerHTML += ", " + aut;
         }
         if (pap.authors.length > numAutDisp) {
-          litem.innerHTML += ", et al. "
+          content.innerHTML += ", et al. "
           if (!(authorNames.slice(0, numAutDisp).includes("<b>Barak Nehoran</b>"))) {
-              litem.innerHTML += "including <b>Barak Nehoran</b>";
+              content.innerHTML += "including <b>Barak Nehoran</b>";
           }
         }
 
         if ("comment" in pap) {
-            litem.innerHTML += "<br>";
-            litem.innerHTML += pap.comment;
+            content.innerHTML += "<br>";
+            content.innerHTML += pap.comment;
         }
 
-        litem.innerHTML += "<br>";
+        content.innerHTML += "<br>";
         if (pap.citationCount === 1) {
-          litem.innerHTML += "[" + pap.citationCount + " citation]";
+          content.innerHTML += "[" + pap.citationCount + " citation]";
         }
         else if (pap.citationCount > 1) {
-          litem.innerHTML += "[" + pap.citationCount + " citations]";
+          content.innerHTML += "[" + pap.citationCount + " citations]";
         }
+
+        litem.appendChild(content);
+        header.addEventListener('click', function() {
+          this.classList.toggle('collapsed');
+          this.classList.toggle('expanded');
+          var parentLi = this.parentNode;
+          var content = parentLi.querySelector('.collapse-section');
+          content.classList.toggle('collapsed');
+          content.classList.toggle('expanded');
+        });
 
         if (first) {
           // clear the loader before adding the first paper
