@@ -381,7 +381,7 @@
       var papers = document.getElementById("papers");
 
       var papjson;
-      if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
+      if (typeof process === 'undefined') {
         console.log('Skipped loading papers in development environment');
         papjson = await fetchAsync("https://raw.githubusercontent.com/bnehoran/bnehoran.github.io/dev_papers/papers.json");
       } else {
