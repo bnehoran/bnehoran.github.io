@@ -1,0 +1,2902 @@
+{
+    "authorId": "1926235266",
+    "papers": [
+        {
+            "paperId": "2bf223d27a98474a498337067ee842b657dbfceb",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/2bf223d27a98474a498337067ee842b657dbfceb",
+            "title": "Perisomatic Features Enable Efficient and Dataset Wide Cell-Type Classifications Across Large-Scale Electron Microscopy Volumes",
+            "abstract": "Mammalian neocortex contains a highly diverse set of cell types. These types have been mapped systematically using a variety of molecular, electrophysiological and morphological approaches. Each modality offers new perspectives on the variation of biological processes underlying cell type specialization. Cellular scale electron microscopy (EM) provides dense ultrastructural examination and an unbiased perspective into the subcellular organization of brain cells, including their synaptic connectivity and nanometer scale morphology. It also presents a clear challenge for analysis to identify cell-types in data that contains tens of thousands of neurons, most of which have incomplete reconstructions. To address this challenge, we present the first systematic survey of the somatic region of all cells within a cubic millimeter of cortex using quantitative features obtained from EM. This analysis demonstrates a surprising sufficiency of the perisomatic region to identify cell-types, including types defined primarily based on their connectivity patterns. We then describe how this classification facilitates cell type specific connectivity characterization and locating cells with rare connectivity patterns in the dataset.",
+            "venue": "bioRxiv",
+            "year": 2024,
+            "citationCount": 11,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "publicationDate": "2024-01-13",
+            "authors": [
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "1700529",
+                    "name": "S. Seshamani"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "1970917",
+                    "name": "E. Froudarakis"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "2107210655",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": null,
+                    "name": "Fabian H. Sinz"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "7508200",
+                    "name": "Nuno Ma\u00e7arico da Costa"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                }
+            ]
+        },
+        {
+            "paperId": "a410b5734ee9d821f5accc7a269d1efe5fc1577e",
+            "publicationVenue": {
+                "id": "7f22f2c3-81fc-4aa8-8501-b1d58b193fa5",
+                "name": "Information Technology Convergence and Services",
+                "type": "conference",
+                "alternate_names": [
+                    "Innov Theor Comput Sci",
+                    "ITCS ",
+                    "Inf Technol Converg Serv",
+                    "Information Technology and Computer Science",
+                    "Inf Technol Comput Sci",
+                    "Conf Innov Theor Comput Sci",
+                    "Conference on Innovations in Theoretical Computer Science",
+                    "Innovations in Theoretical Computer Science",
+                    "ITCS"
+                ],
+                "url": "http://itcs-conf.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/a410b5734ee9d821f5accc7a269d1efe5fc1577e",
+            "title": "A Computational Separation Between Quantum No-Cloning and No-Telegraphing",
+            "abstract": null,
+            "venue": "Information Technology Convergence and Services",
+            "year": 2024,
+            "citationCount": 0,
+            "fieldsOfStudy": [
+                "Computer Science"
+            ],
+            "publicationDate": null,
+            "authors": [
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2240075",
+                    "name": "Mark Zhandry"
+                }
+            ]
+        },
+        {
+            "paperId": "0a80e0cf55b6a3554da9ccbaafc40a6554b7a625",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/0a80e0cf55b6a3554da9ccbaafc40a6554b7a625",
+            "title": "The Synaptic Architecture of Layer 5 Thick Tufted Excitatory Neurons in the Visual Cortex of Mice",
+            "abstract": "The neocortex is one of the most critical structures that makes us human, and it is involved in a variety of cognitive functions from perception to sensory integration and motor control. Composed of repeated modules, or microcircuits, the neocortex relies on distinct cell types as its fundamental building blocks. Despite significant progress in characterizing these cell types 1\u20135, an understanding of the complete synaptic partners associated with individual excitatory cell types remain elusive. Here, we investigate the connectivity of arguably the most well recognized and studied excitatory neuron in the neocortex: the thick tufted layer 5 pyramidal cell 6\u201310 also known as extra telencephalic (ET) 11 neurons. Although the synaptic interactions of ET neurons have been extensively explored, a comprehensive characterization of their local connectivity remains lacking. To address this knowledge gap, we leveraged a 1 mm3 electron microscopic (EM) dataset. We found that ET neurons primarily establish connections with inhibitory cells in their immediate vicinity. However, when they extend their axons to other cortical regions, they tend to connect more with excitatory cells. We also find that the inhibitory cells targeted by ET neurons are a specific group of cell types, and they preferentially inhibit ET cells. Finally, we observed that the most common excitatory targets of ET neurons are layer 5 IT neurons and layer 6 pyramidal cells, whereas synapses with other ET neurons are not as common. These findings challenge current views of the connectivity of ET neurons and suggest a circuit design that involves local competition among ET neurons and collaboration with other types of excitatory cells. Our results also highlight a specific circuit pattern where a subclass of excitatory cells forms a network with specific inhibitory cell types, offering a framework for exploring the connectivity of other types of excitatory cells.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 0,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "publicationDate": "2023-10-20",
+            "authors": [
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "2261901002",
+                    "name": "Chi Zhang"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "2261402638",
+                    "name": "Alex Mallen"
+                },
+                {
+                    "authorId": "2261399834",
+                    "name": "Andi Bergeson"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "3500210",
+                    "name": "R. Dalley"
+                },
+                {
+                    "authorId": "3609151",
+                    "name": "C. Gamlin"
+                },
+                {
+                    "authorId": "2261400608",
+                    "name": "Emily Joyce"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "1700529",
+                    "name": "S. Seshamani"
+                },
+                {
+                    "authorId": "40047816",
+                    "name": "S. Suckow"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "2242871312",
+                    "name": "Eric Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2122359326",
+                    "name": "Brendan Celii"
+                },
+                {
+                    "authorId": "3349416",
+                    "name": "Luke Campagnola"
+                },
+                {
+                    "authorId": "7229256",
+                    "name": "Stephanie C. Seeman"
+                },
+                {
+                    "authorId": "3507536",
+                    "name": "T. Jarsky"
+                },
+                {
+                    "authorId": "2261400230",
+                    "name": "Naixin Ren"
+                },
+                {
+                    "authorId": "46845654",
+                    "name": "A. Arkhipov"
+                },
+                {
+                    "authorId": "2261402960",
+                    "name": "The MICrONS Consortium"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "2261404625",
+                    "name": "Sebastian Seung"
+                },
+                {
+                    "authorId": "2261403519",
+                    "name": "R. Clay"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "2243238676",
+                    "name": "Nuno Ma\u00e7arico da Costa"
+                }
+            ]
+        },
+        {
+            "paperId": "1246b589f66c0e0b47870f301fd013784a4def66",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/1246b589f66c0e0b47870f301fd013784a4def66",
+            "title": "Functional connectomics reveals general wiring rule in mouse visual cortex",
+            "abstract": "To understand how the brain computes, it is important to unravel the relationship between circuit connectivity and function. Previous research has shown that excitatory neurons in layer 2/3 of the primary visual cortex of mice with similar response 5 properties are more likely to form connections. However, technical challenges of combining synaptic connectivity and functional measurements have limited these studies to few, highly local connections. Utilizing the millimeter scale and nanometer resolution of the MICrONS dataset, we studied the connectivity-10 function relationship in excitatory neurons of the mouse visual cortex across interlaminar and interarea projections, assessing connection selectivity at the coarse axon trajectory and fine synaptic formation levels. A digital twin model of this mouse, that accurately predicted responses to arbitrary video 15 stimuli, enabled a comprehensive characterization of the function of neurons. We found that neurons with highly correlated responses to natural videos tended to be connected with each other, not only within the same cortical area but also across multiple layers and visual areas, including feedforward and feed-20 back connections, whereas we did not find that orientation preference predicted connectivity. The digital twin model separated each neuron\u2019s tuning into a feature component (what the neuron responds to) and a spatial component (where the neuron\u2019s receptive field is located). We show that the feature, but not the 25 spatial component, predicted which neurons were connected at the fine synaptic scale. Together, our results demonstrate the \u201clike-to-like\u201d connectivity rule generalizes to multiple connection types, and the rich MICrONS dataset is suitable to further refine a mechanistic understanding of circuit structure and 30 function.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 11,
+            "fieldsOfStudy": [
+                "Medicine",
+                "Biology"
+            ],
+            "publicationDate": "2023-03-14",
+            "authors": [
+                {
+                    "authorId": "2147265302",
+                    "name": "Zhuokun Ding"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "2211745973",
+                    "name": "Eric Wang"
+                },
+                {
+                    "authorId": "2122359326",
+                    "name": "Brendan Celii"
+                },
+                {
+                    "authorId": "2211745187",
+                    "name": "Christos Papadopoulos"
+                },
+                {
+                    "authorId": "36067701",
+                    "name": "Alex Kunin"
+                },
+                {
+                    "authorId": "150008573",
+                    "name": "Andersen Chang"
+                },
+                {
+                    "authorId": "2211752112",
+                    "name": "Jiakun Fu"
+                },
+                {
+                    "authorId": "2147265300",
+                    "name": "Zhiwei Ding"
+                },
+                {
+                    "authorId": "2107210655",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "39818565",
+                    "name": "Kayla Ponder"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "1970917",
+                    "name": "E. Froudarakis"
+                },
+                {
+                    "authorId": "50095217",
+                    "name": "Fabian H Sinz"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "144334775",
+                    "name": "Edgar Y. Walker"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                }
+            ]
+        },
+        {
+            "paperId": "137cbe8190d056530a2cf44cf4b6bc2c89da63a5",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/137cbe8190d056530a2cf44cf4b6bc2c89da63a5",
+            "title": "Integrating EM and Patch-seq data: Synaptic connectivity and target specificity of predicted Sst transcriptomic types",
+            "abstract": "Neural circuit function is shaped both by the cell types that comprise the circuit and the connections between those cell types1. Neural cell types have previously been defined by morphology 2, 3, electrophysiology 4, 5, transcriptomic expression 6\u20138, connectivity 9\u201313, or even a combination of such modalities 14\u201316. More recently, the Patch-seq technique has enabled the characterization of morphology (M), electrophysiology (E), and transcriptomic (T) properties from individual cells 17\u201320. Using this technique, these properties were integrated to define 28, inhibitory multimodal, MET-types in mouse primary visual cortex 21. It is unknown how these MET-types connect within the broader cortical circuitry however. Here we show that we can predict the MET-type identity of inhibitory cells within a large-scale electron microscopy (EM) dataset and these MET-types have distinct ultrastructural features and synapse connectivity patterns. We found that EM Martinotti cells, a well defined morphological cell type 22, 23 known to be Somatostatin positive (Sst+) 24, 25, were successfully predicted to belong to Sst+ MET-types. Each identified MET-type had distinct axon myelination patterns and synapsed onto specific excitatory targets. Our results demonstrate that morphological features can be used to link cell type identities across imaging modalities, which enables further comparison of connectivity in relation to transcriptomic or electrophysiological properties. Furthermore, our results show that MET-types have distinct connectivity patterns, supporting the use of MET-types and connectivity to meaningfully define cell types.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 4,
+            "fieldsOfStudy": [
+                "Medicine",
+                "Biology"
+            ],
+            "publicationDate": "2023-03-24",
+            "authors": [
+                {
+                    "authorId": "3609151",
+                    "name": "C. Gamlin"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "50975727",
+                    "name": "M. Mallory"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "1777618",
+                    "name": "N. Gouwens"
+                },
+                {
+                    "authorId": "144416314",
+                    "name": "G. Williams"
+                },
+                {
+                    "authorId": "81203260",
+                    "name": "A. Mukora"
+                },
+                {
+                    "authorId": "3500210",
+                    "name": "R. Dalley"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "2053444469",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "1700529",
+                    "name": "S. Seshamani"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "5447385",
+                    "name": "P. Nicovich"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2150613701",
+                    "name": "K. Lee"
+                },
+                {
+                    "authorId": "2107514504",
+                    "name": "K. Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "113211032",
+                    "name": "J. Wu"
+                },
+                {
+                    "authorId": "2218690876",
+                    "name": "S. Yu"
+                },
+                {
+                    "authorId": "48691104",
+                    "name": "J. Berg"
+                },
+                {
+                    "authorId": "3507536",
+                    "name": "T. Jarsky"
+                },
+                {
+                    "authorId": "2256139343",
+                    "name": "B. Lee"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "2194809",
+                    "name": "Hongkui Zeng"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                },
+                {
+                    "authorId": "39021791",
+                    "name": "S. Sorensen"
+                }
+            ]
+        },
+        {
+            "paperId": "1ec35fded5cec7758dd4a884477ccb7bb19662b6",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/1ec35fded5cec7758dd4a884477ccb7bb19662b6",
+            "title": "Neuronal wiring diagram of an adult brain",
+            "abstract": "Connections between neurons can be mapped by acquiring and analyzing electron microscopic (EM) brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative, yet inadequate for understanding brain function more globally. Here, we present the first neuronal wiring diagram of a whole adult brain, containing 5\u00d7107 chemical synapses between \u223c130,000 neurons reconstructed from a female Drosophila melanogaster. The resource also incorporates annotations of cell classes and types, nerves, hemilineages, and predictions of neurotransmitter identities. Data products are available by download, programmatic access, and interactive browsing and made interoperable with other fly data resources. We show how to derive a projectome, a map of projections between regions, from the connectome. We demonstrate the tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine, and descending neurons), across both hemispheres, and between the central brain and the optic lobes. Tracing from a subset of photoreceptors all the way to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviors. The technologies and open ecosystem of the FlyWire Consortium set the stage for future large-scale connectome projects in other species.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 43,
+            "fieldsOfStudy": [
+                "Biology",
+                "Medicine"
+            ],
+            "publicationDate": "2023-06-29",
+            "authors": [
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "2161409274",
+                    "name": "Arie Matsliah"
+                },
+                {
+                    "authorId": "41131456",
+                    "name": "A. Sterling"
+                },
+                {
+                    "authorId": "28566201",
+                    "name": "P. Schlegel"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "7667018",
+                    "name": "Claire E. McKellar"
+                },
+                {
+                    "authorId": "2054896876",
+                    "name": "Albert Lin"
+                },
+                {
+                    "authorId": "145739913",
+                    "name": "M. Costa"
+                },
+                {
+                    "authorId": "33139122",
+                    "name": "K. Eichler"
+                },
+                {
+                    "authorId": "2155262341",
+                    "name": "Yijie Yin"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2122369373",
+                    "name": "Kai Kuehner"
+                },
+                {
+                    "authorId": "1926318518",
+                    "name": "Oluwaseun Ogedengbe"
+                },
+                {
+                    "authorId": "2221073635",
+                    "name": "Ryan Morey"
+                },
+                {
+                    "authorId": "1926231262",
+                    "name": "Jay Gager"
+                },
+                {
+                    "authorId": "2221073892",
+                    "name": "Krzysztof Kruk"
+                },
+                {
+                    "authorId": "2083123459",
+                    "name": "E. Perlman"
+                },
+                {
+                    "authorId": "22296032",
+                    "name": "Runzhe Yang"
+                },
+                {
+                    "authorId": "2028241054",
+                    "name": "David S. Deutsch"
+                },
+                {
+                    "authorId": "2007692704",
+                    "name": "Doug Bland"
+                },
+                {
+                    "authorId": "41134221",
+                    "name": "Marissa Sorek"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "14972923",
+                    "name": "Dodam Ih"
+                },
+                {
+                    "authorId": "51292941",
+                    "name": "A. S. Bates"
+                },
+                {
+                    "authorId": "1752533079",
+                    "name": "N. Eckstein"
+                },
+                {
+                    "authorId": "1890094",
+                    "name": "Jan Funke"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "35571193",
+                    "name": "D. Bock"
+                },
+                {
+                    "authorId": "145196228",
+                    "name": "G. Jefferis"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "145776127",
+                    "name": "Mala Murthy"
+                }
+            ]
+        },
+        {
+            "paperId": "293e98e1eb78383656a27d2774abb34130dba48b",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/293e98e1eb78383656a27d2774abb34130dba48b",
+            "title": "CAVE: Connectome Annotation Versioning Engine",
+            "abstract": "Advances in Electron Microscopy, image segmentation and computational infrastructure have given rise to large-scale and richly annotated connectomic datasets which are increasingly shared across communities. To enable collaboration, users need to be able to concurrently create new annotations and correct errors in the automated segmentation by proofreading. In large datasets, every proofreading edit relabels cell identities of millions of voxels and thousands of annotations like synapses. For analysis, users require immediate and reproducible access to this constantly changing and expanding data landscape. Here, we present the Connectome Annotation Versioning Engine (CAVE), a computational infrastructure for immediate and reproducible connectome analysis in up-to petascale datasets (\u223c1mm3) while proofreading and annotating is ongoing. For segmentation, CAVE provides a distributed proofreading infrastructure for continuous versioning of large reconstructions. Annotations in CAVE are defined by locations such that they can be quickly assigned to the underlying segment which enables fast analysis queries of CAVE\u2019s data for arbitrary time points. CAVE supports schematized, extensible annotations, so that researchers can readily design novel annotation types. CAVE is already used for many connectomics datasets, including the largest datasets available to date.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 3,
+            "fieldsOfStudy": [
+                "Medicine",
+                "Biology"
+            ],
+            "publicationDate": "2023-07-28",
+            "authors": [
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2226206392",
+                    "name": "Manual A. Castro"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "2226149481",
+                    "name": "Jeremy Maitin-Shephard"
+                },
+                {
+                    "authorId": "1995573509",
+                    "name": "Jakob Troidl"
+                },
+                {
+                    "authorId": "143758236",
+                    "name": "H. Pfister"
+                },
+                {
+                    "authorId": "2226139392",
+                    "name": "Valentin Gillet"
+                },
+                {
+                    "authorId": "1605998470",
+                    "name": "Daniel Xenes"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                }
+            ]
+        },
+        {
+            "paperId": "479b03654deeaae21805033c6bc8b76aa9b4448d",
+            "publicationVenue": {
+                "id": "166fd2b5-a928-4a98-a449-3b90935cc101",
+                "name": "IACR Cryptology ePrint Archive",
+                "type": "journal",
+                "alternate_names": [
+                    "IACR Cryptol eprint Arch"
+                ],
+                "url": "http://eprint.iacr.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/479b03654deeaae21805033c6bc8b76aa9b4448d",
+            "title": "Unconditionally Secure Commitments with Quantum Auxiliary Inputs",
+            "abstract": "We show the following unconditional results on quantum commitments in two related yet different models: 1. We revisit the notion of quantum auxiliary-input commitments introduced by Chailloux, Kerenidis, and Rosgen (Comput. Complex. 2016) where both the committer and receiver take the same quantum state, which is determined by the security parameter, as quantum auxiliary inputs. We show that computationally-hiding and statistically-binding quantum auxiliary-input commitments exist unconditionally, i.e., without relying on any unproven assumption, while Chailloux et al. assumed a complexity-theoretic assumption, ${\\bf QIP}\\not\\subseteq{\\bf QMA}$. On the other hand, we observe that achieving both statistical hiding and statistical binding at the same time is impossible even in the quantum auxiliary-input setting. To the best of our knowledge, this is the first example of unconditionally proving computational security of any form of (classical or quantum) commitments for which statistical security is impossible. As intermediate steps toward our construction, we introduce and unconditionally construct post-quantum sparse pseudorandom distributions and quantum auxiliary-input EFI pairs which may be of independent interest. 2. We introduce a new model which we call the common reference quantum state (CRQS) model where both the committer and receiver take the same quantum state that is randomly sampled by an efficient setup algorithm. We unconditionally prove that there exist statistically hiding and statistically binding commitments in the CRQS model, circumventing the impossibility in the plain model. We also discuss their applications to zero-knowledge proofs, oblivious transfers, and multi-party computations.",
+            "venue": "IACR Cryptology ePrint Archive",
+            "year": 2023,
+            "citationCount": 0,
+            "fieldsOfStudy": [
+                "Computer Science",
+                "Physics"
+            ],
+            "publicationDate": "2023-11-30",
+            "authors": [
+                {
+                    "authorId": "2151859",
+                    "name": "T. Morimae"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2059249863",
+                    "name": "Takashi Yamakawa"
+                }
+            ]
+        },
+        {
+            "paperId": "9f1f192903b1d00483623600aa37fb514a9a6600",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/9f1f192903b1d00483623600aa37fb514a9a6600",
+            "title": "NEURD: automated proofreading and feature extraction for connectomics",
+            "abstract": "We are now in the era of millimeter-scale electron microscopy (EM) volumes collected at nanometer resolution (Shapson-Coe et al., 2021; Consortium et al., 2021). Dense reconstruction of cellular compartments in these EM volumes has been enabled by recent advances in Machine Learning (ML) (Lee et al., 2017; Wu et al., 2021; Lu et al., 2021; Macrina et al., 2021). Automated segmentation methods can now yield exceptionally accurate reconstructions of cells, but despite this accuracy, laborious post-hoc proofreading is still required to generate large connectomes free of merge and split errors. The elaborate 3-D meshes of neurons produced by these segmentations contain detailed morphological information, from the diameter, shape, and branching patterns of axons and dendrites, down to the fine-scale structure of dendritic spines. However, extracting information about these features can require substantial effort to piece together existing tools into custom workflows. Building on existing open-source software for mesh manipulation, here we present \u201cNEURD\u201d, a software package that decomposes each meshed neuron into a compact and extensively-annotated graph representation. With these feature-rich graphs, we implement workflows for state of the art automated post-hoc proofreading of merge errors, cell classification, spine detection, axon-dendritic proximities, and other features that can enable many downstream analyses of neural morphology and connectivity. NEURD can make these new massive and complex datasets more accessible to neuroscience researchers focused on a variety of scientific questions.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 6,
+            "fieldsOfStudy": [
+                "Medicine",
+                "Biology"
+            ],
+            "publicationDate": "2023-03-15",
+            "authors": [
+                {
+                    "authorId": "2122359326",
+                    "name": "Brendan Celii"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "2147265302",
+                    "name": "Zhuokun Ding"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "2211745973",
+                    "name": "Eric Wang"
+                },
+                {
+                    "authorId": "2211745187",
+                    "name": "Christos Papadopoulos"
+                },
+                {
+                    "authorId": "36067701",
+                    "name": "Alex Kunin"
+                },
+                {
+                    "authorId": "2107210655",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "1605998470",
+                    "name": "Daniel Xenes"
+                },
+                {
+                    "authorId": "52007649",
+                    "name": "Lindsey M. Kitchell"
+                },
+                {
+                    "authorId": "2215296",
+                    "name": "P. Rivlin"
+                },
+                {
+                    "authorId": "2179024879",
+                    "name": "Victoria A. Rose"
+                },
+                {
+                    "authorId": "40961045",
+                    "name": "Caitlyn Bishop"
+                },
+                {
+                    "authorId": "1916423",
+                    "name": "Brock Andrew Wester"
+                },
+                {
+                    "authorId": "1970917",
+                    "name": "E. Froudarakis"
+                },
+                {
+                    "authorId": "144334775",
+                    "name": "Edgar Y. Walker"
+                },
+                {
+                    "authorId": "50095217",
+                    "name": "Fabian H Sinz"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "7508200",
+                    "name": "Nuno Ma\u00e7arico da Costa"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                }
+            ]
+        },
+        {
+            "paperId": "c6dd3c889d46a09a07af4dbbe6f8980198071859",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/c6dd3c889d46a09a07af4dbbe6f8980198071859",
+            "title": "Cell-type-specific inhibitory circuitry from a connectomic census of mouse visual cortex",
+            "abstract": "Mammalian cortex features a vast diversity of neuronal cell types, each with characteristic anatomical, molecular and functional properties. Synaptic connectivity powerfully shapes how each cell type participates in the cortical circuit, but mapping connectivity rules at the resolution of distinct cell types remains difficult. Here, we used millimeter-scale volumetric electron microscopy1 to investigate the connectivity of all inhibitory neurons across a densely-segmented neuronal population of 1352 cells spanning all layers of mouse visual cortex, producing a wiring diagram of inhibitory connections with more than 70,000 synapses. Taking a data-driven approach inspired by classical neuroanatomy, we classified inhibitory neurons based on the relative targeting of dendritic compartments and other inhibitory cells and developed a novel classification of excitatory neurons based on the morphological and synaptic input properties. The synaptic connectivity between inhibitory cells revealed a novel class of disinhibitory specialist targeting basket cells, in addition to familiar subclasses. Analysis of the inhibitory connectivity onto excitatory neurons found widespread specificity, with many interneurons exhibiting differential targeting of certain subpopulations spatially intermingled with other potential targets. Inhibitory targeting was organized into \u201cmotif groups,\u201d diverse sets of cells that collectively target both perisomatic and dendritic compartments of the same excitatory targets. Collectively, our analysis identified new organizing principles for cortical inhibition and will serve as a foundation for linking modern multimodal neuronal atlases with the cortical wiring diagram.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 20,
+            "fieldsOfStudy": [
+                "Biology",
+                "Medicine"
+            ],
+            "publicationDate": "2023-01-24",
+            "authors": [
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "1700529",
+                    "name": "S. Seshamani"
+                },
+                {
+                    "authorId": "40047816",
+                    "name": "S. Suckow"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "2122355679",
+                    "name": "Emmanouil Froudakis"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "2107210655",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": null,
+                    "name": "Fabian H. Sinz"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                }
+            ]
+        },
+        {
+            "paperId": "f94ee5da52a9fd7d181885b9161c2dbfc4cfc57f",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/f94ee5da52a9fd7d181885b9161c2dbfc4cfc57f",
+            "title": "Large-scale unsupervised discovery of excitatory morphological cell types in mouse visual cortex",
+            "abstract": "Neurons in the neocortex exhibit astonishing morphological diversity which is critical for properly wiring neural circuits and giving neurons their functional properties. The extent to which the morphological diversity of excitatory neurons forms a continuum or is built from distinct clusters of cell types remains an open question. Here we took a data-driven approach using graph-based machine learning methods to obtain a low-dimensional morphological \u201cbar code\u201d describing more than 30,000 excitatory neurons in mouse visual areas V1, AL and RL that were reconstructed from a millimeter scale serial-section electron microscopy volume. We found a set of principles that captured the morphological diversity of the dendrites of excitatory neurons. First, their morphologies varied with respect to three major axes: soma depth, total apical and basal skeletal length. Second, neurons in layer 2/3 showed a strong trend of a decreasing width of their dendritic arbor and a smaller tuft with increasing cortical depth. Third, in layer 4, atufted neurons were primarily located in the primary visual cortex, while tufted neurons were more abundant in higher visual areas. Fourth, we discovered layer 4 neurons in V1 on the border to layer 5 which showed a tendency towards avoiding deeper layers with their dendrites. In summary, excitatory neurons exhibited a substantial degree of dendritic morphological variation, both within and across cortical layers, but this variation mostly formed a continuum, with only a few notable exceptions in deeper layers.",
+            "venue": "bioRxiv",
+            "year": 2023,
+            "citationCount": 4,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "publicationDate": "2023-03-22",
+            "authors": [
+                {
+                    "authorId": "8807389",
+                    "name": "Marissa A. Weis"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "2197850269",
+                    "name": "Laura Hansel"
+                },
+                {
+                    "authorId": "73235537",
+                    "name": "Timo L\u00fcddecke"
+                },
+                {
+                    "authorId": "2122359326",
+                    "name": "Brendan Celii"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "1970917",
+                    "name": "E. Froudarakis"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "2785521",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2107210655",
+                    "name": "S. Patel"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": null,
+                    "name": "Fabian H. Sinz"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "1746183",
+                    "name": "Alexander S. Ecker"
+                }
+            ]
+        },
+        {
+            "paperId": "fb9632a472ee891a716f49795122cba19e3d5c26",
+            "publicationVenue": {
+                "id": "1901e811-ee72-4b20-8f7e-de08cd395a10",
+                "name": "arXiv.org",
+                "alternate_names": [
+                    "ArXiv"
+                ],
+                "issn": "2331-8422",
+                "url": "https://arxiv.org"
+            },
+            "url": "https://www.semanticscholar.org/paper/fb9632a472ee891a716f49795122cba19e3d5c26",
+            "title": "A Computational Separation Between Quantum No-cloning and No-teleportation",
+            "abstract": "Two of the fundamental no-go theorems of quantum information are the no-cloning theorem (that it is impossible to make copies of general quantum states) and the no-teleportation theorem (the prohibition on sending quantum states over classical channels without pre-shared entanglement). They are known to be equivalent, in the sense that a collection of quantum states is teleportable without entanglement if and only if it is clonable. Our main result suggests that this is not the case when computational efficiency is considered. We give a collection of quantum states and quantum oracles relative to which these states are efficiently clonable but not efficiently teleportable without entanglement. Given that the opposite scenario is impossible (states that can be teleported without entanglement can always trivially be cloned), this gives the most complete quantum oracle separation possible between these two important no-go properties. We additionally study the complexity class $\\mathsf{clonableQMA}$, a subset of $\\mathsf{QMA}$ whose witnesses are efficiently clonable. As a consequence of our main result, we give a quantum oracle separation between $\\mathsf{clonableQMA}$ and the class $\\mathsf{QCMA}$, whose witnesses are restricted to classical strings. We also propose a candidate oracle-free promise problem separating these classes. We finally demonstrate an application of clonable-but-not-teleportable states to cryptography, by showing how such states can be used to protect against key exfiltration.",
+            "venue": "arXiv.org",
+            "year": 2023,
+            "citationCount": 2,
+            "fieldsOfStudy": [
+                "Physics",
+                "Computer Science"
+            ],
+            "publicationDate": "2023-02-03",
+            "authors": [
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2240075",
+                    "name": "Mark Zhandry"
+                }
+            ]
+        },
+        {
+            "paperId": "a641df4e738354237c2ba9cdb13c7dbca7d58171",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/a641df4e738354237c2ba9cdb13c7dbca7d58171",
+            "title": "Petascale pipeline for precise alignment of images from serial section electron microscopy",
+            "abstract": null,
+            "venue": "bioRxiv",
+            "year": 2022,
+            "citationCount": 4,
+            "fieldsOfStudy": [
+                "Biology",
+                "Medicine"
+            ],
+            "publicationDate": "2022-03-27",
+            "authors": [
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "3543156",
+                    "name": "Eric T. Trautman"
+                },
+                {
+                    "authorId": "1889009",
+                    "name": "S. Saalfeld"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "2059694068",
+                    "name": "Sebastian Seung"
+                }
+            ]
+        },
+        {
+            "paperId": "6f6b4737b2558267d481a564923bff29e00d3236",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/6f6b4737b2558267d481a564923bff29e00d3236",
+            "title": "Functional connectomics spanning multiple areas of mouse visual cortex",
+            "abstract": "To understand the brain we must relate neurons\u2019 functional responses to the circuit architecture that shapes them. Here, we present a large functional connectomics dataset with dense calcium imaging of a millimeter scale volume. We recorded activity from approximately 75,000 neurons in primary visual cortex (VISp) and three higher visual areas (VISrl, VISal and VISlm) in an awake mouse viewing natural movies and synthetic stimuli. The functional data were co-registered with a volumetric electron microscopy (EM) reconstruction containing more than 200,000 cells and 0.5 billion synapses. Subsequent proofreading of a subset of neurons in this volume yielded reconstructions that include complete dendritic trees as well the local and inter-areal axonal projections that map up to thousands of cell-to-cell connections per neuron. Here, we release this dataset as an open-access resource to the scientific community including a set of tools that facilitate data retrieval and downstream analysis. In accompanying papers we describe our findings using the dataset to provide a comprehensive structural characterization of cortical cell types1\u20133 and the most detailed synaptic level connectivity diagram of a cortical column to date2, uncovering unique cell-type specific inhibitory motifs that can be linked to gene expression data4. Functionally, we identify new computational principles of how information is integrated across visual space5, characterize novel types of neuronal invariances6 and bring structure and function together to decipher a general principle that wires excitatory neurons within and across areas7, 8.",
+            "venue": "bioRxiv",
+            "year": 2021,
+            "citationCount": 120,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "publicationDate": "2021-07-29",
+            "authors": [
+                {
+                    "authorId": "2122369388",
+                    "name": "J. Alexander Bae"
+                },
+                {
+                    "authorId": "2105869322",
+                    "name": "Mahaly Baptiste"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "2122359326",
+                    "name": "Brendan Celii"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "51079681",
+                    "name": "N. D. da Costa"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "4971784",
+                    "name": "Tim P. Fliss"
+                },
+                {
+                    "authorId": "2122355679",
+                    "name": "Emmanouil Froudakis"
+                },
+                {
+                    "authorId": "1926231262",
+                    "name": "Jay Gager"
+                },
+                {
+                    "authorId": "3609151",
+                    "name": "C. Gamlin"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "1926228857",
+                    "name": "J. Hebditch"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "1926340513",
+                    "name": "Selden Koolman"
+                },
+                {
+                    "authorId": "2122369373",
+                    "name": "Kai Kuehner"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "2122369400",
+                    "name": "Sarah McReynolds"
+                },
+                {
+                    "authorId": "1576368250",
+                    "name": "Elanine Miranda"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "1924842078",
+                    "name": "Merlin Moore"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "51107585",
+                    "name": "Taliah Muhammad"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "1926318518",
+                    "name": "Oluwaseun Ogedengbe"
+                },
+                {
+                    "authorId": "11354920",
+                    "name": "Ch. Papadopoulos"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "4330752",
+                    "name": "Saumil S. Patel"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "144603847",
+                    "name": "Anthony Ramos"
+                },
+                {
+                    "authorId": "2122359289",
+                    "name": "R. Clay Reid"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "83672784",
+                    "name": "H. Sebastian Seung"
+                },
+                {
+                    "authorId": "2056371649",
+                    "name": "B. Silverman"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "41131456",
+                    "name": "A. Sterling"
+                },
+                {
+                    "authorId": "50095217",
+                    "name": "Fabian H Sinz"
+                },
+                {
+                    "authorId": "2133856545",
+                    "name": "Cameron L. Smith"
+                },
+                {
+                    "authorId": "40047816",
+                    "name": "S. Suckow"
+                },
+                {
+                    "authorId": "143939138",
+                    "name": "Z. H. Tan"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "144334775",
+                    "name": "Edgar Y. Walker"
+                },
+                {
+                    "authorId": "49980839",
+                    "name": "Tianyu Wang"
+                },
+                {
+                    "authorId": "144416314",
+                    "name": "G. Williams"
+                },
+                {
+                    "authorId": "2107720438",
+                    "name": "S. Williams"
+                },
+                {
+                    "authorId": "1926285936",
+                    "name": "K. Willie"
+                },
+                {
+                    "authorId": "1926285994",
+                    "name": "Ryan Willie"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "150067700",
+                    "name": "Chris Xu"
+                },
+                {
+                    "authorId": "22296032",
+                    "name": "Runzhe Yang"
+                },
+                {
+                    "authorId": "145397416",
+                    "name": "Dimitri Yatsenko"
+                },
+                {
+                    "authorId": "2053898582",
+                    "name": "Fei Ye"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                }
+            ]
+        },
+        {
+            "paperId": "ce7b1bfa25a169d5186ef4a4b458c692a06e11db",
+            "publicationVenue": {
+                "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
+                "name": "bioRxiv",
+                "type": "journal",
+                "url": "http://biorxiv.org/"
+            },
+            "url": "https://www.semanticscholar.org/paper/ce7b1bfa25a169d5186ef4a4b458c692a06e11db",
+            "title": "Petascale neural circuit reconstruction: automated methods",
+            "abstract": "3D electron microscopy (EM) has been successful at mapping invertebrate nervous systems, but the approach has been limited to small chunks of mammalian brains. To scale up to larger volumes, we have built a computational pipeline for processing petascale image datasets acquired by serial section EM, a popular form of 3D EM. The pipeline employs convolutional nets to compute the nonsmooth transformations required to align images of serial sections containing numerous cracks and folds, detect neuronal boundaries, label voxels as axon, dendrite, soma, and other semantic categories, and detect synapses and assign them to presynaptic and postsynaptic segments. The output of neuronal boundary detection is segmented by mean affinity agglomeration with semantic and size constraints. Pipeline operations are implemented by leveraging distributed and cloud computing. Intermediate results of the pipeline are held in cloud storage, and can be effortlessly viewed as images, which aids debugging. We applied the pipeline to create an automated reconstruction of an EM image volume spanning four visual cortical areas of a mouse brain. Code for the pipeline is publicly available, as is the reconstructed volume.",
+            "venue": "bioRxiv",
+            "year": 2021,
+            "citationCount": 28,
+            "fieldsOfStudy": [
+                "Biology"
+            ],
+            "publicationDate": "2021-08-05",
+            "authors": [
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "152772071",
+                    "name": "N. Turner"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "2122374817",
+                    "name": "S. Dorkenwald"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "2158258070",
+                    "name": "Kai Li"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "120175502",
+                    "name": "S. S. Mondal"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "120774631",
+                    "name": "W. Wong"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "40584201",
+                    "name": "A. Bodor"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "49345106",
+                    "name": "J. Buchanan"
+                },
+                {
+                    "authorId": "3988776",
+                    "name": "D. Bumbarger"
+                },
+                {
+                    "authorId": "51429918",
+                    "name": "Erick Cobos"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "91459622",
+                    "name": "L. Elabbady"
+                },
+                {
+                    "authorId": "50144273",
+                    "name": "Paul G. Fahey"
+                },
+                {
+                    "authorId": "1970917",
+                    "name": "E. Froudarakis"
+                },
+                {
+                    "authorId": "9787230",
+                    "name": "D. Kapner"
+                },
+                {
+                    "authorId": "1396398049",
+                    "name": "S. Kinn"
+                },
+                {
+                    "authorId": "144348673",
+                    "name": "G. Mahalingam"
+                },
+                {
+                    "authorId": "9284143",
+                    "name": "S. Papadopoulos"
+                },
+                {
+                    "authorId": "4330752",
+                    "name": "Saumil S. Patel"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": null,
+                    "name": "Fabian H. Sinz"
+                },
+                {
+                    "authorId": "8311185",
+                    "name": "Marc M. Takeno"
+                },
+                {
+                    "authorId": "152750629",
+                    "name": "R. Torres"
+                },
+                {
+                    "authorId": "2066488749",
+                    "name": "W. Yin"
+                },
+                {
+                    "authorId": "49839819",
+                    "name": "X. Pitkow"
+                },
+                {
+                    "authorId": "48128495",
+                    "name": "Jacob Reimer"
+                },
+                {
+                    "authorId": "1739838",
+                    "name": "A. Tolias"
+                },
+                {
+                    "authorId": "46567235",
+                    "name": "R. Reid"
+                },
+                {
+                    "authorId": "2596897",
+                    "name": "N. D. Costa"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                }
+            ]
+        },
+        {
+            "paperId": "3149671f907078eac6835a05a99da756c493a15b",
+            "publicationVenue": {
+                "id": "099483df-e8f2-4bee-805d-8a69f07b6cbf",
+                "name": "Nature Methods",
+                "type": "journal",
+                "alternate_names": [
+                    "Nat Method"
+                ],
+                "issn": "1548-7091",
+                "url": "http://www.nature.com/",
+                "alternate_urls": [
+                    "http://www.nature.com/nmeth/index.html",
+                    "https://www.nature.com/nmeth/",
+                    "http://www.nature.com/nmeth/authors/index.html#aims"
+                ]
+            },
+            "url": "https://www.semanticscholar.org/paper/3149671f907078eac6835a05a99da756c493a15b",
+            "title": "FlyWire: Online community for whole-brain connectomics",
+            "abstract": null,
+            "venue": "Nature Methods",
+            "year": 2020,
+            "citationCount": 128,
+            "fieldsOfStudy": [
+                "Medicine",
+                "Biology",
+                "Computer Science"
+            ],
+            "publicationDate": "2020-08-30",
+            "authors": [
+                {
+                    "authorId": "7997808",
+                    "name": "Sven Dorkenwald"
+                },
+                {
+                    "authorId": "7667018",
+                    "name": "Claire E. McKellar"
+                },
+                {
+                    "authorId": "5056982",
+                    "name": "T. Macrina"
+                },
+                {
+                    "authorId": "41124209",
+                    "name": "N. Kemnitz"
+                },
+                {
+                    "authorId": "2152541203",
+                    "name": "Kisuk Lee"
+                },
+                {
+                    "authorId": "1406193129",
+                    "name": "R. Lu"
+                },
+                {
+                    "authorId": "31421132",
+                    "name": "Jingpeng Wu"
+                },
+                {
+                    "authorId": "1840375",
+                    "name": "S. Popovych"
+                },
+                {
+                    "authorId": "49688913",
+                    "name": "E. Mitchell"
+                },
+                {
+                    "authorId": "1926235266",
+                    "name": "B. Nehoran"
+                },
+                {
+                    "authorId": "2072782593",
+                    "name": "Z. Jia"
+                },
+                {
+                    "authorId": "2072616109",
+                    "name": "J. A. Bae"
+                },
+                {
+                    "authorId": "47330620",
+                    "name": "S. Mu"
+                },
+                {
+                    "authorId": "14972923",
+                    "name": "Dodam Ih"
+                },
+                {
+                    "authorId": "2092627229",
+                    "name": "M. Castro"
+                },
+                {
+                    "authorId": "1926318518",
+                    "name": "Oluwaseun Ogedengbe"
+                },
+                {
+                    "authorId": "1579775589",
+                    "name": "A. Halageri"
+                },
+                {
+                    "authorId": "1506180498",
+                    "name": "Zoe C. Ashwood"
+                },
+                {
+                    "authorId": "2730700",
+                    "name": "J. Zung"
+                },
+                {
+                    "authorId": "145536550",
+                    "name": "D. Brittain"
+                },
+                {
+                    "authorId": "6598643",
+                    "name": "F. Collman"
+                },
+                {
+                    "authorId": "1397852111",
+                    "name": "C. Schneider-Mizell"
+                },
+                {
+                    "authorId": "41130241",
+                    "name": "C. Jordan"
+                },
+                {
+                    "authorId": "2108734",
+                    "name": "W. Silversmith"
+                },
+                {
+                    "authorId": "6880965",
+                    "name": "Christa A. Baker"
+                },
+                {
+                    "authorId": "2028241054",
+                    "name": "David S. Deutsch"
+                },
+                {
+                    "authorId": "1926231192",
+                    "name": "Lucas Encarnacion-Rivera"
+                },
+                {
+                    "authorId": "2109726851",
+                    "name": "Sandeep Kumar"
+                },
+                {
+                    "authorId": "1579777445",
+                    "name": "A. Burke"
+                },
+                {
+                    "authorId": "1926231262",
+                    "name": "Jay Gager"
+                },
+                {
+                    "authorId": "1926228857",
+                    "name": "J. Hebditch"
+                },
+                {
+                    "authorId": "1926340513",
+                    "name": "Selden Koolman"
+                },
+                {
+                    "authorId": "1924842078",
+                    "name": "Merlin Moore"
+                },
+                {
+                    "authorId": "1926771547",
+                    "name": "Sarah Morejohn"
+                },
+                {
+                    "authorId": "2056371649",
+                    "name": "B. Silverman"
+                },
+                {
+                    "authorId": "1926285936",
+                    "name": "K. Willie"
+                },
+                {
+                    "authorId": "1926285994",
+                    "name": "Ryan Willie"
+                },
+                {
+                    "authorId": "6537565",
+                    "name": "Szi-chieh Yu"
+                },
+                {
+                    "authorId": "145776127",
+                    "name": "Mala Murthy"
+                },
+                {
+                    "authorId": "144924970",
+                    "name": "H. Seung"
+                }
+            ]
+        }
+    ]
+}
