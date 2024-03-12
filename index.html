@@ -6,7 +6,7 @@
   <style>
     body {
     	  font-family: sans-serif;
-    	  background-color: #222;
+    	  background-color: #111;
     	  margin: 0;
     }
     
@@ -14,7 +14,7 @@
     	  display: flex;
     	  flex-direction: column;
     	  align-items: center;
-    	  background-color: #91741A;
+    	  background-color: #111;
     	  color: #fff;
     	  padding: 3em;
     }
@@ -29,6 +29,10 @@
     	  margin: 0;
         text-align: center;
     }
+
+    #header h3 {
+        margin-bottom: 20px;
+    }
           
     #header img {
     	  border-radius: 50%;
@@ -41,7 +45,7 @@
     #nav {
     	  display: flex;
     	  justify-content: space-between;
-    	  background-color: #91741A;
+    	  background-color: #111;
     	  color: #fff;
     	  padding: 0.5em;
     }
@@ -58,7 +62,7 @@
     }
     
     #nav a:hover {
-    	  background-color: #513400;
+    	  background-color: #555;
     }
     
     #content {
@@ -71,6 +75,10 @@
     	  margin-top: 0;
         text-align: center;
     }
+
+    #content h3 {
+        margin-top: 15px;
+    }
      
     #content p {
     	  line-height: 1.5;
@@ -78,7 +86,6 @@
     
     #content ul {
     	  list-style: none;
-    	  margin: 20px 0;
     	  padding: 0;
     }
     
@@ -101,10 +108,11 @@
     	  scroll-margin-top: 76px;
     }
     .card h2 {
-    	  margin: 0;
+    	  margin-bottom: 20px;
+        margin-top: 5px;
     }
     .card p {
-    	  margin: 20px 0;
+        margin-bottom: 20px;
     }
     .sticky {
     	  position: fixed;
@@ -161,9 +169,9 @@
     </div>
     <div class="card" id="research">
       <h2>Research</h2>
-      <p> My research examines the power of quantum computation and quantum information in two contexts: </p>
-      <h3> Quantum Cryptography </h3> <i>How can we use quantum states and quantum information to produce cryptographic primitives and constructions that would not be possible with only classical information? What kinds of cryptographic objects only arise out of the marriage of both the guarantees of quantum no-go theorems and the efficiency assumptions of computational complexity? </i>
-      <h3> Quantum Complexity Theory </h3> <i> How are the capabilities of interacting systems affected by the presence of quantum information? Can we use the power given by quantum no-go theorems to give rise to stronger guarantees on the resources required to perform interactive computation? </i>
+      My research examines the power of quantum computation and quantum information in two contexts:
+      <h3>Quantum Cryptography</h3> <i>How can we use quantum states and quantum information to produce cryptographic primitives and constructions that would not be possible with only classical information? What kinds of cryptographic objects only arise out of the marriage of both the guarantees of quantum no-go theorems and the efficiency assumptions of computational complexity?</i>
+      <h3>Quantum Complexity Theory</h3> <i>How are the capabilities of interacting systems affected by the presence of quantum information? Can we use the power given by quantum no-go theorems to give rise to stronger guarantees on the resources required to perform interactive computation?</i>
     </div>
     <div class="card" id="publications">
       <h2>Publications</h2>
