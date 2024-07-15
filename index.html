@@ -171,6 +171,21 @@
     .collapsible li .collapsible-header.expanded::before {
       content: "▼"; /* Rotated state: triangle pointing down */
     }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    @media (max-width: 350px) {
+      .column {
+        flex: 100%;
+      }
+    }
     
   </style>
   <meta charset="UTF-8">
@@ -189,6 +204,7 @@
       <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#service">Service</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
@@ -201,7 +217,6 @@
       <p>I am a Ph.D. candidate in theoretical computer science at Princeton University where I&rsquo;m fortunate to be co-advised by Professors <a href="https://engineering.princeton.edu/faculty/ran-raz" target="_blank" rel="noopener">Ran Raz</a> and <a href="https://mzhandry.github.io/" target="_blank" rel="noopener">Mark Zhandry</a>.</p>
       <p>My research interests lie in the areas of <strong>quantum information, cryptography, and complexity theory</strong>, and more generally at the intersections of physics, information, and computation.</p>
       <p>In the past (before starting my Ph.D.), I have also done research in electrical engineering, experimental physics, machine learning, and computational neuroscience.</p>
-      <p><i>Fun fact</i>: I am a co-founder and former core maintainer of <a href="https://www.tigerpath.io/" target="_blank" rel="noopener">TigerPath</a>, a web app now used by thousands of Princeton undergraduate students to plan their four-year schedules. It was written about in the <a href="https://www.dailyprincetonian.com/article/2018/09/tiger-path-app-debut" target="_blank" rel="noopener">Daily Princetonian</a>.</p> <!-- <p>I am also a sometimes-contributor to the open source <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a> machine learning framework. I&rsquo;ve refactored and written code for PyTorch&rsquo;s spatial transformer module, which is used in various applications in image registration, optical flow estimation, and other deep computer vision tasks.</p> -->
     </div>
     <div class="card" id="research">
       <h2>Research</h2>
@@ -270,6 +285,40 @@
         <li> <a href="https://faculty.cc.gatech.edu/~ssingla7/courses/COS521.html" target="_blank"> Advanced Algorithm Design (COS 521) - Fall 2020 </a> (Graduate TA) </li>
         <li> <a href="https://mcgraw.princeton.edu/undergraduates/programs/digital-learning-lab" target="_blank">The Digital Learning Lab</a> of <a href="https://mcgraw.princeton.edu/" target="_blank"> The McGraw Center for Teaching and Learning </a> (Student Staff Consultant) </li>
       </ul>
+    </div>
+    <div class="card" id="service">
+      <h2>Service</h2>
+      <h3>Subreviews</h3>
+      <div class="container">
+        <div class="column">
+          <p>
+            FOCS 2023
+          </p>
+          <p>
+            Asiacrypt 2023
+          </p>
+          <p>
+            ITCS 2024
+          </p>
+          <p>
+            Crypto 2024
+          </p>
+        </div>
+        <div class="column">
+          <p>
+            TQC 2024
+          </p>
+          <p>
+            TCC 2024
+          </p>
+          <p>
+            Asiacrypt 2024
+          </p>
+        </div>
+      </div>
+      <h3>Other</h3>
+      <p style="padding:20px">I am a co-founder and former core maintainer of <a href="https://www.tigerpath.io/" target="_blank" rel="noopener">TigerPath</a>, a web app now used by thousands of Princeton undergraduate students to plan their four-year schedules. It was written about in the <a href="https://www.dailyprincetonian.com/article/2018/09/tiger-path-app-debut" target="_blank" rel="noopener">Daily Princetonian</a>.</p> 
+      <!-- <p>I am also a sometimes-contributor to the open source <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a> machine learning framework. I&rsquo;ve refactored and written code for PyTorch&rsquo;s spatial transformer module, which is used in various applications in image registration, optical flow estimation, and other deep computer vision tasks.</p> -->
     </div>
     <div class="card" id="guide">
       <h2>Quantum Survival Guide</h2>
