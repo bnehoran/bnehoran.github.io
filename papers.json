@@ -2,6 +2,1576 @@
   "authorId": "1926235266",
   "papers": [
     {
+      "paperId": "02192dd2392b25fbabaf4b12d04ef54849c5314a",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/02192dd2392b25fbabaf4b12d04ef54849c5314a",
+      "title": "Perisomatic ultrastructure efficiently classifies cells in mouse cortex",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 8,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981918, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-01",
+      "authors": [
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "1700529",
+          "name": "S. Seshamani"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "6537565",
+          "name": "Szi-chieh Yu"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        }
+      ],
+      "abstract": "Mammalian neocortex contains a highly diverse set of cell types. These cell types have been mapped systematically using a variety of molecular, electrophysiological and morphological approaches1\u20134. Each modality offers new perspectives on the variation of biological processes underlying cell-type specialization. Cellular-scale electron microscopy provides dense ultrastructural examination and an unbiased perspective on the subcellular organization of brain cells, including their synaptic connectivity and nanometre-scale morphology. In data that contain tens of thousands of neurons, most of which have incomplete reconstructions, identifying cell types becomes a clear challenge for analysis5. Here, to address this challenge, we present a systematic survey of the somatic region of all cells in a cubic millimetre of cortex using quantitative features obtained from electron microscopy. This analysis demonstrates that the perisomatic region is sufficient to identify cell types, including types defined primarily on the basis of their connectivity patterns. We then describe how this classification facilitates cell-type-specific connectivity characterization and locating cells with rare connectivity patterns in the dataset."
+    },
+    {
+      "paperId": "4b63dab3ae51107d337727b64c51035c721cb627",
+      "publicationVenue": {
+        "id": "099483df-e8f2-4bee-805d-8a69f07b6cbf",
+        "name": "Nature Methods",
+        "type": "journal",
+        "alternate_names": [
+          "Nat Method"
+        ],
+        "issn": "1548-7091",
+        "url": "http://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nmeth/index.html",
+          "https://www.nature.com/nmeth/",
+          "http://www.nature.com/nmeth/authors/index.html#aims"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/4b63dab3ae51107d337727b64c51035c721cb627",
+      "title": "CAVE: Connectome Annotation Versioning Engine",
+      "venue": "Nature Methods",
+      "year": 2025,
+      "citationCount": 4,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12074985, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-09",
+      "authors": [
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "2226206392",
+          "name": "Manual A. Castro"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "2226149481",
+          "name": "Jeremy Maitin-Shephard"
+        },
+        {
+          "authorId": "1995573509",
+          "name": "J. Troidl"
+        },
+        {
+          "authorId": "2062947008",
+          "name": "Hanspeter Pfister"
+        },
+        {
+          "authorId": "2226139392",
+          "name": "Valentin Gillet"
+        },
+        {
+          "authorId": "1605998470",
+          "name": "Daniel Xenes"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "6537565",
+          "name": "Szi-chieh Yu"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        }
+      ],
+      "abstract": "Advances in electron microscopy, image segmentation and computational infrastructure have given rise to large-scale and richly annotated connectomic datasets, which are increasingly shared across communities. To enable collaboration, users need to be able to concurrently create annotations and correct errors in the automated segmentation by proofreading. In large datasets, every proofreading edit relabels cell identities of millions of voxels and thousands of annotations like synapses. For analysis, users require immediate and reproducible access to this changing and expanding data landscape. Here we present the Connectome Annotation Versioning Engine (CAVE), a computational infrastructure that provides scalable solutions for proofreading and flexible annotation support for fast analysis queries at arbitrary time points. Deployed as a suite of web services, CAVE empowers distributed communities to perform reproducible connectome analysis in up to petascale datasets (~1\u2009mm3) while proofreading and annotating is ongoing."
+    },
+    {
+      "paperId": "893a853ba57c94a93002d721634800077be74501",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/893a853ba57c94a93002d721634800077be74501",
+      "title": "Author Correction: Inhibitory specificity from a connectomic census of mouse visual cortex",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 0,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12137121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-05-19",
+      "authors": [
+        {
+          "authorId": "2357897884",
+          "name": "CM Schneider-Mizell"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "2357899834",
+          "name": "JA Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "3609151",
+          "name": "C. Gamlin"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "1700529",
+          "name": "S. Seshamani"
+        },
+        {
+          "authorId": "40047816",
+          "name": "S. Suckow"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "48128495",
+          "name": "Jacob Reimer"
+        },
+        {
+          "authorId": "1739838",
+          "name": "A. Tolias"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        },
+        {
+          "authorId": "2357898359",
+          "name": "NM da Costa"
+        }
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "a346af9804eec3d24f6a97c6c8f8583f784ce7c4",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/a346af9804eec3d24f6a97c6c8f8583f784ce7c4",
+      "title": "Inhibitory specificity from a connectomic census of mouse visual cortex",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 24,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981935, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-01",
+      "authors": [
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "3609151",
+          "name": "C. Gamlin"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "1700529",
+          "name": "S. Seshamani"
+        },
+        {
+          "authorId": "40047816",
+          "name": "S. Suckow"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "48128495",
+          "name": "Jacob Reimer"
+        },
+        {
+          "authorId": "1739838",
+          "name": "A. Tolias"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        }
+      ],
+      "abstract": "Mammalian cortex features a vast diversity of neuronal cell types, each with characteristic anatomical, molecular and functional properties1. Synaptic connectivity shapes how each cell type participates in the cortical circuit, but mapping connectivity rules at the resolution of distinct cell types remains difficult. Here we used millimetre-scale volumetric electron microscopy2 to investigate the connectivity of all inhibitory neurons across a densely segmented neuronal population of 1,352 cells spanning all layers of mouse visual cortex, producing a wiring diagram of inhibition with more than 70,000 synapses. Inspired by classical neuroanatomy, we classified inhibitory neurons based on targeting of dendritic compartments and developed an excitatory neuron classification based on dendritic reconstructions with whole-cell maps of synaptic input. Single-cell connectivity showed a class of disinhibitory specialist that targets basket cells. Analysis of inhibitory connectivity onto excitatory neurons found widespread specificity, with many interneurons exhibiting differential targeting of spatially intermingled subpopulations. Inhibitory targeting was organized into \u2018motif groups\u2019, diverse sets of cells that collectively target both perisomatic and dendritic compartments of the same excitatory targets. Collectively, our analysis identified new organizing principles for cortical inhibition and will serve as a foundation for linking contemporary multimodal neuronal atlases with the cortical wiring diagram."
+    },
+    {
+      "paperId": "be8b18a1935a162a07d9cb67da74d3adea1bd0d3",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/be8b18a1935a162a07d9cb67da74d3adea1bd0d3",
+      "title": "NEURD offers automated proofreading and feature extraction for connectomics",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 5,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981913, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-01",
+      "authors": [
+        {
+          "authorId": "2122359326",
+          "name": "Brendan Celii"
+        },
+        {
+          "authorId": "9284143",
+          "name": "S. Papadopoulos"
+        },
+        {
+          "authorId": "2147265302",
+          "name": "Zhuokun Ding"
+        },
+        {
+          "authorId": "50144273",
+          "name": "Paul G. Fahey"
+        },
+        {
+          "authorId": "2211745973",
+          "name": "Eric Y. Wang"
+        },
+        {
+          "authorId": "2211745187",
+          "name": "Christos Papadopoulos"
+        },
+        {
+          "authorId": "2298881675",
+          "name": "Alexander B. Kunin"
+        },
+        {
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "51429918",
+          "name": "Erick Cobos"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "6537565",
+          "name": "Szi-chieh Yu"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "1605998470",
+          "name": "Daniel Xenes"
+        },
+        {
+          "authorId": "2261746045",
+          "name": "Lindsey M. Kitchell"
+        },
+        {
+          "authorId": "2261748334",
+          "name": "Patricia K. Rivlin"
+        },
+        {
+          "authorId": "2179024879",
+          "name": "Victoria A. Rose"
+        },
+        {
+          "authorId": "40961045",
+          "name": "Caitlyn Bishop"
+        },
+        {
+          "authorId": "1916423",
+          "name": "Brock Andrew Wester"
+        },
+        {
+          "authorId": "1970917",
+          "name": "E. Froudarakis"
+        },
+        {
+          "authorId": "144334775",
+          "name": "Edgar Y. Walker"
+        },
+        {
+          "authorId": "2268495239",
+          "name": "Fabian H. Sinz"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "49839819",
+          "name": "X. Pitkow"
+        },
+        {
+          "authorId": "1739838",
+          "name": "A. Tolias"
+        },
+        {
+          "authorId": "48128495",
+          "name": "Jacob Reimer"
+        }
+      ],
+      "abstract": "We are in the era of millimetre-scale electron microscopy volumes collected at nanometre resolution1,2. Dense reconstruction of cellular compartments in these electron microscopy volumes has been enabled by recent advances in machine learning3\u20136. Automated segmentation methods produce exceptionally accurate reconstructions of cells, but post hoc proofreading is still required to generate large connectomes that are free of merge and split errors. The elaborate 3D meshes of neurons in these volumes contain detailed morphological information at multiple scales, from the diameter, shape and branching patterns of axons and dendrites, down to the fine-scale structure of dendritic spines. However, extracting these features can require substantial effort to piece together existing tools into custom workflows. Here, building on existing open source software for mesh manipulation, we present Neural Decomposition (NEURD), a software package that decomposes meshed neurons into compact and extensively annotated graph representations. With these feature-rich graphs, we automate a variety of tasks such as state-of-the-art automated proofreading of merge errors, cell classification, spine detection, axonal-dendritic proximities and other annotations. These features enable many downstream analyses of neural morphology and connectivity, making these massive and complex datasets more accessible to neuroscience researchers."
+    },
+    {
+      "paperId": "c4a32ce32d1361c1fb9a3e6d7c6d6406ab33c72a",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/c4a32ce32d1361c1fb9a3e6d7c6d6406ab33c72a",
+      "title": "Functional connectomics reveals general wiring rule in mouse visual cortex",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 8,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981947, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-01",
+      "authors": [
+        {
+          "authorId": "2147265302",
+          "name": "Zhuokun Ding"
+        },
+        {
+          "authorId": "50144273",
+          "name": "Paul G. Fahey"
+        },
+        {
+          "authorId": "9284143",
+          "name": "S. Papadopoulos"
+        },
+        {
+          "authorId": "2211745973",
+          "name": "Eric Y. Wang"
+        },
+        {
+          "authorId": "2122359326",
+          "name": "Brendan Celii"
+        },
+        {
+          "authorId": "2211745187",
+          "name": "Christos Papadopoulos"
+        },
+        {
+          "authorId": "2354702524",
+          "name": "Andersen Chang"
+        },
+        {
+          "authorId": "2298881675",
+          "name": "Alexander B. Kunin"
+        },
+        {
+          "authorId": "2211747641",
+          "name": "Dat Tran"
+        },
+        {
+          "authorId": "2211752112",
+          "name": "Jiakun Fu"
+        },
+        {
+          "authorId": "2147265300",
+          "name": "Zhiwei Ding"
+        },
+        {
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
+        },
+        {
+          "authorId": "2354625313",
+          "name": "Lydia Ntanavara"
+        },
+        {
+          "authorId": "2218585347",
+          "name": "Rachel Froebe"
+        },
+        {
+          "authorId": "39818565",
+          "name": "Kayla Ponder"
+        },
+        {
+          "authorId": "51107585",
+          "name": "Taliah Muhammad"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "51429918",
+          "name": "Erick Cobos"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "6537565",
+          "name": "Szi-chieh Yu"
+        },
+        {
+          "authorId": "2281750469",
+          "name": "Dimitri Yatsenko"
+        },
+        {
+          "authorId": "1970917",
+          "name": "E. Froudarakis"
+        },
+        {
+          "authorId": "2268495239",
+          "name": "Fabian H. Sinz"
+        },
+        {
+          "authorId": "1799310",
+          "name": "K. Josi\u0107"
+        },
+        {
+          "authorId": "143665081",
+          "name": "R. Rosenbaum"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "144334775",
+          "name": "Edgar Y. Walker"
+        },
+        {
+          "authorId": "49839819",
+          "name": "X. Pitkow"
+        },
+        {
+          "authorId": "48128495",
+          "name": "Jacob Reimer"
+        },
+        {
+          "authorId": "1739838",
+          "name": "A. Tolias"
+        }
+      ],
+      "abstract": "Understanding the relationship between circuit connectivity and function is crucial for uncovering how the brain computes. In mouse primary visual cortex, excitatory neurons with similar response properties are more likely to be synaptically connected1\u20138; however, broader connectivity rules remain unknown. Here we leverage the millimetre-scale MICrONS dataset to analyse synaptic connectivity and functional properties of neurons across cortical layers and areas. Our results reveal that neurons with similar response properties are preferentially connected within and across layers and areas\u2014including feedback connections\u2014supporting the universality of \u2018like-to-like\u2019 connectivity across the visual hierarchy. Using a validated digital twin model, we separated neuronal tuning into feature (what neurons respond to) and spatial (receptive field location) components. We found that only the feature component predicts fine-scale synaptic connections beyond what could be explained by the proximity of axons and dendrites. We also discovered a higher-order rule whereby postsynaptic neuron cohorts downstream of presynaptic cells show greater functional similarity than predicted by a pairwise like-to-like rule. Recurrent neural networks trained on a simple classification task develop connectivity patterns that mirror both pairwise and higher-order rules, with magnitudes similar to those in MICrONS data. Ablation studies in these recurrent neural networks reveal that disrupting like-to-like connections impairs performance more than disrupting random connections. These findings suggest that these connectivity principles may have a functional role in sensory processing and learning, highlighting shared principles between biological and artificial systems."
+    },
+    {
+      "paperId": "c83e6fb058b44eb025458dd7ace81692f50040ae",
+      "publicationVenue": {
+        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
+        "name": "Nature",
+        "type": "journal",
+        "issn": "0028-0836",
+        "url": "https://www.nature.com/",
+        "alternate_urls": [
+          "http://www.nature.com/nature/",
+          "https://www.nature.com/nature/",
+          "http://www.nature.com/nature/archive/index.html"
+        ]
+      },
+      "url": "https://www.semanticscholar.org/paper/c83e6fb058b44eb025458dd7ace81692f50040ae",
+      "title": "Connectomics of predicted Sst transcriptomic types in mouse visual cortex",
+      "venue": "Nature",
+      "year": 2025,
+      "citationCount": 8,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981948, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Medicine"
+      ],
+      "publicationDate": "2025-04-01",
+      "authors": [
+        {
+          "authorId": "3609151",
+          "name": "C. Gamlin"
+        },
+        {
+          "authorId": "1397852111",
+          "name": "C. Schneider-Mizell"
+        },
+        {
+          "authorId": "50975727",
+          "name": "M. Mallory"
+        },
+        {
+          "authorId": "91459622",
+          "name": "L. Elabbady"
+        },
+        {
+          "authorId": "1777618",
+          "name": "N. Gouwens"
+        },
+        {
+          "authorId": "144416314",
+          "name": "G. Williams"
+        },
+        {
+          "authorId": "81203260",
+          "name": "A. Mukora"
+        },
+        {
+          "authorId": "3500210",
+          "name": "R. Dalley"
+        },
+        {
+          "authorId": "40584201",
+          "name": "A. Bodor"
+        },
+        {
+          "authorId": "145536550",
+          "name": "D. Brittain"
+        },
+        {
+          "authorId": "49345106",
+          "name": "J. Buchanan"
+        },
+        {
+          "authorId": "3988776",
+          "name": "D. Bumbarger"
+        },
+        {
+          "authorId": "2261400608",
+          "name": "E. Joyce"
+        },
+        {
+          "authorId": "9787230",
+          "name": "D. Kapner"
+        },
+        {
+          "authorId": "1396398049",
+          "name": "S. Kinn"
+        },
+        {
+          "authorId": "144348673",
+          "name": "G. Mahalingam"
+        },
+        {
+          "authorId": "1700529",
+          "name": "S. Seshamani"
+        },
+        {
+          "authorId": "8311185",
+          "name": "Marc M. Takeno"
+        },
+        {
+          "authorId": "152750629",
+          "name": "R. Torres"
+        },
+        {
+          "authorId": "2066488749",
+          "name": "W. Yin"
+        },
+        {
+          "authorId": "5447385",
+          "name": "P. Nicovich"
+        },
+        {
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
+        },
+        {
+          "authorId": "2092627229",
+          "name": "M. Castro"
+        },
+        {
+          "authorId": "2122374817",
+          "name": "S. Dorkenwald"
+        },
+        {
+          "authorId": "1579775589",
+          "name": "A. Halageri"
+        },
+        {
+          "authorId": "2072782593",
+          "name": "Z. Jia"
+        },
+        {
+          "authorId": "41130241",
+          "name": "C. Jordan"
+        },
+        {
+          "authorId": "41124209",
+          "name": "N. Kemnitz"
+        },
+        {
+          "authorId": "2152541203",
+          "name": "Kisuk Lee"
+        },
+        {
+          "authorId": "2158258070",
+          "name": "Kai Li"
+        },
+        {
+          "authorId": "1406193129",
+          "name": "R. Lu"
+        },
+        {
+          "authorId": "5056982",
+          "name": "T. Macrina"
+        },
+        {
+          "authorId": "2242871312",
+          "name": "Eric Mitchell"
+        },
+        {
+          "authorId": "120175502",
+          "name": "S. S. Mondal"
+        },
+        {
+          "authorId": "47330620",
+          "name": "S. Mu"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "1840375",
+          "name": "S. Popovych"
+        },
+        {
+          "authorId": "2108734",
+          "name": "W. Silversmith"
+        },
+        {
+          "authorId": "152772071",
+          "name": "N. Turner"
+        },
+        {
+          "authorId": "120774631",
+          "name": "W. Wong"
+        },
+        {
+          "authorId": "31421132",
+          "name": "Jingpeng Wu"
+        },
+        {
+          "authorId": "6537565",
+          "name": "Szi-chieh Yu"
+        },
+        {
+          "authorId": "48691104",
+          "name": "J. Berg"
+        },
+        {
+          "authorId": "3507536",
+          "name": "T. Jarsky"
+        },
+        {
+          "authorId": "2190472040",
+          "name": "Brian Lee"
+        },
+        {
+          "authorId": "2250498183",
+          "name": "H. S. Seung"
+        },
+        {
+          "authorId": "2308074395",
+          "name": "Hongkui Zeng"
+        },
+        {
+          "authorId": "2254043701",
+          "name": "R. Reid"
+        },
+        {
+          "authorId": "6598643",
+          "name": "F. Collman"
+        },
+        {
+          "authorId": "51079681",
+          "name": "N. D. da Costa"
+        },
+        {
+          "authorId": "39021791",
+          "name": "S. Sorensen"
+        }
+      ],
+      "abstract": "Neural circuit function is shaped both by the cell types that comprise the circuit and the connections between them1. Neural cell types have previously been defined by morphology2,3, electrophysiology4, transcriptomic expression5,6, connectivity7\u20139 or a combination of such modalities10\u201312. The Patch-seq technique enables the characterization of morphology, electrophysiology and transcriptomic properties from individual cells13\u201315. These properties were integrated to define 28 inhibitory, morpho-electric-transcriptomic (MET) cell types in mouse visual cortex16, which do not include synaptic connectivity. Conversely, large-scale electron microscopy (EM) enables morphological reconstruction and a near-complete description of a neuron\u2019s local synaptic connectivity, but does not include transcriptomic or electrophysiological information. Here, we leveraged morphological information from Patch-seq to predict the transcriptomically defined cell subclass and/or MET-type of inhibitory neurons within a large-scale EM dataset. We further analysed Martinotti cells\u2014a somatostatin (Sst)-positive17 morphological cell type18,19\u2014which were classified successfully into Sst MET-types with distinct axon myelination and synaptic output connectivity patterns. We demonstrate that morphological features can be used to link cell types across experimental modalities, enabling further comparison of connectivity to gene expression and electrophysiology. We observe unique connectivity rules for predicted Sst cell types."
+    },
+    {
       "paperId": "1f50f04ca5d1e80e2574c653fdd07dbd425b6450",
       "publicationVenue": {
         "id": "027ffd21-ebb0-4af8-baf5-911124292fd0",
@@ -10,13 +1580,19 @@
         "url": "http://biorxiv.org/"
       },
       "url": "https://www.semanticscholar.org/paper/1f50f04ca5d1e80e2574c653fdd07dbd425b6450",
-      "title": "An unsupervised map of excitatory neurons’ dendritic morphology in the mouse visual cortex",
-      "abstract": "Neurons in the neocortex exhibit astonishing morphological diversity which is critical for properly wiring neural circuits and giving neurons their functional properties. However, the organizational principles underlying this morphological diversity remain an open question. Here, we took a data-driven approach using graph-based machine learning methods to obtain a low-dimensional morphological “bar code” describing more than 30,000 excitatory neurons in mouse visual areas V1, AL and RL that were reconstructed from the millimeter scale MICrONS serial-section electron microscopy volume. Contrary to previous classifications into discrete morphological types (m-types), our data-driven approach suggests that the morphological landscape of cortical excitatory neurons is better described as a continuum, with a few notable exceptions in layers 5 and 6. Dendritic morphologies in layers 2–3 exhibited a trend towards a decreasing width of the dendritic arbor and a smaller tuft with increasing cortical depth. Inter-area differences were most evident in layer 4, where V1 contained more atufted neurons than higher visual areas. Moreover, we discovered neurons in V1 on the border to layer 5 which avoided deeper layers with their dendrites. In summary, we suggest that excitatory neurons’ morphological diversity is better understood by considering axes of variation than using distinct m-types.",
+      "title": "An unsupervised map of excitatory neuron dendritic morphology in the mouse visual cortex",
       "venue": "bioRxiv",
       "year": 2024,
-      "citationCount": 4,
+      "citationCount": 10,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/22/2022.12.22.521541.full.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11982532, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
-        "Biology"
+        "Biology",
+        "Medicine"
       ],
       "publicationDate": "2024-04-19",
       "authors": [
@@ -34,7 +1610,7 @@
         },
         {
           "authorId": "73235537",
-          "name": "Timo Lüddecke"
+          "name": "Timo L\u00fcddecke"
         },
         {
           "authorId": "2122359326",
@@ -153,8 +1729,8 @@
           "name": "Barak Nehoran"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "49839819",
@@ -224,7 +1800,8 @@
           "authorId": "1746183",
           "name": "Alexander S. Ecker"
         }
-      ]
+      ],
+      "abstract": "Neurons in the neocortex exhibit astonishing morphological diversity which is critical for properly wiring neural circuits and giving neurons their functional properties. However, the organizational principles underlying this morphological diversity remain an open question. Here, we took a data-driven approach using graph-based machine learning methods to obtain a low-dimensional morphological \u201cbar code\u201d describing more than 30,000 excitatory neurons in mouse visual areas V1, AL and RL that were reconstructed from the millimeter scale MICrONS serial-section electron microscopy volume. Contrary to previous classifications into discrete morphological types (m-types), our data-driven approach suggests that the morphological landscape of cortical excitatory neurons is better described as a continuum, with a few notable exceptions in layers 5 and 6. Dendritic morphologies in layers 2\u20133 exhibited a trend towards a decreasing width of the dendritic arbor and a smaller tuft with increasing cortical depth. Inter-area differences were most evident in layer 4, where V1 contained more atufted neurons than higher visual areas. Moreover, we discovered neurons in V1 on the border to layer 5 which avoided deeper layers with their dendrites. In summary, we suggest that excitatory neurons\u2019 morphological diversity is better understood by considering axes of variation than using distinct m-types."
     },
     {
       "paperId": "2bf223d27a98474a498337067ee842b657dbfceb",
@@ -236,10 +1813,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/2bf223d27a98474a498337067ee842b657dbfceb",
       "title": "Perisomatic Features Enable Efficient and Dataset Wide Cell-Type Classifications Across Large-Scale Electron Microscopy Volumes",
-      "abstract": "Mammalian neocortex contains a highly diverse set of cell types. These types have been mapped systematically using a variety of molecular, electrophysiological and morphological approaches. Each modality offers new perspectives on the variation of biological processes underlying cell type specialization. Cellular scale electron microscopy (EM) provides dense ultrastructural examination and an unbiased perspective into the subcellular organization of brain cells, including their synaptic connectivity and nanometer scale morphology. It also presents a clear challenge for analysis to identify cell-types in data that contains tens of thousands of neurons, most of which have incomplete reconstructions. To address this challenge, we present the first systematic survey of the somatic region of all cells within a cubic millimeter of cortex using quantitative features obtained from EM. This analysis demonstrates a surprising sufficiency of the perisomatic region to identify cell-types, including types defined primarily based on their connectivity patterns. We then describe how this classification facilitates cell type specific connectivity characterization and locating cells with rare connectivity patterns in the dataset.",
       "venue": "bioRxiv",
       "year": 2024,
-      "citationCount": 8,
+      "citationCount": 15,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/22/2022.07.20.499976.full.pdf",
+        "status": "GREEN",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2022.07.20.499976?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2022.07.20.499976, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology"
       ],
@@ -362,8 +1944,8 @@
           "name": "S. Papadopoulos"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "49839819",
@@ -427,13 +2009,57 @@
         },
         {
           "authorId": "7508200",
-          "name": "Nuno Maçarico da Costa"
+          "name": "Nuno Ma\u00e7arico da Costa"
         },
         {
           "authorId": "6598643",
           "name": "F. Collman"
         }
-      ]
+      ],
+      "abstract": "Mammalian neocortex contains a highly diverse set of cell types. These types have been mapped systematically using a variety of molecular, electrophysiological and morphological approaches. Each modality offers new perspectives on the variation of biological processes underlying cell type specialization. Cellular scale electron microscopy (EM) provides dense ultrastructural examination and an unbiased perspective into the subcellular organization of brain cells, including their synaptic connectivity and nanometer scale morphology. It also presents a clear challenge for analysis to identify cell-types in data that contains tens of thousands of neurons, most of which have incomplete reconstructions. To address this challenge, we present the first systematic survey of the somatic region of all cells within a cubic millimeter of cortex using quantitative features obtained from EM. This analysis demonstrates a surprising sufficiency of the perisomatic region to identify cell-types, including types defined primarily based on their connectivity patterns. We then describe how this classification facilitates cell type specific connectivity characterization and locating cells with rare connectivity patterns in the dataset."
+    },
+    {
+      "paperId": "5b1fbe0d1597d929d749ebfdc4f320f9be94f686",
+      "publicationVenue": {
+        "id": "166fd2b5-a928-4a98-a449-3b90935cc101",
+        "name": "IACR Cryptology ePrint Archive",
+        "type": "journal",
+        "alternate_names": [
+          "IACR Cryptol eprint Arch"
+        ],
+        "url": "http://eprint.iacr.org/"
+      },
+      "url": "https://www.semanticscholar.org/paper/5b1fbe0d1597d929d749ebfdc4f320f9be94f686",
+      "title": "Oracle Separation Between Quantum Commitments and Quantum One-wayness",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2024,
+      "citationCount": 6,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2410.03358, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Computer Science",
+        "Physics"
+      ],
+      "publicationDate": "2024-10-04",
+      "authors": [
+        {
+          "authorId": "2047542678",
+          "name": "John Bostanci"
+        },
+        {
+          "authorId": "2324632662",
+          "name": "Boyang Chen"
+        },
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        }
+      ],
+      "abstract": "We show that there exists an oracle relative to which quantum commitments exist but no (efficiently verifiable) one-way state generators exist. Both have been widely considered candidates for replacing one-way functions as the minimal assumption for cryptography: the weakest cryptographic assumption implied by all of computational cryptography. Recent work has shown that commitments can be constructed from one-way state generators, but the other direction has remained open. Our results rule out any black-box construction, and thus settles this crucial open problem, suggesting that quantum commitments (as well as its equivalency class of EFI pairs, quantum oblivious transfer, and secure quantum multiparty computation) appear to be strictly weakest among all known cryptographic primitives."
     },
     {
       "paperId": "8a6d8e170e052d6df5f09e0e7c7a026239b61492",
@@ -451,10 +2077,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/8a6d8e170e052d6df5f09e0e7c7a026239b61492",
       "title": "Neuronal wiring diagram of an adult brain",
-      "abstract": null,
       "venue": "Nature",
       "year": 2024,
-      "citationCount": 12,
+      "citationCount": 127,
+      "openAccessPdf": {
+        "url": "https://doi.org/10.1038/s41586-024-07558-y",
+        "status": "HYBRID",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11446842, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Medicine"
       ],
@@ -489,8 +2120,8 @@
           "name": "Albert Lin"
         },
         {
-          "authorId": null,
-          "name": "Marta Costa"
+          "authorId": "145739913",
+          "name": "M. Costa"
         },
         {
           "authorId": "33139122",
@@ -573,8 +2204,8 @@
           "name": "Kisuk Lee"
         },
         {
-          "authorId": null,
-          "name": "J Alexander Bae"
+          "authorId": "2072616109",
+          "name": "J. A. Bae"
         },
         {
           "authorId": "47330620",
@@ -597,12 +2228,12 @@
           "name": "Jingpeng Wu"
         },
         {
-          "authorId": null,
-          "name": "Zhen Jia"
+          "authorId": "2072782593",
+          "name": "Z. Jia"
         },
         {
-          "authorId": null,
-          "name": "Manuel A Castro"
+          "authorId": "2092627229",
+          "name": "M. Castro"
         },
         {
           "authorId": "41124209",
@@ -644,38 +2275,41 @@
           "authorId": "145776127",
           "name": "Mala Murthy"
         }
-      ]
+      ],
+      "abstract": "Connections between neurons can be mapped by acquiring and analysing electron microscopic brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative1\u20136, but nevertheless inadequate for understanding brain function more globally. Here we present a neuronal wiring diagram of a whole brain containing 5\u2009\u00d7\u2009107 chemical synapses7 between 139,255 neurons reconstructed from an adult female Drosophila melanogaster8,9. The resource also incorporates annotations of cell classes and types, nerves, hemilineages and predictions of neurotransmitter identities10\u201312. Data products are available for download, programmatic access and interactive browsing and have been made interoperable with other fly data resources. We derive a projectome\u2014a map of projections between regions\u2014from the connectome and report on tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine and descending neurons) across both hemispheres and between the central brain and the optic lobes. Tracing from a subset of photoreceptors to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviours. The technologies and open ecosystem reported here set the stage for future large-scale connectome projects in other species."
     },
     {
-      "paperId": "a410b5734ee9d821f5accc7a269d1efe5fc1577e",
+      "paperId": "945a9e016d9279a577416e514aabdc1dbb2feba7",
       "publicationVenue": {
-        "id": "7f22f2c3-81fc-4aa8-8501-b1d58b193fa5",
-        "name": "Information Technology Convergence and Services",
-        "type": "conference",
+        "id": "166fd2b5-a928-4a98-a449-3b90935cc101",
+        "name": "IACR Cryptology ePrint Archive",
+        "type": "journal",
         "alternate_names": [
-          "Innov Theor Comput Sci",
-          "ITCS ",
-          "Inf Technol Converg Serv",
-          "Information Technology and Computer Science",
-          "Inf Technol Comput Sci",
-          "Conf Innov Theor Comput Sci",
-          "Conference on Innovations in Theoretical Computer Science",
-          "Innovations in Theoretical Computer Science",
-          "ITCS"
+          "IACR Cryptol eprint Arch"
         ],
-        "url": "http://itcs-conf.org/"
+        "url": "http://eprint.iacr.org/"
       },
-      "url": "https://www.semanticscholar.org/paper/a410b5734ee9d821f5accc7a269d1efe5fc1577e",
-      "title": "A Computational Separation Between Quantum No-Cloning and No-Telegraphing",
-      "abstract": "Two of the fundamental no-go theorems of quantum information are the no-cloning theorem (that it is impossible to make copies of general quantum states) and the no-teleportation theorem (the prohibition on telegraphing, or sending quantum states over classical channels without pre-shared entanglement). They are known to be equivalent, in the sense that a collection of quantum states is telegraphable if and only if it is clonable. Our main result suggests that this is not the case when computational efficiency is considered. We give a collection of quantum states and quantum oracles relative to which these states are efficiently clonable but not efficiently telegraphable. Given that the opposite scenario is impossible (states that can be telegraphed can always trivially be cloned), this gives the most complete quantum oracle separation possible between these two important no-go properties. We additionally study the complexity class clonableQMA , a subset of QMA whose witnesses are efficiently clonable. As a consequence of our main result, we give a quantum oracle separation between clonableQMA and the class QCMA , whose witnesses are restricted to classical strings. We also propose a candidate oracle-free promise problem separating these classes. We finally demonstrate an application of clonable-but-not-telegraphable states to cryptography, by showing how such states can be used to protect against key exfiltration.",
-      "venue": "Information Technology Convergence and Services",
+      "url": "https://www.semanticscholar.org/paper/945a9e016d9279a577416e514aabdc1dbb2feba7",
+      "title": "A General Quantum Duality for Representations of Groups with Applications to Quantum Money, Lightning, and Fire",
+      "venue": "IACR Cryptology ePrint Archive",
       "year": 2024,
-      "citationCount": 0,
+      "citationCount": 5,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.00529, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
-        "Computer Science"
+        "Computer Science",
+        "Physics"
       ],
-      "publicationDate": null,
+      "publicationDate": "2024-11-01",
       "authors": [
+        {
+          "authorId": "2047542678",
+          "name": "John Bostanci"
+        },
         {
           "authorId": "1926235266",
           "name": "Barak Nehoran"
@@ -684,1250 +2318,8 @@
           "authorId": "2240075",
           "name": "Mark Zhandry"
         }
-      ]
-    },
-    {
-      "paperId": "cbda3f294aba542a22d19b9a9926d5318a27ea66",
-      "publicationVenue": {
-        "id": "6c24a0a0-b07d-4d7b-a19b-fd09a3ed453a",
-        "name": "Nature",
-        "type": "journal",
-        "issn": "0028-0836",
-        "url": "https://www.nature.com/",
-        "alternate_urls": [
-          "http://www.nature.com/nature/",
-          "https://www.nature.com/nature/",
-          "http://www.nature.com/nature/archive/index.html"
-        ]
-      },
-      "url": "https://www.semanticscholar.org/paper/cbda3f294aba542a22d19b9a9926d5318a27ea66",
-      "title": "Whole-brain annotation and multi-connectome cell typing of Drosophila",
-      "abstract": null,
-      "venue": "Nature",
-      "year": 2024,
-      "citationCount": 11,
-      "fieldsOfStudy": [
-        "Medicine"
       ],
-      "publicationDate": "2024-10-01",
-      "authors": [
-        {
-          "authorId": "28566201",
-          "name": "P. Schlegel"
-        },
-        {
-          "authorId": "2155262341",
-          "name": "Yijie Yin"
-        },
-        {
-          "authorId": "51292941",
-          "name": "A. S. Bates"
-        },
-        {
-          "authorId": "2122374817",
-          "name": "S. Dorkenwald"
-        },
-        {
-          "authorId": "33139122",
-          "name": "K. Eichler"
-        },
-        {
-          "authorId": "2305591943",
-          "name": "Paul Brooks"
-        },
-        {
-          "authorId": "2264201342",
-          "name": "Daniel Han"
-        },
-        {
-          "authorId": "1581730029",
-          "name": "Marina Gkantia"
-        },
-        {
-          "authorId": "2323966448",
-          "name": "Márcia dos Santos"
-        },
-        {
-          "authorId": "2220893514",
-          "name": "Eva J Munnelly"
-        },
-        {
-          "authorId": "16952423",
-          "name": "Griffin Badalamente"
-        },
-        {
-          "authorId": "2323922726",
-          "name": "Laia Serratosa Capdevila"
-        },
-        {
-          "authorId": "2323988646",
-          "name": "Varun A. Sane"
-        },
-        {
-          "authorId": "2304403261",
-          "name": "Alexandra M C Fragniere"
-        },
-        {
-          "authorId": "2323920295",
-          "name": "Ladann Kiassat"
-        },
-        {
-          "authorId": "50817661",
-          "name": "M. W. Pleijzier"
-        },
-        {
-          "authorId": "5927789",
-          "name": "Tomke Stürner"
-        },
-        {
-          "authorId": "1580293725",
-          "name": "Imaan F. M. Tamimi"
-        },
-        {
-          "authorId": "2058567850",
-          "name": "Christopher R. Dunne"
-        },
-        {
-          "authorId": "1600622562",
-          "name": "Irene Salgarella"
-        },
-        {
-          "authorId": "10729416",
-          "name": "A. Javier"
-        },
-        {
-          "authorId": "30505784",
-          "name": "Siqi Fang"
-        },
-        {
-          "authorId": "2265588859",
-          "name": "Eric Perlman"
-        },
-        {
-          "authorId": "6930811",
-          "name": "Tom Kazimiers"
-        },
-        {
-          "authorId": "152800165",
-          "name": "Sridhar R. Jagannathan"
-        },
-        {
-          "authorId": "2161409274",
-          "name": "Arie Matsliah"
-        },
-        {
-          "authorId": "41131456",
-          "name": "A. Sterling"
-        },
-        {
-          "authorId": "6537565",
-          "name": "Szi-chieh Yu"
-        },
-        {
-          "authorId": "7667018",
-          "name": "Claire E. McKellar"
-        },
-        {
-          "authorId": "2221073892",
-          "name": "Krzysztof Kruk"
-        },
-        {
-          "authorId": "2007692704",
-          "name": "Doug Bland"
-        },
-        {
-          "authorId": "2323985053",
-          "name": "Zairene Lenizo"
-        },
-        {
-          "authorId": "2139914531",
-          "name": "Austin Burke"
-        },
-        {
-          "authorId": "1926285936",
-          "name": "K. Willie"
-        },
-        {
-          "authorId": "51292941",
-          "name": "A. S. Bates"
-        },
-        {
-          "authorId": "2323988760",
-          "name": "Nikitas Serafetinidis"
-        },
-        {
-          "authorId": "2323988860",
-          "name": "Nashra Hadjerol"
-        },
-        {
-          "authorId": "1926285994",
-          "name": "Ryan Willie"
-        },
-        {
-          "authorId": "2056371649",
-          "name": "B. Silverman"
-        },
-        {
-          "authorId": "2323987912",
-          "name": "John Anthony Ocho"
-        },
-        {
-          "authorId": "2323985069",
-          "name": "Joshua Bañez"
-        },
-        {
-          "authorId": "2258951495",
-          "name": "Rey Adrian Candilada"
-        },
-        {
-          "authorId": "1926231262",
-          "name": "Jay Gager"
-        },
-        {
-          "authorId": "2258950624",
-          "name": "Anne Kristiansen"
-        },
-        {
-          "authorId": "2323987133",
-          "name": "Nelsie Panes"
-        },
-        {
-          "authorId": null,
-          "name": "Arti Yadav"
-        },
-        {
-          "authorId": "2323988212",
-          "name": "Remer Tancontian"
-        },
-        {
-          "authorId": "2323988721",
-          "name": "Shirleyjoy Serona"
-        },
-        {
-          "authorId": "2323989356",
-          "name": "Jet Ivan Dolorosa"
-        },
-        {
-          "authorId": "2323985073",
-          "name": "Kendrick Joules Vinson"
-        },
-        {
-          "authorId": "2258949163",
-          "name": "Dustin Garner"
-        },
-        {
-          "authorId": "2323980184",
-          "name": "Regine Salem"
-        },
-        {
-          "authorId": "2323989360",
-          "name": "Ariel Dagohoy"
-        },
-        {
-          "authorId": "2258951604",
-          "name": "Jaime Skelton"
-        },
-        {
-          "authorId": "2324075932",
-          "name": "Mendell Lopez"
-        },
-        {
-          "authorId": "2258951615",
-          "name": "Thomas Stocks"
-        },
-        {
-          "authorId": null,
-          "name": "Anjali Pandey"
-        },
-        {
-          "authorId": "2323988219",
-          "name": "Darrel Jay Akiatan"
-        },
-        {
-          "authorId": "1926228857",
-          "name": "James Hebditch"
-        },
-        {
-          "authorId": "2007483498",
-          "name": "Celia David"
-        },
-        {
-          "authorId": "2287156602",
-          "name": "D. Sapkal"
-        },
-        {
-          "authorId": "2323988303",
-          "name": "Shaina Mae Monungolh"
-        },
-        {
-          "authorId": "2323988646",
-          "name": "Varun A. Sane"
-        },
-        {
-          "authorId": "2323989243",
-          "name": "Mark Lloyd Pielago"
-        },
-        {
-          "authorId": "2323988298",
-          "name": "Miguel Albero"
-        },
-        {
-          "authorId": "2323986760",
-          "name": "Jacquilyn Laude"
-        },
-        {
-          "authorId": "2323966448",
-          "name": "Márcia dos Santos"
-        },
-        {
-          "authorId": "2028241054",
-          "name": "David S. Deutsch"
-        },
-        {
-          "authorId": "2323988422",
-          "name": "Zeba Vohra"
-        },
-        {
-          "authorId": "2324210492",
-          "name": "Kaiyu Wang"
-        },
-        {
-          "authorId": "2323988058",
-          "name": "Allien Mae Gogo"
-        },
-        {
-          "authorId": "133900318",
-          "name": "Emil Kind"
-        },
-        {
-          "authorId": "2323988310",
-          "name": "Alvin Josh Mandahay"
-        },
-        {
-          "authorId": null,
-          "name": "Chereb Martinez"
-        },
-        {
-          "authorId": "2323989231",
-          "name": "John David Asis"
-        },
-        {
-          "authorId": "27015762",
-          "name": "Chitra V Nair"
-        },
-        {
-          "authorId": null,
-          "name": "Dhwani Patel"
-        },
-        {
-          "authorId": "2323988262",
-          "name": "Marchan Manaytay"
-        },
-        {
-          "authorId": null,
-          "name": "Clyde Angelo Lim"
-        },
-        {
-          "authorId": "2323989214",
-          "name": "Philip Lenard Ampo"
-        },
-        {
-          "authorId": "2323988369",
-          "name": "Michelle Darapan Pantujan"
-        },
-        {
-          "authorId": "2323987130",
-          "name": "Daril Bautista"
-        },
-        {
-          "authorId": "2323989196",
-          "name": "Rashmita Rana"
-        },
-        {
-          "authorId": "2323988351",
-          "name": "Jansen Seguido"
-        },
-        {
-          "authorId": "2323988491",
-          "name": "Bhargavi Parmar"
-        },
-        {
-          "authorId": "2323987050",
-          "name": "John Clyde Saguimpa"
-        },
-        {
-          "authorId": null,
-          "name": "Merlin Moore"
-        },
-        {
-          "authorId": "50817661",
-          "name": "M. W. Pleijzier"
-        },
-        {
-          "authorId": "2204757845",
-          "name": "Mark Larson"
-        },
-        {
-          "authorId": "2072740448",
-          "name": "Joseph Hsu"
-        },
-        {
-          "authorId": "2323989453",
-          "name": "Itisha Joshi"
-        },
-        {
-          "authorId": "2142033510",
-          "name": "Dhara Kakadiya"
-        },
-        {
-          "authorId": "2004263832",
-          "name": "Amalia Braun"
-        },
-        {
-          "authorId": "2323985204",
-          "name": "Cathy Pilapil"
-        },
-        {
-          "authorId": "2323988741",
-          "name": "Kaushik Parmar"
-        },
-        {
-          "authorId": "1621960231",
-          "name": "Quinn X. Vanderbeck"
-        },
-        {
-          "authorId": "2058567850",
-          "name": "Christopher R. Dunne"
-        },
-        {
-          "authorId": "2220893514",
-          "name": "Eva J Munnelly"
-        },
-        {
-          "authorId": null,
-          "name": "Chan Hyuk Kang"
-        },
-        {
-          "authorId": "2237136400",
-          "name": "Lena Lörsch"
-        },
-        {
-          "authorId": "2323997806",
-          "name": "Jinmook Lee"
-        },
-        {
-          "authorId": "46354442",
-          "name": "Lucia Kmecova"
-        },
-        {
-          "authorId": "2323988756",
-          "name": "Gizem Sancer"
-        },
-        {
-          "authorId": "2323994916",
-          "name": "Christa Baker"
-        },
-        {
-          "authorId": "2258951547",
-          "name": "Jenna Joroff"
-        },
-        {
-          "authorId": "2323985906",
-          "name": "Steven Calle"
-        },
-        {
-          "authorId": "2323989416",
-          "name": "Yashvi Patel"
-        },
-        {
-          "authorId": "2323988723",
-          "name": "Olivia Sato"
-        },
-        {
-          "authorId": "2323988442",
-          "name": "Janice Salocot"
-        },
-        {
-          "authorId": "1572538698",
-          "name": "Farzaan Salman"
-        },
-        {
-          "authorId": "1404301153",
-          "name": "Sebastian Molina-Obando"
-        },
-        {
-          "authorId": "2323988679",
-          "name": "Mai Bui"
-        },
-        {
-          "authorId": "1405561567",
-          "name": "Matthew Lichtenberger"
-        },
-        {
-          "authorId": "2323988156",
-          "name": "Edmark Tamboboy"
-        },
-        {
-          "authorId": "2323990275",
-          "name": "Katie Molloy"
-        },
-        {
-          "authorId": "2323988221",
-          "name": "Alexis E. Santana-Cruz"
-        },
-        {
-          "authorId": "2324123384",
-          "name": "Anthony Hernandez"
-        },
-        {
-          "authorId": null,
-          "name": "Seongbong Yu"
-        },
-        {
-          "authorId": "41134221",
-          "name": "Marissa Sorek"
-        },
-        {
-          "authorId": "2323987088",
-          "name": "Arzoo Diwan"
-        },
-        {
-          "authorId": "2324077310",
-          "name": "Monika Patel"
-        },
-        {
-          "authorId": "2323963748",
-          "name": "Travis R. Aiken"
-        },
-        {
-          "authorId": "1926771547",
-          "name": "Sarah Morejohn"
-        },
-        {
-          "authorId": "50545044",
-          "name": "Sanna Koskela"
-        },
-        {
-          "authorId": "1508245800",
-          "name": "Tansy Yang"
-        },
-        {
-          "authorId": "2323989049",
-          "name": "Daniel Lehmann"
-        },
-        {
-          "authorId": "2237136155",
-          "name": "Jonas Chojetzki"
-        },
-        {
-          "authorId": "2323988672",
-          "name": "Sangeeta Sisodiya"
-        },
-        {
-          "authorId": "1926340513",
-          "name": "Selden Koolman"
-        },
-        {
-          "authorId": "2249766985",
-          "name": "Philip K. Shiu"
-        },
-        {
-          "authorId": "2324061422",
-          "name": "Sky Cho"
-        },
-        {
-          "authorId": "2237136504",
-          "name": "Annika Bast"
-        },
-        {
-          "authorId": "2236935475",
-          "name": "Brian Reicher"
-        },
-        {
-          "authorId": "2323988268",
-          "name": "Marlon Blanquart"
-        },
-        {
-          "authorId": "2268857483",
-          "name": "Lucy Houghton"
-        },
-        {
-          "authorId": null,
-          "name": "Hyungjun Choi"
-        },
-        {
-          "authorId": "2142761061",
-          "name": "Maria Ioannidou"
-        },
-        {
-          "authorId": "2258951095",
-          "name": "Matt Collie"
-        },
-        {
-          "authorId": "2323988661",
-          "name": "Joanna Eckhardt"
-        },
-        {
-          "authorId": "2292382334",
-          "name": "Benjamin Gorko"
-        },
-        {
-          "authorId": "2324111301",
-          "name": "Li Guo"
-        },
-        {
-          "authorId": "2324109516",
-          "name": "Zhihao Zheng"
-        },
-        {
-          "authorId": "2323988343",
-          "name": "Alisa Poh"
-        },
-        {
-          "authorId": "2324071392",
-          "name": "Marina Lin"
-        },
-        {
-          "authorId": "116251476",
-          "name": "István Taisz"
-        },
-        {
-          "authorId": "2323988539",
-          "name": "Wes Murfin"
-        },
-        {
-          "authorId": "89613000",
-          "name": "Álvaro Sanz Díez"
-        },
-        {
-          "authorId": "1404909024",
-          "name": "Nils Reinhard"
-        },
-        {
-          "authorId": "1621913326",
-          "name": "Peter W. Gibb"
-        },
-        {
-          "authorId": null,
-          "name": "Nidhi Patel"
-        },
-        {
-          "authorId": "2324104291",
-          "name": "Sandeep Kumar"
-        },
-        {
-          "authorId": "2268683324",
-          "name": "Minsik Yun"
-        },
-        {
-          "authorId": "2324069742",
-          "name": "Megan Wang"
-        },
-        {
-          "authorId": "2324073396",
-          "name": "Devon Jones"
-        },
-        {
-          "authorId": "1926231192",
-          "name": "Lucas Encarnacion-Rivera"
-        },
-        {
-          "authorId": "2323989441",
-          "name": "Annalena Oswald"
-        },
-        {
-          "authorId": "2323985146",
-          "name": "Akanksha Jadia"
-        },
-        {
-          "authorId": "2182341052",
-          "name": "Mert Erginkaya"
-        },
-        {
-          "authorId": "2323989549",
-          "name": "Nik Drummond"
-        },
-        {
-          "authorId": "2323988934",
-          "name": "Leonie Walter"
-        },
-        {
-          "authorId": "6455185",
-          "name": "I. Tastekin"
-        },
-        {
-          "authorId": "2323959462",
-          "name": "Xin Zhong"
-        },
-        {
-          "authorId": "2074531733",
-          "name": "Yuta Mabuchi"
-        },
-        {
-          "authorId": "2323988085",
-          "name": "Fernando J. Figueroa Santiago"
-        },
-        {
-          "authorId": "2323988688",
-          "name": "Urja Verma"
-        },
-        {
-          "authorId": "2323985114",
-          "name": "Nick Byrne"
-        },
-        {
-          "authorId": "2323986962",
-          "name": "Edda Kunze"
-        },
-        {
-          "authorId": "94896292",
-          "name": "T. Crahan"
-        },
-        {
-          "authorId": "2323985055",
-          "name": "Ryan Margossian"
-        },
-        {
-          "authorId": "2237961503",
-          "name": "Haein Kim"
-        },
-        {
-          "authorId": "2323988142",
-          "name": "Iliyan Georgiev"
-        },
-        {
-          "authorId": "2273326953",
-          "name": "Fabianna Szorenyi"
-        },
-        {
-          "authorId": "150890078",
-          "name": "Atsuko Adachi"
-        },
-        {
-          "authorId": "2249766345",
-          "name": "Benjamin Bargeron"
-        },
-        {
-          "authorId": "5927789",
-          "name": "Tomke Stürner"
-        },
-        {
-          "authorId": "2323986971",
-          "name": "Damian Demarest"
-        },
-        {
-          "authorId": "1404091480",
-          "name": "Burak Gür"
-        },
-        {
-          "authorId": "2324078906",
-          "name": "Andrea N. Becker"
-        },
-        {
-          "authorId": "2323988727",
-          "name": "Robert Turnbull"
-        },
-        {
-          "authorId": "2079162384",
-          "name": "A. Morren"
-        },
-        {
-          "authorId": "2216337716",
-          "name": "Andrea Sandoval"
-        },
-        {
-          "authorId": "2299160635",
-          "name": "Anthony Moreno-Sanchez"
-        },
-        {
-          "authorId": "7587012",
-          "name": "Diego A. Pacheco"
-        },
-        {
-          "authorId": "2323988387",
-          "name": "Eleni Samara"
-        },
-        {
-          "authorId": "2256763959",
-          "name": "Haley Croke"
-        },
-        {
-          "authorId": "2323988550",
-          "name": "Alexander Thomson"
-        },
-        {
-          "authorId": "2117559826",
-          "name": "Connor W. Laughland"
-        },
-        {
-          "authorId": "2323999440",
-          "name": "Suchetana B. Dutta"
-        },
-        {
-          "authorId": "2323985811",
-          "name": "Paula Guiomar Alarcón de Antón"
-        },
-        {
-          "authorId": null,
-          "name": "Binglin Huang"
-        },
-        {
-          "authorId": "2323988282",
-          "name": "Patricia Pujols"
-        },
-        {
-          "authorId": "2323988923",
-          "name": "Isabel Haber"
-        },
-        {
-          "authorId": "2157241559",
-          "name": "Amanda J. González-Segarra"
-        },
-        {
-          "authorId": "2323996388",
-          "name": "Albert Lin"
-        },
-        {
-          "authorId": "2212595268",
-          "name": "Daniel T. Choe"
-        },
-        {
-          "authorId": "2074866036",
-          "name": "Veronika Lukyanova"
-        },
-        {
-          "authorId": "2249766118",
-          "name": "Nino Mancini"
-        },
-        {
-          "authorId": "2324065487",
-          "name": "Zequan Liu"
-        },
-        {
-          "authorId": "2323988956",
-          "name": "Tatsuo Okubo"
-        },
-        {
-          "authorId": "2117558607",
-          "name": "Miriam A. Flynn"
-        },
-        {
-          "authorId": "2249767842",
-          "name": "Gianna Vitelli"
-        },
-        {
-          "authorId": "47616066",
-          "name": "M. Laturney"
-        },
-        {
-          "authorId": "2324145693",
-          "name": "Feng Li"
-        },
-        {
-          "authorId": null,
-          "name": "Shuo Cao"
-        },
-        {
-          "authorId": "2323989539",
-          "name": "Carolina Manyari-Diaz"
-        },
-        {
-          "authorId": "2287896552",
-          "name": "Hyunsoo Yim"
-        },
-        {
-          "authorId": "2282779755",
-          "name": "Anh Duc Le"
-        },
-        {
-          "authorId": "2249767069",
-          "name": "Kate Maier"
-        },
-        {
-          "authorId": null,
-          "name": "Seungyun Yu"
-        },
-        {
-          "authorId": "2323987023",
-          "name": "Yeonju Nam"
-        },
-        {
-          "authorId": "2323988644",
-          "name": "Daniel Bąba"
-        },
-        {
-          "authorId": "2323989513",
-          "name": "Amanda Abusaif"
-        },
-        {
-          "authorId": "1572555537",
-          "name": "Audrey Francis"
-        },
-        {
-          "authorId": "2323985922",
-          "name": "Jesse Gayk"
-        },
-        {
-          "authorId": "2220247678",
-          "name": "Sommer S Huntress"
-        },
-        {
-          "authorId": "2323985838",
-          "name": "Raquel Barajas"
-        },
-        {
-          "authorId": "2324064385",
-          "name": "Mindy Kim"
-        },
-        {
-          "authorId": null,
-          "name": "Xinyue Cui"
-        },
-        {
-          "authorId": "2091490313",
-          "name": "Gabriella R. Sterne"
-        },
-        {
-          "authorId": null,
-          "name": "Anna Li"
-        },
-        {
-          "authorId": "2262514614",
-          "name": "Keehyun Park"
-        },
-        {
-          "authorId": "1601556333",
-          "name": "Georgia Dempsey"
-        },
-        {
-          "authorId": "2323957000",
-          "name": "Alan Mathew"
-        },
-        {
-          "authorId": "2324059955",
-          "name": "Jinseong Kim"
-        },
-        {
-          "authorId": "2324071534",
-          "name": "Taewan Kim"
-        },
-        {
-          "authorId": "2324112189",
-          "name": "Guan-ting Wu"
-        },
-        {
-          "authorId": "2323988909",
-          "name": "Serene Dhawan"
-        },
-        {
-          "authorId": "88935758",
-          "name": "Margarida Brotas"
-        },
-        {
-          "authorId": "2324204187",
-          "name": "Cheng-hao Zhang"
-        },
-        {
-          "authorId": "2323974783",
-          "name": "Shanice Bailey"
-        },
-        {
-          "authorId": "2204850777",
-          "name": "Alexander Del Toro"
-        },
-        {
-          "authorId": "2152541203",
-          "name": "Kisuk Lee"
-        },
-        {
-          "authorId": "5056982",
-          "name": "T. Macrina"
-        },
-        {
-          "authorId": "1397852111",
-          "name": "C. Schneider-Mizell"
-        },
-        {
-          "authorId": "1840375",
-          "name": "S. Popovych"
-        },
-        {
-          "authorId": "1926318518",
-          "name": "Oluwaseun Ogedengbe"
-        },
-        {
-          "authorId": "2324211486",
-          "name": "Runzhe Yang"
-        },
-        {
-          "authorId": "1579775589",
-          "name": "A. Halageri"
-        },
-        {
-          "authorId": "2108734",
-          "name": "W. Silversmith"
-        },
-        {
-          "authorId": "2308461420",
-          "name": "Stephan Gerhard"
-        },
-        {
-          "authorId": "46432071",
-          "name": "A. Champion"
-        },
-        {
-          "authorId": "1752533079",
-          "name": "N. Eckstein"
-        },
-        {
-          "authorId": "14972923",
-          "name": "Dodam Ih"
-        },
-        {
-          "authorId": "41124209",
-          "name": "N. Kemnitz"
-        },
-        {
-          "authorId": null,
-          "name": "Manuel Castro"
-        },
-        {
-          "authorId": null,
-          "name": "Zhen Jia"
-        },
-        {
-          "authorId": null,
-          "name": "Jingpeng Wu"
-        },
-        {
-          "authorId": "2242871312",
-          "name": "Eric Mitchell"
-        },
-        {
-          "authorId": "1926235266",
-          "name": "Barak Nehoran"
-        },
-        {
-          "authorId": "47330620",
-          "name": "S. Mu"
-        },
-        {
-          "authorId": null,
-          "name": "J. Alexander Bae"
-        },
-        {
-          "authorId": "2324004132",
-          "name": "Ran Lu"
-        },
-        {
-          "authorId": "2221073635",
-          "name": "Ryan Morey"
-        },
-        {
-          "authorId": "2122369373",
-          "name": "Kai Kuehner"
-        },
-        {
-          "authorId": "145536550",
-          "name": "D. Brittain"
-        },
-        {
-          "authorId": "41130241",
-          "name": "C. Jordan"
-        },
-        {
-          "authorId": null,
-          "name": "David J. Anderson"
-        },
-        {
-          "authorId": "48727556",
-          "name": "Rudy Behnia"
-        },
-        {
-          "authorId": "5487446",
-          "name": "Salil S. Bidaye"
-        },
-        {
-          "authorId": "2258950645",
-          "name": "Alexander Borst"
-        },
-        {
-          "authorId": "2254587425",
-          "name": "Eugenia Chiappe"
-        },
-        {
-          "authorId": "6598643",
-          "name": "F. Collman"
-        },
-        {
-          "authorId": "48477109",
-          "name": "Kenneth J. Colodner"
-        },
-        {
-          "authorId": "2323988519",
-          "name": "Andrew Dacks"
-        },
-        {
-          "authorId": "2323989654",
-          "name": "Barry Dickson"
-        },
-        {
-          "authorId": "2323990699",
-          "name": "Jan Funke"
-        },
-        {
-          "authorId": null,
-          "name": "Denise Garcia"
-        },
-        {
-          "authorId": "39962349",
-          "name": "Stefanie Hampel"
-        },
-        {
-          "authorId": "2238412025",
-          "name": "V. Hartenstein"
-        },
-        {
-          "authorId": "2323989615",
-          "name": "Bassem Hassan"
-        },
-        {
-          "authorId": "2323988976",
-          "name": "Charlotte Helfrich-Forster"
-        },
-        {
-          "authorId": "2323990665",
-          "name": "Wolf Huetteroth"
-        },
-        {
-          "authorId": "2252993630",
-          "name": "Jinseop S. Kim"
-        },
-        {
-          "authorId": null,
-          "name": "Sung Soo Kim"
-        },
-        {
-          "authorId": "2297039749",
-          "name": "Young-Joon Kim"
-        },
-        {
-          "authorId": null,
-          "name": "Jae Young Kwon"
-        },
-        {
-          "authorId": "2259676608",
-          "name": "Wei-Chung Lee"
-        },
-        {
-          "authorId": "4502182",
-          "name": "G. Linneweber"
-        },
-        {
-          "authorId": "6094508",
-          "name": "Gaby Maimon"
-        },
-        {
-          "authorId": "2323987304",
-          "name": "Richard Mann"
-        },
-        {
-          "authorId": "2288593477",
-          "name": "Stéphane Noselli"
-        },
-        {
-          "authorId": "2323989130",
-          "name": "Michael Pankratz"
-        },
-        {
-          "authorId": "2316194973",
-          "name": "L. Prieto-Godino"
-        },
-        {
-          "authorId": "2323987357",
-          "name": "Jenny Read"
-        },
-        {
-          "authorId": "2304908466",
-          "name": "Michael B Reiser"
-        },
-        {
-          "authorId": "2323988381",
-          "name": "Katie von Reyn"
-        },
-        {
-          "authorId": "2323992187",
-          "name": "Carlos Ribeiro"
-        },
-        {
-          "authorId": "2323992466",
-          "name": "Kristin Scott"
-        },
-        {
-          "authorId": "38626526",
-          "name": "A. Seeds"
-        },
-        {
-          "authorId": "3955809",
-          "name": "M. Selcho"
-        },
-        {
-          "authorId": "2237136927",
-          "name": "M. Silies"
-        },
-        {
-          "authorId": "2244012966",
-          "name": "Julie H. Simpson"
-        },
-        {
-          "authorId": "2205124053",
-          "name": "Scott Waddell"
-        },
-        {
-          "authorId": "2261372595",
-          "name": "Mathias F. Wernet"
-        },
-        {
-          "authorId": null,
-          "name": "Rachel I. Wilson"
-        },
-        {
-          "authorId": "2323988626",
-          "name": "Fred W. Wolf"
-        },
-        {
-          "authorId": null,
-          "name": "Zepeng Yao"
-        },
-        {
-          "authorId": "40461260",
-          "name": "Nilay Yapici"
-        },
-        {
-          "authorId": "4662002",
-          "name": "Meet Zandawala"
-        },
-        {
-          "authorId": null,
-          "name": "Marta Costa"
-        },
-        {
-          "authorId": "2250498183",
-          "name": "H. S. Seung"
-        },
-        {
-          "authorId": "145776127",
-          "name": "Mala Murthy"
-        },
-        {
-          "authorId": "35571193",
-          "name": "D. Bock"
-        },
-        {
-          "authorId": "145196228",
-          "name": "G. Jefferis"
-        }
-      ]
+      "abstract": "Aaronson, Atia, and Susskind (2020) established that efficiently mapping between quantum states |\u03c8\u27e9 and |\u03c6\u27e9 is computationally equivalent to distinguishing their superpositions 1/\u221a2(|\u03c8\u27e9 + |\u03c6\u27e9) and 1/\u221a2(|\u03c8\u27e9 \u2212 |\u03c6\u27e9). We generalize this insight into a broader duality principle in quantum computation, wherein manipulating quantum states in one basis is equivalent to extracting their value in a complementary basis. In its most general form, this duality principle states that for a given group, the ability to implement a unitary representation of the group is computationally equivalent to the ability to perform a Fourier extraction from the invariant subspaces corresponding to its irreducible representations. Building on our duality principle, we present the following applications: (1) Quantum money, which captures quantum states that are verifiable but unclonable, and its stronger variant, quantum lightning, have long resisted constructions based on concrete cryptographic assumptions. While (public-key) quantum money has been constructed from indistinguishability obfuscation (iO)\u2014an assumption widely considered too strong\u2014quantum lightning has not been constructed from any such assumptions, with previous attempts based on assumptions that were later broken. We present the first construction of quantum lightning with a rigorous security proof, grounded in a plausible and well-founded cryptographic assumption. We extend the construction of Zhandry (2024) from Abelian group actions to non-Abelian group actions, and eliminate Zhandry\u2019s reliance on a black-box model for justifying security. Instead, we prove a direct reduction to a computational assumption \u2013 the pre-action security of cryptographic group actions. We show how these group actions can be realized with various instantiations, including with the group actions of the symmetric group implicit in the McEliece cryptosystem. (2) We provide an alternative quantum money and lightning construction from one-way homomorphisms, showing that security holds under specific conditions on the homomorphism. Notably, our scheme exhibits the remarkable property that four distinct security notions\u2014quantum lightning security, security against both worst-case cloning and average-case cloning, and security against preparing a specific canonical state \u2013 are all equivalent. (3) Quantum fire captures the notion of a samplable distribution on quantum states that are efficiently clonable, but not efficiently telegraphable, meaning they cannot be efficiently encoded as classical information. These states can be spread like fire, provided they are kept alive quantumly and do not decohere. The only previously known construction relied on a unitary quantum oracle, whereas we present the first candidate construction of quantum fire using a classical oracle."
     },
     {
       "paperId": "0a80e0cf55b6a3554da9ccbaafc40a6554b7a625",
@@ -1939,10 +2331,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/0a80e0cf55b6a3554da9ccbaafc40a6554b7a625",
       "title": "The Synaptic Architecture of Layer 5 Thick Tufted Excitatory Neurons in the Visual Cortex of Mice",
-      "abstract": "The neocortex is one of the most critical structures that makes us human, and it is involved in a variety of cognitive functions from perception to sensory integration and motor control. Composed of repeated modules, or microcircuits, the neocortex relies on distinct cell types as its fundamental building blocks. Despite significant progress in characterizing these cell types 1–5, an understanding of the complete synaptic partners associated with individual excitatory cell types remain elusive. Here, we investigate the connectivity of arguably the most well recognized and studied excitatory neuron in the neocortex: the thick tufted layer 5 pyramidal cell 6–10 also known as extra telencephalic (ET) 11 neurons. Although the synaptic interactions of ET neurons have been extensively explored, a comprehensive characterization of their local connectivity remains lacking. To address this knowledge gap, we leveraged a 1 mm3 electron microscopic (EM) dataset. We found that ET neurons primarily establish connections with inhibitory cells in their immediate vicinity. However, when they extend their axons to other cortical regions, they tend to connect more with excitatory cells. We also find that the inhibitory cells targeted by ET neurons are a specific group of cell types, and they preferentially inhibit ET cells. Finally, we observed that the most common excitatory targets of ET neurons are layer 5 IT neurons and layer 6 pyramidal cells, whereas synapses with other ET neurons are not as common. These findings challenge current views of the connectivity of ET neurons and suggest a circuit design that involves local competition among ET neurons and collaboration with other types of excitatory cells. Our results also highlight a specific circuit pattern where a subclass of excitatory cells forms a network with specific inhibitory cell types, offering a framework for exploring the connectivity of other types of excitatory cells.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 0,
+      "citationCount": 2,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/20/2023.10.18.562531.full.pdf",
+        "status": "GREEN",
+        "license": "CCBYNCND",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.10.18.562531?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.10.18.562531, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology"
       ],
@@ -1994,7 +2391,7 @@
         },
         {
           "authorId": "2261400608",
-          "name": "Emily Joyce"
+          "name": "E. Joyce"
         },
         {
           "authorId": "9787230",
@@ -2158,9 +2555,10 @@
         },
         {
           "authorId": "2243238676",
-          "name": "Nuno Maçarico da Costa"
+          "name": "Nuno Ma\u00e7arico da Costa"
         }
-      ]
+      ],
+      "abstract": "The neocortex is one of the most critical structures that makes us human, and it is involved in a variety of cognitive functions from perception to sensory integration and motor control. Composed of repeated modules, or microcircuits, the neocortex relies on distinct cell types as its fundamental building blocks. Despite significant progress in characterizing these cell types 1\u20135, an understanding of the complete synaptic partners associated with individual excitatory cell types remain elusive. Here, we investigate the connectivity of arguably the most well recognized and studied excitatory neuron in the neocortex: the thick tufted layer 5 pyramidal cell 6\u201310 also known as extra telencephalic (ET) 11 neurons. Although the synaptic interactions of ET neurons have been extensively explored, a comprehensive characterization of their local connectivity remains lacking. To address this knowledge gap, we leveraged a 1 mm3 electron microscopic (EM) dataset. We found that ET neurons primarily establish connections with inhibitory cells in their immediate vicinity. However, when they extend their axons to other cortical regions, they tend to connect more with excitatory cells. We also find that the inhibitory cells targeted by ET neurons are a specific group of cell types, and they preferentially inhibit ET cells. Finally, we observed that the most common excitatory targets of ET neurons are layer 5 IT neurons and layer 6 pyramidal cells, whereas synapses with other ET neurons are not as common. These findings challenge current views of the connectivity of ET neurons and suggest a circuit design that involves local competition among ET neurons and collaboration with other types of excitatory cells. Our results also highlight a specific circuit pattern where a subclass of excitatory cells forms a network with specific inhibitory cell types, offering a framework for exploring the connectivity of other types of excitatory cells."
     },
     {
       "paperId": "1246b589f66c0e0b47870f301fd013784a4def66",
@@ -2172,10 +2570,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/1246b589f66c0e0b47870f301fd013784a4def66",
       "title": "Functional connectomics reveals general wiring rule in mouse visual cortex",
-      "abstract": "To understand how the brain computes, it is important to unravel the relationship between circuit connectivity and function. Previous research has shown that excitatory neurons in layer 2/3 of the primary visual cortex of mice with similar response 5 properties are more likely to form connections. However, technical challenges of combining synaptic connectivity and functional measurements have limited these studies to few, highly local connections. Utilizing the millimeter scale and nanometer resolution of the MICrONS dataset, we studied the connectivity-10 function relationship in excitatory neurons of the mouse visual cortex across interlaminar and interarea projections, assessing connection selectivity at the coarse axon trajectory and fine synaptic formation levels. A digital twin model of this mouse, that accurately predicted responses to arbitrary video 15 stimuli, enabled a comprehensive characterization of the function of neurons. We found that neurons with highly correlated responses to natural videos tended to be connected with each other, not only within the same cortical area but also across multiple layers and visual areas, including feedforward and feed-20 back connections, whereas we did not find that orientation preference predicted connectivity. The digital twin model separated each neuron’s tuning into a feature component (what the neuron responds to) and a spatial component (where the neuron’s receptive field is located). We show that the feature, but not the 25 spatial component, predicted which neurons were connected at the fine synaptic scale. Together, our results demonstrate the “like-to-like” connectivity rule generalizes to multiple connection types, and the rich MICrONS dataset is suitable to further refine a mechanistic understanding of circuit structure and 30 function.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 16,
+      "citationCount": 32,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/30/2023.03.13.531369.full.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10054929, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Medicine",
         "Biology"
@@ -2223,8 +2626,8 @@
           "name": "Zhiwei Ding"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "39818565",
@@ -2406,7 +2809,8 @@
           "authorId": "1739838",
           "name": "A. Tolias"
         }
-      ]
+      ],
+      "abstract": "Understanding the relationship between circuit connectivity and function is crucial for uncovering how the brain implements computation. In the mouse primary visual cortex (V1), excitatory neurons with similar response properties are more likely to be synaptically connected, but previous studies have been limited to within V1, leaving much unknown about broader connectivity rules. In this study, we leverage the millimeter-scale MICrONS dataset to analyze synaptic connectivity and functional properties of individual neurons across cortical layers and areas. Our results reveal that neurons with similar responses are preferentially connected both within and across layers and areas \u2014 including feedback connections \u2014 suggesting the universality of the \u2018like-to-like\u2019 connectivity across the visual hierarchy. Using a validated digital twin model, we separated neuronal tuning into feature (what neurons respond to) and spatial (receptive field location) components. We found that only the feature component predicts fine-scale synaptic connections, beyond what could be explained by the physical proximity of axons and dendrites. We also found a higher-order rule where postsynaptic neuron cohorts downstream of individual presynaptic cells show greater functional similarity than predicted by a pairwise like-to-like rule. Notably, recurrent neural networks (RNNs) trained on a simple classification task develop connectivity patterns mirroring both pairwise and higher-order rules, with magnitude similar to those in the MICrONS data. Lesion studies in these RNNs reveal that disrupting \u2018like-to-like\u2019 connections has a significantly greater impact on performance compared to lesions of random connections. These findings suggest that these connectivity principles may play a functional role in sensory processing and learning, highlighting shared principles between biological and artificial systems."
     },
     {
       "paperId": "137cbe8190d056530a2cf44cf4b6bc2c89da63a5",
@@ -2418,10 +2822,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/137cbe8190d056530a2cf44cf4b6bc2c89da63a5",
       "title": "Integrating EM and Patch-seq data: Synaptic connectivity and target specificity of predicted Sst transcriptomic types",
-      "abstract": "Neural circuit function is shaped both by the cell types that comprise the circuit and the connections between those cell types1. Neural cell types have previously been defined by morphology 2, 3, electrophysiology 4, 5, transcriptomic expression 6–8, connectivity 9–13, or even a combination of such modalities 14–16. More recently, the Patch-seq technique has enabled the characterization of morphology (M), electrophysiology (E), and transcriptomic (T) properties from individual cells 17–20. Using this technique, these properties were integrated to define 28, inhibitory multimodal, MET-types in mouse primary visual cortex 21. It is unknown how these MET-types connect within the broader cortical circuitry however. Here we show that we can predict the MET-type identity of inhibitory cells within a large-scale electron microscopy (EM) dataset and these MET-types have distinct ultrastructural features and synapse connectivity patterns. We found that EM Martinotti cells, a well defined morphological cell type 22, 23 known to be Somatostatin positive (Sst+) 24, 25, were successfully predicted to belong to Sst+ MET-types. Each identified MET-type had distinct axon myelination patterns and synapsed onto specific excitatory targets. Our results demonstrate that morphological features can be used to link cell type identities across imaging modalities, which enables further comparison of connectivity in relation to transcriptomic or electrophysiological properties. Furthermore, our results show that MET-types have distinct connectivity patterns, supporting the use of MET-types and connectivity to meaningfully define cell types.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 5,
+      "citationCount": 7,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/24/2023.03.22.533857.full.pdf",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.03.22.533857?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.03.22.533857, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Medicine",
         "Biology"
@@ -2628,7 +3037,8 @@
           "authorId": "39021791",
           "name": "S. Sorensen"
         }
-      ]
+      ],
+      "abstract": null
     },
     {
       "paperId": "1ec35fded5cec7758dd4a884477ccb7bb19662b6",
@@ -2640,10 +3050,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/1ec35fded5cec7758dd4a884477ccb7bb19662b6",
       "title": "Neuronal wiring diagram of an adult brain",
-      "abstract": "Connections between neurons can be mapped by acquiring and analyzing electron microscopic (EM) brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative, yet inadequate for understanding brain function more globally. Here, we present the first neuronal wiring diagram of a whole adult brain, containing 5×107 chemical synapses between ∼130,000 neurons reconstructed from a female Drosophila melanogaster. The resource also incorporates annotations of cell classes and types, nerves, hemilineages, and predictions of neurotransmitter identities. Data products are available by download, programmatic access, and interactive browsing and made interoperable with other fly data resources. We show how to derive a projectome, a map of projections between regions, from the connectome. We demonstrate the tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine, and descending neurons), across both hemispheres, and between the central brain and the optic lobes. Tracing from a subset of photoreceptors all the way to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviors. The technologies and open ecosystem of the FlyWire Consortium set the stage for future large-scale connectome projects in other species.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 86,
+      "citationCount": 183,
+      "openAccessPdf": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10327113",
+        "status": "GREEN",
+        "license": "CCBYND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10327113, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology",
         "Medicine"
@@ -2834,7 +3249,8 @@
           "authorId": "145776127",
           "name": "Mala Murthy"
         }
-      ]
+      ],
+      "abstract": "Connections between neurons can be mapped by acquiring and analyzing electron microscopic (EM) brain images. In recent years, this approach has been applied to chunks of brains to reconstruct local connectivity maps that are highly informative, yet inadequate for understanding brain function more globally. Here, we present the first neuronal wiring diagram of a whole adult brain, containing 5\u00d7107 chemical synapses between \u223c130,000 neurons reconstructed from a female Drosophila melanogaster. The resource also incorporates annotations of cell classes and types, nerves, hemilineages, and predictions of neurotransmitter identities. Data products are available by download, programmatic access, and interactive browsing and made interoperable with other fly data resources. We show how to derive a projectome, a map of projections between regions, from the connectome. We demonstrate the tracing of synaptic pathways and the analysis of information flow from inputs (sensory and ascending neurons) to outputs (motor, endocrine, and descending neurons), across both hemispheres, and between the central brain and the optic lobes. Tracing from a subset of photoreceptors all the way to descending motor pathways illustrates how structure can uncover putative circuit mechanisms underlying sensorimotor behaviors. The technologies and open ecosystem of the FlyWire Consortium set the stage for future large-scale connectome projects in other species."
     },
     {
       "paperId": "293e98e1eb78383656a27d2774abb34130dba48b",
@@ -2846,10 +3262,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/293e98e1eb78383656a27d2774abb34130dba48b",
       "title": "CAVE: Connectome Annotation Versioning Engine",
-      "abstract": "Advances in Electron Microscopy, image segmentation and computational infrastructure have given rise to large-scale and richly annotated connectomic datasets which are increasingly shared across communities. To enable collaboration, users need to be able to concurrently create new annotations and correct errors in the automated segmentation by proofreading. In large datasets, every proofreading edit relabels cell identities of millions of voxels and thousands of annotations like synapses. For analysis, users require immediate and reproducible access to this constantly changing and expanding data landscape. Here, we present the Connectome Annotation Versioning Engine (CAVE), a computational infrastructure for immediate and reproducible connectome analysis in up-to petascale datasets (∼1mm3) while proofreading and annotating is ongoing. For segmentation, CAVE provides a distributed proofreading infrastructure for continuous versioning of large reconstructions. Annotations in CAVE are defined by locations such that they can be quickly assigned to the underlying segment which enables fast analysis queries of CAVE’s data for arbitrary time points. CAVE supports schematized, extensible annotations, so that researchers can readily design novel annotation types. CAVE is already used for many connectomics datasets, including the largest datasets available to date.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 7,
+      "citationCount": 27,
+      "openAccessPdf": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10402030",
+        "status": "GREEN",
+        "license": "CCBYNC",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10402030, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Medicine",
         "Biology"
@@ -2869,8 +3290,8 @@
           "name": "D. Brittain"
         },
         {
-          "authorId": "1579775589",
-          "name": "A. Halageri"
+          "authorId": "2354331143",
+          "name": "Akahilesh Halageri"
         },
         {
           "authorId": "41130241",
@@ -3024,7 +3445,8 @@
           "authorId": "6598643",
           "name": "F. Collman"
         }
-      ]
+      ],
+      "abstract": "Advances in Electron Microscopy, image segmentation and computational infrastructure have given rise to large-scale and richly annotated connectomic datasets which are increasingly shared across communities. To enable collaboration, users need to be able to concurrently create new annotations and correct errors in the automated segmentation by proofreading. In large datasets, every proofreading edit relabels cell identities of millions of voxels and thousands of annotations like synapses. For analysis, users require immediate and reproducible access to this constantly changing and expanding data landscape. Here, we present the Connectome Annotation Versioning Engine (CAVE), a computational infrastructure for immediate and reproducible connectome analysis in up-to petascale datasets (\u223c1mm3) while proofreading and annotating is ongoing. For segmentation, CAVE provides a distributed proofreading infrastructure for continuous versioning of large reconstructions. Annotations in CAVE are defined by locations such that they can be quickly assigned to the underlying segment which enables fast analysis queries of CAVE\u2019s data for arbitrary time points. CAVE supports schematized, extensible annotations, so that researchers can readily design novel annotation types. CAVE is already used for many connectomics datasets, including the largest datasets available to date."
     },
     {
       "paperId": "479b03654deeaae21805033c6bc8b76aa9b4448d",
@@ -3039,10 +3461,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/479b03654deeaae21805033c6bc8b76aa9b4448d",
       "title": "Unconditionally Secure Commitments with Quantum Auxiliary Inputs",
-      "abstract": null,
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2023,
-      "citationCount": 2,
+      "citationCount": 3,
+      "openAccessPdf": {
+        "url": "",
+        "status": "CLOSED",
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2311.18566, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Physics",
         "Computer Science"
@@ -3061,17 +3488,22 @@
           "authorId": "2059249863",
           "name": "Takashi Yamakawa"
         }
-      ]
+      ],
+      "abstract": "We show the following unconditional results on quantum commitments in two related yet different models: 1. We revisit the notion of quantum auxiliary-input commitments introduced by Chailloux, Kerenidis, and Rosgen (Comput. Complex. 2016) where both the committer and receiver take the same quantum state, which is determined by the security parameter, as quantum auxiliary inputs. We show that computationally-hiding and statistically-binding quantum auxiliary-input commitments exist unconditionally, i.e., without relying on any unproven assumption, while Chailloux et al. assumed a complexity-theoretic assumption, ${\\bf QIP}\\not\\subseteq{\\bf QMA}$. On the other hand, we observe that achieving both statistical hiding and statistical binding at the same time is impossible even in the quantum auxiliary-input setting. To the best of our knowledge, this is the first example of unconditionally proving computational security of any form of (classical or quantum) commitments for which statistical security is impossible. As intermediate steps toward our construction, we introduce and unconditionally construct post-quantum sparse pseudorandom distributions and quantum auxiliary-input EFI pairs which may be of independent interest. 2. We introduce a new model which we call the common reference quantum state (CRQS) model where both the committer and receiver take the same quantum state that is randomly sampled by an efficient setup algorithm. We unconditionally prove that there exist statistically hiding and statistically binding commitments in the CRQS model, circumventing the impossibility in the plain model. We also discuss their applications to zero-knowledge proofs, oblivious transfers, and multi-party computations."
     },
     {
       "paperId": "9f1f192903b1d00483623600aa37fb514a9a6600",
       "publicationVenue": null,
       "url": "https://www.semanticscholar.org/paper/9f1f192903b1d00483623600aa37fb514a9a6600",
       "title": "NEURD: automated proofreading and feature 1 extraction for connectomics 2",
-      "abstract": ", spine detection, axon-dendritic proximities, and other features that can enable many 38 downstream analyses of neural morphology and connectivity. NEURD can make these new massive and complex datasets more 39 accessible to neuroscience researchers focused on a variety of scientific questions. 40",
       "venue": "",
       "year": 2023,
-      "citationCount": 3,
+      "citationCount": 5,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null
+      },
       "fieldsOfStudy": null,
       "publicationDate": null,
       "authors": [
@@ -3104,8 +3536,8 @@
           "name": "Alex Kunin"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "2072616109",
@@ -3289,7 +3721,7 @@
         },
         {
           "authorId": "7508200",
-          "name": "Nuno Maçarico da Costa"
+          "name": "Nuno Ma\u00e7arico da Costa"
         },
         {
           "authorId": "46567235",
@@ -3307,7 +3739,55 @@
           "authorId": "48128495",
           "name": "Jacob Reimer"
         }
-      ]
+      ],
+      "abstract": null
+    },
+    {
+      "paperId": "a410b5734ee9d821f5accc7a269d1efe5fc1577e",
+      "publicationVenue": {
+        "id": "7f22f2c3-81fc-4aa8-8501-b1d58b193fa5",
+        "name": "Information Technology Convergence and Services",
+        "type": "conference",
+        "alternate_names": [
+          "Innov Theor Comput Sci",
+          "ITCS ",
+          "Inf Technol Converg Serv",
+          "Information Technology and Computer Science",
+          "Inf Technol Comput Sci",
+          "Conf Innov Theor Comput Sci",
+          "Conference on Innovations in Theoretical Computer Science",
+          "Innovations in Theoretical Computer Science",
+          "ITCS"
+        ],
+        "url": "http://itcs-conf.org/"
+      },
+      "url": "https://www.semanticscholar.org/paper/a410b5734ee9d821f5accc7a269d1efe5fc1577e",
+      "title": "A Computational Separation Between Quantum No-Cloning and No-Telegraphing",
+      "venue": "Information Technology Convergence and Services",
+      "year": 2023,
+      "citationCount": 8,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": null,
+        "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2302.01858, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
+      "fieldsOfStudy": [
+        "Physics",
+        "Computer Science"
+      ],
+      "publicationDate": "2023-02-03",
+      "authors": [
+        {
+          "authorId": "1926235266",
+          "name": "Barak Nehoran"
+        },
+        {
+          "authorId": "2240075",
+          "name": "Mark Zhandry"
+        }
+      ],
+      "abstract": "Two of the fundamental no-go theorems of quantum information are the no-cloning theorem (that it is impossible to make copies of general quantum states) and the no-teleportation theorem (the prohibition on telegraphing, or sending quantum states over classical channels without pre-shared entanglement). They are known to be equivalent, in the sense that a collection of quantum states is telegraphable if and only if it is clonable. Our main result suggests that this is not the case when computational efficiency is considered. We give a collection of quantum states and quantum oracles relative to which these states are efficiently clonable but not efficiently telegraphable. Given that the opposite scenario is impossible (states that can be telegraphed can always trivially be cloned), this gives the most complete quantum oracle separation possible between these two important no-go properties. We additionally study the complexity class clonableQMA, a subset of QMA whose witnesses are efficiently clonable. As a consequence of our main result, we give a quantum oracle separation between clonableQMA and the class QCMA, whose witnesses are restricted to classical strings. We also propose a candidate oracle-free promise problem separating these classes. We finally demonstrate an application of clonable-but-not-telegraphable states to cryptography, by showing how such states can be used to protect against key exfiltration."
     },
     {
       "paperId": "c6dd3c889d46a09a07af4dbbe6f8980198071859",
@@ -3319,10 +3799,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/c6dd3c889d46a09a07af4dbbe6f8980198071859",
       "title": "Cell-type-specific inhibitory circuitry from a connectomic census of mouse visual cortex",
-      "abstract": "Mammalian cortex features a vast diversity of neuronal cell types, each with characteristic anatomical, molecular and functional properties. Synaptic connectivity powerfully shapes how each cell type participates in the cortical circuit, but mapping connectivity rules at the resolution of distinct cell types remains difficult. Here, we used millimeter-scale volumetric electron microscopy1 to investigate the connectivity of all inhibitory neurons across a densely-segmented neuronal population of 1352 cells spanning all layers of mouse visual cortex, producing a wiring diagram of inhibitory connections with more than 70,000 synapses. Taking a data-driven approach inspired by classical neuroanatomy, we classified inhibitory neurons based on the relative targeting of dendritic compartments and other inhibitory cells and developed a novel classification of excitatory neurons based on the morphological and synaptic input properties. The synaptic connectivity between inhibitory cells revealed a novel class of disinhibitory specialist targeting basket cells, in addition to familiar subclasses. Analysis of the inhibitory connectivity onto excitatory neurons found widespread specificity, with many interneurons exhibiting differential targeting of certain subpopulations spatially intermingled with other potential targets. Inhibitory targeting was organized into “motif groups,” diverse sets of cells that collectively target both perisomatic and dendritic compartments of the same excitatory targets. Collectively, our analysis identified new organizing principles for cortical inhibition and will serve as a foundation for linking modern multimodal neuronal atlases with the cortical wiring diagram.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 24,
+      "citationCount": 31,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/14/2023.01.23.525290.full.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC9900837, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology",
         "Medicine"
@@ -3458,8 +3943,8 @@
           "name": "S. Papadopoulos"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "49839819",
@@ -3517,7 +4002,8 @@
           "authorId": "51079681",
           "name": "N. D. da Costa"
         }
-      ]
+      ],
+      "abstract": "Mammalian cortex features a vast diversity of neuronal cell types, each with characteristic anatomical, molecular and functional properties. Synaptic connectivity powerfully shapes how each cell type participates in the cortical circuit, but mapping connectivity rules at the resolution of distinct cell types remains difficult. Here, we used millimeter-scale volumetric electron microscopy1 to investigate the connectivity of all inhibitory neurons across a densely-segmented neuronal population of 1352 cells spanning all layers of mouse visual cortex, producing a wiring diagram of inhibitory connections with more than 70,000 synapses. Taking a data-driven approach inspired by classical neuroanatomy, we classified inhibitory neurons based on the relative targeting of dendritic compartments and other inhibitory cells and developed a novel classification of excitatory neurons based on the morphological and synaptic input properties. The synaptic connectivity between inhibitory cells revealed a novel class of disinhibitory specialist targeting basket cells, in addition to familiar subclasses. Analysis of the inhibitory connectivity onto excitatory neurons found widespread specificity, with many interneurons exhibiting differential targeting of certain subpopulations spatially intermingled with other potential targets. Inhibitory targeting was organized into \u201cmotif groups,\u201d diverse sets of cells that collectively target both perisomatic and dendritic compartments of the same excitatory targets. Collectively, our analysis identified new organizing principles for cortical inhibition and will serve as a foundation for linking modern multimodal neuronal atlases with the cortical wiring diagram."
     },
     {
       "paperId": "d520a4e4e439d0b770f0fde7ee8da57934355d72",
@@ -3529,13 +4015,18 @@
       },
       "url": "https://www.semanticscholar.org/paper/d520a4e4e439d0b770f0fde7ee8da57934355d72",
       "title": "NEURD offers automated proofreading and feature extraction for connectomics",
-      "abstract": "We are now in the era of millimeter-scale electron microscopy (EM) volumes collected at nanometer resolution (Shapson-Coe et al., 2021; Consortium et al., 2021). Dense reconstruction of cellular compartments in these EM volumes has been enabled by recent advances in Machine Learning (ML) (Lee et al., 2017; Wu et al., 2021; Lu et al., 2021; Macrina et al., 2021). Automated segmentation methods produce exceptionally accurate reconstructions of cells, but post-hoc proofreading is still required to generate large connectomes free of merge and split errors. The elaborate 3-D meshes of neurons in these volumes contain detailed morphological information at multiple scales, from the diameter, shape, and branching patterns of axons and dendrites, down to the fine-scale structure of dendritic spines. However, extracting these features can require substantial effort to piece together existing tools into custom workflows. Building on existing open-source software for mesh manipulation, here we present “NEURD”, a software package that decomposes meshed neurons into compact and extensively-annotated graph representations. With these feature-rich graphs, we automate a variety of tasks such as state of the art automated proofreading of merge errors, cell classification, spine detection, axon-dendritic proximities, and other annotations. These features enable many downstream analyses of neural morphology and connectivity, making these massive and complex datasets more accessible to neuroscience researchers focused on a variety of scientific questions.",
       "venue": "bioRxiv",
       "year": 2023,
-      "citationCount": 2,
+      "citationCount": 9,
+      "openAccessPdf": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10055177",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.03.14.532674?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.03.14.532674, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
-        "Biology",
-        "Medicine"
+        "Medicine",
+        "Biology"
       ],
       "publicationDate": "2023-03-15",
       "authors": [
@@ -3568,8 +4059,8 @@
           "name": "Alexander B. Kunin"
         },
         {
-          "authorId": "2107210655",
-          "name": "S. Patel"
+          "authorId": "2341872654",
+          "name": "Saumil S. Patel"
         },
         {
           "authorId": "2072616109",
@@ -3757,7 +4248,7 @@
         },
         {
           "authorId": "2254043701",
-          "name": "R. C. Reid"
+          "name": "R. Reid"
         },
         {
           "authorId": "49839819",
@@ -3771,7 +4262,8 @@
           "authorId": "48128495",
           "name": "Jacob Reimer"
         }
-      ]
+      ],
+      "abstract": null
     },
     {
       "paperId": "fb9632a472ee891a716f49795122cba19e3d5c26",
@@ -3786,15 +4278,19 @@
       },
       "url": "https://www.semanticscholar.org/paper/fb9632a472ee891a716f49795122cba19e3d5c26",
       "title": "A Computational Separation Between Quantum No-cloning and No-teleportation",
-      "abstract": "Two of the fundamental no-go theorems of quantum information are the no-cloning theorem (that it is impossible to make copies of general quantum states) and the no-teleportation theorem (the prohibition on sending quantum states over classical channels without pre-shared entanglement). They are known to be equivalent, in the sense that a collection of quantum states is teleportable without entanglement if and only if it is clonable. Our main result suggests that this is not the case when computational efficiency is considered. We give a collection of quantum states and quantum oracles relative to which these states are efficiently clonable but not efficiently teleportable without entanglement. Given that the opposite scenario is impossible (states that can be teleported without entanglement can always trivially be cloned), this gives the most complete quantum oracle separation possible between these two important no-go properties. We additionally study the complexity class $\\mathsf{clonableQMA}$, a subset of $\\mathsf{QMA}$ whose witnesses are efficiently clonable. As a consequence of our main result, we give a quantum oracle separation between $\\mathsf{clonableQMA}$ and the class $\\mathsf{QCMA}$, whose witnesses are restricted to classical strings. We also propose a candidate oracle-free promise problem separating these classes. We finally demonstrate an application of clonable-but-not-teleportable states to cryptography, by showing how such states can be used to protect against key exfiltration.",
       "venue": "arXiv.org",
       "year": 2023,
       "citationCount": 2,
+      "openAccessPdf": {
+        "url": "http://arxiv.org/pdf/2302.01858",
+        "status": "GREEN",
+        "license": null,
+        "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.48550/arXiv.2302.01858?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.48550/arXiv.2302.01858, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
-        "Physics",
         "Computer Science"
       ],
-      "publicationDate": "2023-02-03",
+      "publicationDate": null,
       "authors": [
         {
           "authorId": "1926235266",
@@ -3804,7 +4300,8 @@
           "authorId": "2240075",
           "name": "Mark Zhandry"
         }
-      ]
+      ],
+      "abstract": null
     },
     {
       "paperId": "a641df4e738354237c2ba9cdb13c7dbca7d58171",
@@ -3816,10 +4313,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/a641df4e738354237c2ba9cdb13c7dbca7d58171",
       "title": "Petascale pipeline for precise alignment of images from serial section electron microscopy",
-      "abstract": null,
       "venue": "bioRxiv",
       "year": 2022,
-      "citationCount": 9,
+      "citationCount": 21,
+      "openAccessPdf": {
+        "url": "https://www.nature.com/articles/s41467-023-44354-0.pdf",
+        "status": "GOLD",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10767115, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology",
         "Medicine"
@@ -3878,7 +4380,8 @@
           "authorId": "2059694068",
           "name": "Sebastian Seung"
         }
-      ]
+      ],
+      "abstract": "Segmentation accuracy of serial section electron microscopy (ssEM) images can be limited by the step of aligning 2D section images to create a 3D image stack. Here the authors report a computational pipeline for aligning ssEM images and apply this to a whole fly brain dataset. The reconstruction of neural circuits from serial section electron microscopy (ssEM) images is being accelerated by automatic image segmentation methods. Segmentation accuracy is often limited by the preceding step of aligning 2D section images to create a 3D image stack. Precise and robust alignment in the presence of image artifacts is challenging, especially as datasets are attaining the petascale. We present a computational pipeline for aligning ssEM images with several key elements. Self-supervised convolutional nets are trained via metric learning to encode and align image pairs, and they are used to initialize iterative fine-tuning of alignment. A procedure called vector voting increases robustness to image artifacts or missing image data. For speedup the series is divided into blocks that are distributed to computational workers for alignment. The blocks are aligned to each other by composing transformations with decay, which achieves a global alignment without resorting to a time-consuming global optimization. We apply our pipeline to a whole fly brain dataset, and show improved accuracy relative to prior state of the art. We also demonstrate that our pipeline scales to a cubic millimeter of mouse visual cortex. Our pipeline is publicly available through two open source Python packages."
     },
     {
       "paperId": "6f6b4737b2558267d481a564923bff29e00d3236",
@@ -3890,11 +4393,17 @@
       },
       "url": "https://www.semanticscholar.org/paper/6f6b4737b2558267d481a564923bff29e00d3236",
       "title": "Functional connectomics spanning multiple areas of mouse visual cortex",
-      "abstract": "To understand the brain we must relate neurons’ functional responses to the circuit architecture that shapes them. Here, we present a large functional connectomics dataset with dense calcium imaging of a millimeter scale volume. We recorded activity from approximately 75,000 neurons in primary visual cortex (VISp) and three higher visual areas (VISrl, VISal and VISlm) in an awake mouse viewing natural movies and synthetic stimuli. The functional data were co-registered with a volumetric electron microscopy (EM) reconstruction containing more than 200,000 cells and 0.5 billion synapses. Subsequent proofreading of a subset of neurons in this volume yielded reconstructions that include complete dendritic trees as well the local and inter-areal axonal projections that map up to thousands of cell-to-cell connections per neuron. Here, we release this dataset as an open-access resource to the scientific community including a set of tools that facilitate data retrieval and downstream analysis. In accompanying papers we describe our findings using the dataset to provide a comprehensive structural characterization of cortical cell types1–3 and the most detailed synaptic level connectivity diagram of a cortical column to date2, uncovering unique cell-type specific inhibitory motifs that can be linked to gene expression data4. Functionally, we identify new computational principles of how information is integrated across visual space5, characterize novel types of neuronal invariances6 and bring structure and function together to decipher a general principle that wires excitatory neurons within and across areas7, 8.",
       "venue": "bioRxiv",
       "year": 2021,
-      "citationCount": 148,
+      "citationCount": 245,
+      "openAccessPdf": {
+        "url": "",
+        "status": null,
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11981939, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
+        "Medicine",
         "Biology"
       ],
       "publicationDate": "2021-07-29",
@@ -4199,7 +4708,8 @@
           "authorId": "6537565",
           "name": "Szi-chieh Yu"
         }
-      ]
+      ],
+      "abstract": "To understand the brain we must relate neurons\u2019 functional responses to the circuit architecture that shapes them. Here, we present a large functional connectomics dataset with dense calcium imaging of a millimeter scale volume. We recorded activity from approximately 75,000 neurons in primary visual cortex (VISp) and three higher visual areas (VISrl, VISal and VISlm) in an awake mouse viewing natural movies and synthetic stimuli. The functional data were co-registered with a volumetric electron microscopy (EM) reconstruction containing more than 200,000 cells and 0.5 billion synapses. Subsequent proofreading of a subset of neurons in this volume yielded reconstructions that include complete dendritic trees as well the local and inter-areal axonal projections that map up to thousands of cell-to-cell connections per neuron. Here, we release this dataset as an open-access resource to the scientific community including a set of tools that facilitate data retrieval and downstream analysis. In accompanying papers we describe our findings using the dataset to provide a comprehensive structural characterization of cortical cell types1\u20133 and the most detailed synaptic level connectivity diagram of a cortical column to date2, uncovering unique cell-type specific inhibitory motifs that can be linked to gene expression data4. Functionally, we identify new computational principles of how information is integrated across visual space5, characterize novel types of neuronal invariances6 and bring structure and function together to decipher a general principle that wires excitatory neurons within and across areas7, 8."
     },
     {
       "paperId": "ce7b1bfa25a169d5186ef4a4b458c692a06e11db",
@@ -4211,10 +4721,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/ce7b1bfa25a169d5186ef4a4b458c692a06e11db",
       "title": "Petascale neural circuit reconstruction: automated methods",
-      "abstract": "3D electron microscopy (EM) has been successful at mapping invertebrate nervous systems, but the approach has been limited to small chunks of mammalian brains. To scale up to larger volumes, we have built a computational pipeline for processing petascale image datasets acquired by serial section EM, a popular form of 3D EM. The pipeline employs convolutional nets to compute the nonsmooth transformations required to align images of serial sections containing numerous cracks and folds, detect neuronal boundaries, label voxels as axon, dendrite, soma, and other semantic categories, and detect synapses and assign them to presynaptic and postsynaptic segments. The output of neuronal boundary detection is segmented by mean affinity agglomeration with semantic and size constraints. Pipeline operations are implemented by leveraging distributed and cloud computing. Intermediate results of the pipeline are held in cloud storage, and can be effortlessly viewed as images, which aids debugging. We applied the pipeline to create an automated reconstruction of an EM image volume spanning four visual cortical areas of a mouse brain. Code for the pipeline is publicly available, as is the reconstructed volume.",
       "venue": "bioRxiv",
       "year": 2021,
-      "citationCount": 32,
+      "citationCount": 46,
+      "openAccessPdf": {
+        "url": "https://www.biorxiv.org/content/biorxiv/early/2021/08/05/2021.08.04.455162.full.pdf",
+        "status": "GREEN",
+        "license": "CCBY",
+        "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2021.08.04.455162?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2021.08.04.455162, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Biology"
       ],
@@ -4404,7 +4919,8 @@
           "authorId": "144924970",
           "name": "H. Seung"
         }
-      ]
+      ],
+      "abstract": "3D electron microscopy (EM) has been successful at mapping invertebrate nervous systems, but the approach has been limited to small chunks of mammalian brains. To scale up to larger volumes, we have built a computational pipeline for processing petascale image datasets acquired by serial section EM, a popular form of 3D EM. The pipeline employs convolutional nets to compute the nonsmooth transformations required to align images of serial sections containing numerous cracks and folds, detect neuronal boundaries, label voxels as axon, dendrite, soma, and other semantic categories, and detect synapses and assign them to presynaptic and postsynaptic segments. The output of neuronal boundary detection is segmented by mean affinity agglomeration with semantic and size constraints. Pipeline operations are implemented by leveraging distributed and cloud computing. Intermediate results of the pipeline are held in cloud storage, and can be effortlessly viewed as images, which aids debugging. We applied the pipeline to create an automated reconstruction of an EM image volume spanning four visual cortical areas of a mouse brain. Code for the pipeline is publicly available, as is the reconstructed volume."
     },
     {
       "paperId": "3149671f907078eac6835a05a99da756c493a15b",
@@ -4425,10 +4941,15 @@
       },
       "url": "https://www.semanticscholar.org/paper/3149671f907078eac6835a05a99da756c493a15b",
       "title": "FlyWire: Online community for whole-brain connectomics",
-      "abstract": null,
       "venue": "Nature Methods",
       "year": 2020,
-      "citationCount": 158,
+      "citationCount": 195,
+      "openAccessPdf": {
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8903166",
+        "status": "GREEN",
+        "license": "CCBYND",
+        "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8903166, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      },
       "fieldsOfStudy": [
         "Medicine",
         "Biology",
@@ -4505,8 +5026,8 @@
           "name": "A. Halageri"
         },
         {
-          "authorId": "1506180498",
-          "name": "Zoe C. Ashwood"
+          "authorId": "2333511945",
+          "name": "Zoe Ashwood"
         },
         {
           "authorId": "2730700",
@@ -4596,7 +5117,8 @@
           "authorId": "144924970",
           "name": "H. Seung"
         }
-      ]
+      ],
+      "abstract": "Due to advances in automated image acquisition and analysis, whole-brain connectomes with 100,000 or more neurons are on the horizon. Proofreading of whole-brain automated reconstructions will require many person-years of effort, due to the huge volumes of data involved. Here we present FlyWire, an online community for proofreading neural circuits in a Drosophila melanogaster brain and explain how its computational and social structures are organized to scale up to whole-brain connectomics. Browser-based three-dimensional interactive segmentation by collaborative editing of a spatially chunked supervoxel graph makes it possible to distribute proofreading to individuals located virtually anywhere in the world. Information in the edit history is programmatically accessible for a variety of uses such as estimating proofreading accuracy or building incentive systems. An open community accelerates proofreading by recruiting more participants and accelerates scientific discovery by requiring information sharing. We demonstrate how FlyWire enables circuit analysis by reconstructing and analyzing the connectome of mechanosensory neurons. FlyWire is an online community and a platform for proofreading electron microscopy-based connectome data of the Drosophila brain."
     }
   ]
 }
