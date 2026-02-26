@@ -1,503 +1,753 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Barak Nehoran</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #f7f5f0;
+      --bg-card: #ffffff;
+      --text: #1a1814;
+      --text-muted: #6b6560;
+      --accent: #1e3a5f;
+      --accent-light: #2e527f;
+      --border: #ddd9d0;
+      --border-light: #edeae4;
+      --rule: #c9c4bb;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
-    	  font-family: sans-serif;
-    	  background-color: #111;
-    	  margin: 0;
+      font-family: 'Source Serif 4', Georgia, serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.7;
+      font-weight: 300;
     }
-    
+
+    /* â”€â”€ HEADER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #header {
-    	  display: flex;
-    	  flex-direction: column;
-    	  align-items: center;
-    	  background-color: #111;
-    	  color: #fff;
-    	  padding: 3em;
+      background-color: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      padding: 3.5rem 2rem 3rem;
     }
-    
+
+    #header-inner {
+      max-width: 860px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    #header-text {
+      flex: 1;
+    }
+
     #header h1 {
-    	  font-size: 4em;
-    	  margin: 0;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 3.2rem;
+      font-weight: 500;
+      margin: 0 0 0.15em 0;
+      letter-spacing: -0.01em;
+      color: var(--text);
     }
-    
+
     #header h2 {
-    	  font-size: 2em;
-    	  margin: 0;
-        text-align: center;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: var(--accent);
+      margin: 0 0 0.5rem 0;
+      letter-spacing: 0.01em;
     }
 
     #header h3 {
-        margin-bottom: 20px;
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.95rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--text-muted);
+      margin: 0 0 1.4rem 0;
     }
-          
+
+    #header-links {
+      display: flex;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    #header-links a {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 0.95rem;
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1px;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    #header-links a:hover {
+      border-color: var(--accent);
+      color: var(--accent-light);
+    }
+
     #header img {
-    	  border-radius: 50%;
-    	  width: 250px;
-    	  height: 250px;
-    	  margin-right: 1em;
-    	  object-fit: cover;
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 3px solid var(--border);
+      flex-shrink: 0;
     }
-    
+
+    /* â”€â”€ NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     #nav {
-    	  display: flex;
-        justify-content: center;
-    	  background-color: #111;
-    	  color: #fff;
-    	  padding: 0.5em;
+      background-color: #edeae4;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
     }
-    
+
+    #nav::-webkit-scrollbar {
+      display: none;
+    }
+
     #nav ul {
-    	  display: flex;
-    	  list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 0;
     }
-    
+
     #nav a {
-    	  color: #fff;
-    	  text-decoration: none;
-    	  padding: 0.5em;
-        margin: 0.2em;
+      display: block;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
     }
-    
+
     #nav a:hover {
-    	  background-color: #555;
-    }
-    
-    #content {
-    	  max-width: 800px;
-    	  margin: 0 auto;
-    	  padding: 1em;
-    }
-    
-    #content h2 {
-    	  margin-top: 0;
-        text-align: center;
+      color: var(--accent);
+      border-bottom-color: var(--accent);
     }
 
-    #content h3 {
-        margin-top: 15px;
-    }
-     
-    #content p {
-    	  line-height: 1.5;
-    }
-    
-    #content ul {
-    	  list-style: none;
-    	  padding: 0;
-    }
-    
-    #content li {
-    	  margin: 0.7em 0;
+    @media (max-width: 480px) {
+      #nav a {
+        font-size: 0.88rem;
+        padding: 0.65rem 0.6rem;
+      }
     }
 
-    #content table {
-      margin-left: auto; /* Auto margin to center the table horizontally */
-      margin-right: auto;
+    /* Award callouts in publication entries */
+    .paper-comment b,
+    .paper-comment strong {
+      color: #9a5200;
+      font-weight: 600;
     }
-    
-    .card {
-    	  background-color: #f1f1f1;
-    	  border-radius: 5px;
-    	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    	  margin: 20px 0;
-    	  padding: 20px;
-    	  width: 100%;
-    	  scroll-margin-top: 76px;
-    }
-    .card h2 {
-    	  margin-bottom: 20px;
-        margin-top: 5px;
-    }
-    .card p {
-        margin-bottom: 20px;
-    }
+
     .sticky {
-    	  position: fixed;
-    	  top: 0;
-    	  width: 100%;
-    	  z-index: 1;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.07);
     }
-    
+
+    /* â”€â”€ CONTENT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    #content {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 4rem;
+    }
+
+    /* â”€â”€ SECTIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    .section {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      margin: 1.5rem 0;
+      padding: 2.2rem 2.5rem;
+      scroll-margin-top: 60px;
+    }
+
+    .section h2 {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: var(--text);
+      margin: 0 0 1.2rem 0;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border-light);
+      letter-spacing: -0.01em;
+    }
+
+    .section h3 {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: var(--text);
+      margin: 1.4rem 0 0.4rem 0;
+    }
+
+    .section h4 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 0.88rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--text-muted);
+      margin: 0.8rem 0 0.3rem 0;
+    }
+
+    .section p {
+      margin: 0 0 1rem 0;
+      color: var(--text);
+    }
+
+    .section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .section a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border);
+      transition: border-color 0.15s;
+    }
+
+    .section a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .section li {
+      margin: 0.5rem 0;
+      padding-left: 1.2rem;
+      position: relative;
+    }
+
+    .section li::before {
+      content: "â€“";
+      position: absolute;
+      left: 0;
+      color: var(--rule);
+    }
+
+    /* â”€â”€ PUBLICATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
     .loader {
-    	  border: 16px solid #f3f3f3; /* Light grey */
-    	  border-top: 16px solid #91741A;
-    	  border-radius: 50%;
-    	  width: 50px;
-    	  height: 50px;
-    	  animation: spin 2s linear infinite;
-    	  margin: auto; /* Center horizontally and vertically */
+      width: 28px;
+      height: 28px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 1.5rem auto;
     }
-    
+
     @keyframes spin {
-    	  0% { transform: rotate(0deg); }
-    	  100% { transform: rotate(360deg); }
+      to { transform: rotate(360deg); }
     }
 
     .collapsible {
-      list-style-type: none;
+      list-style: none;
       margin: 0;
       padding: 0;
     }
+
     .collapsible li {
-      border-bottom: 1px solid #ccc;
-      position: relative; /* Added */
+      border-bottom: 1px solid var(--border-light);
+      position: relative;
     }
+
+    .collapsible li:last-child {
+      border-bottom: none;
+    }
+
     .collapsible li .collapse-section {
       display: none;
     }
+
     .collapsible li .collapse-section.collapsed {
       display: none;
     }
+
     .collapsible li .collapse-section.expanded {
       display: block;
-    }
-    .collapsible li .collapsible-header {
-      cursor: pointer;
-    }
-    .collapsible li .collapsible-header:hover {
-      background-color: blanchedalmond;
-      /* color: white; */
-      /* font-weight: bold; */
-    }
-    .collapsible li .collapsible-header::before {
-      content: "▶";
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-    .collapsible li .collapsible-header.expanded::before {
-      content: "▼"; /* Rotated state: triangle pointing down */
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      padding: 0.3rem 0 0.9rem 1.4rem;
+      line-height: 1.5;
     }
 
-    .container {
+    .collapsible li .collapsible-header {
+      cursor: pointer;
+      padding: 0.75rem 0 0.75rem 1.4rem;
+      position: relative;
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.05rem;
+      line-height: 1.4;
+      transition: color 0.15s;
+    }
+
+    .collapsible li .collapsible-header:hover {
+      color: var(--accent);
+    }
+
+    .collapsible li .collapsible-header::before {
+      content: "â–¸";
+      position: absolute;
+      left: 0;
+      top: 0.78rem;
+      font-size: 0.75rem;
+      color: var(--rule);
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .collapsible li .collapsible-header.expanded::before {
+      content: "â–¾";
+      color: var(--accent);
+    }
+
+    .collapsible li .collapse-section a {
+      color: var(--accent);
+    }
+
+    /* â”€â”€ TALKS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    #talks ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #talks li {
+      padding-left: 0;
+      margin-bottom: 2rem;
+    }
+
+    #talks li::before {
+      display: none;
+    }
+
+    #talks li:not(:last-child) {
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .talk-venue {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 0.7rem;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      margin: 0.7rem 0;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .talk-alt-links {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 0.4rem;
+    }
+
+    .talk-alt-links a {
+      color: var(--accent) !important;
+    }
+
+    /* â”€â”€ SERVICE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    .service-cols {
       display: flex;
       flex-wrap: wrap;
+      gap: 0;
     }
-    .column {
+
+    .service-col {
       flex: 1;
-      padding: 20px;
-      box-sizing: border-box;
+      min-width: 150px;
     }
-    @media (max-width: 350px) {
-      .column {
-        flex: 100%;
+
+    .service-col p {
+      margin: 0 0 0.4rem 0;
+      font-size: 0.95rem;
+    }
+
+    /* â”€â”€ TEACHING â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    #teaching li {
+      margin: 0.6rem 0;
+      font-size: 0.97rem;
+    }
+
+    /* â”€â”€ QUANTUM SURVIVAL GUIDE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    .poem-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 3rem;
+      margin-top: 0.5rem;
+    }
+
+    .poem-grid p {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: var(--text);
+      margin: 0 0 1.2rem 0;
+    }
+
+    .poem-attribution {
+      text-align: center;
+      font-style: italic;
+      color: var(--text-muted);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-light);
+    }
+
+    /* â”€â”€ CONTACT â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    #contact p {
+      font-size: 1rem;
+    }
+
+    /* â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+    @media (max-width: 640px) {
+      #header-inner {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+      }
+
+      #header h1 { font-size: 2.4rem; }
+
+      #header-links {
+        justify-content: center;
+      }
+
+      #header img {
+        width: 130px;
+        height: 130px;
+      }
+
+      #nav a {
+        padding: 0.75rem 0.8rem;
+        font-size: 0.9rem;
+      }
+
+      .section {
+        padding: 1.5rem 1.4rem;
+      }
+
+      .poem-grid {
+        grid-template-columns: 1fr;
       }
     }
-    
   </style>
-  <meta charset="UTF-8">
 </head>
 
 <body>
+
+  <!-- HEADER -->
   <div id="header">
-    <h1>Barak Nehoran</h1> <br>
-    <h2>Postdoctoral Scholar in Computer Science</h2>
-    <h3>Research interests: quantum information, cryptography, complexity theory</h3> 
-    <img src="https://lh3.googleusercontent.com/pw/ABLVV86hllQZ5DjxF6dKpJzBBTRW5vq6oT2jnZl47rpiHG1VMkCye0TMEk4F7frEgG1jkcKX251kRArblLyYp-nKGeyr0fQTaAXScwhTVnbKApC1eArKjpucYGknkRpgZJZSkBx9C-gHtUNpQnvjXpRdH41lfg=w1338-h892-s-no-gm?authuser=0" alt="Barak Image Barak Image">
+    <div id="header-inner">
+      <div id="header-text">
+        <h1>Barak Nehoran</h1>
+        <h2>Postdoctoral Scholar in Computer Science &middot; Columbia University</h2>
+        <h3>Quantum information &middot; Cryptography &middot; Complexity theory</h3>
+        <div id="header-links">
+          <a href="https://scholar.google.com/citations?user=DMxcDioAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.semanticscholar.org/author/B.-Nehoran/1926235266" target="_blank" rel="noopener">Semantic Scholar</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <img src="https://lh3.googleusercontent.com/pw/ABLVV86hllQZ5DjxF6dKpJzBBTRW5vq6oT2jnZl47rpiHG1VMkCye0TMEk4F7frEgG1jkcKX251kRArblLyYp-nKGeyr0fQTaAXScwhTVnbKApC1eArKjpucYGknkRpgZJZSkBx9C-gHtUNpQnvjXpRdH41lfg=w1338-h892-s-no-gm?authuser=0" alt="Barak Nehoran">
+    </div>
   </div>
+
+  <!-- NAV -->
   <div id="nav">
     <ul>
       <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
+      <li><a href="#talks">Talks</a></li>
       <li><a href="#teaching">Teaching</a></li>
       <li><a href="#service">Service</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
+
+  <!-- CONTENT -->
   <div id="content">
-    <!-- <div class="card" id="noise">
-      <p align="center" style="font-size: 130%"> 🚧 <i> This webpage is currently under construction, so please forgive the noise! </i> 🚧 </p>
-    </div> -->
-    <div class="card" id="about">
+
+    <!-- ABOUT -->
+    <div class="section" id="about">
       <h2>About</h2>
       <p>I am a postdoctoral research scientist in theoretical computer science at <a href="https://theory.cs.columbia.edu" target="_blank" rel="noopener">Columbia University</a>, where I am hosted by Professor <a href="https://www.henryyuen.net" target="_blank" rel="noopener">Henry Yuen</a>. I completed my Ph.D. at Princeton University where I was fortunate to be co-advised by Professors <a href="https://engineering.princeton.edu/faculty/ran-raz" target="_blank" rel="noopener">Ran Raz</a> and <a href="https://mzhandry.github.io/" target="_blank" rel="noopener">Mark Zhandry</a>, and where I also previously worked in the lab of <a href="https://seunglab.org" target="_blank" rel="noopener">Sebastian Seung</a>.</p>
       <p>My research lies in the areas of <strong>quantum information, cryptography, and complexity theory</strong>, and more generally at the intersections of physics, information, and computation.</p>
-      <!-- <p>In the past (mainly prior to my Ph.D.), I have also done research in electrical engineering, experimental physics, machine learning, and computational neuroscience.</p> -->
     </div>
-    <!-- <div class="card" id="research">
-      <h2>Research</h2>
-      My research examines the power of quantum computation and quantum information in two contexts:
-      <h3>Quantum Cryptography</h3> <i>How can we use quantum states and quantum information to produce cryptographic primitives and constructions that would not be possible with only classical information? What kinds of cryptographic objects only arise out of the marriage of both the guarantees of quantum no-go theorems and the efficiency assumptions of computational complexity?</i>
-      <h3>Quantum Complexity Theory</h3> <i>How are the capabilities of interacting systems affected by the presence of quantum information? Can we use the power given by quantum no-go theorems to give rise to stronger guarantees on the resources required to perform interactive computation?</i>
-    </div> -->
-    <div class="card" id="publications">
+
+    <!-- PUBLICATIONS -->
+    <div class="section" id="publications">
       <h2>Publications</h2>
       <ul class="collapsible" id="papers">
         <div class="loader"></div>
-        <p>Loading publications... See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>
+        <p style="text-align:center; color: var(--text-muted); font-size:0.95rem;">Loading publications&hellip; See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>
       </ul>
-      <!-- <small>(loaded from my Semantic Scholar <a href="https://www.semanticscholar.org/author/B.-Nehoran/1926235266" target="_blank">profile</a>)</small> -->
     </div>
-    <div class="card" id="talks">
+
+    <!-- TALKS -->
+    <div class="section" id="talks">
       <h2>Selected Talks</h2>
       <ul>
-        <!-- <li>
-          <h3>Perfectly Recording Queries to Random Unitaries and Other Groups</h3>
-          Kyoto Quantum Cryptography Workshop 2025
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www2.yukawa.kyoto-u.ac.jp/~tomoyuki.morimae/KyotoQcrypt2/Nehoran.mp4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </li>
-        <br> -->
+
         <li>
           <h3>A General Quantum Duality for Representations of Groups with Applications to Quantum Money, Lightning, and Fire</h3>
-          Invited talk at QCrypt 2025
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/dNzOyUlGKpA?si=1SPlDFlsJZyjpDJe" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-venue">Invited talk at QCrypt 2025</div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/dNzOyUlGKpA?si=1SPlDFlsJZyjpDJe" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <h4>Other recorded versions of this talk:</h4>
-          <a href="https://www.youtube.com/embed/1p6NgQPT9dI?si=o1sWBdgXSypknkNz" target="_blank">Columbia CS Theory Seminar</a> (General Audience: more explanations, less technical)
-          /
-          <a href="https://www.youtube.com/embed/29T13IbhHSk?si=Iaz_Kz3bfy5luEUC" target="_blank">QuICS Seminar</a>
+          <div class="talk-alt-links">
+            Other versions:
+            <a href="https://www.youtube.com/embed/1p6NgQPT9dI?si=o1sWBdgXSypknkNz" target="_blank">Columbia CS Theory Seminar</a> (general audience)
+            &nbsp;/&nbsp;
+            <a href="https://www.youtube.com/embed/29T13IbhHSk?si=Iaz_Kz3bfy5luEUC" target="_blank">QuICS Seminar</a>
+          </div>
         </li>
-        <br>
+
         <li>
           <h3>A Computational Separation Between Quantum No-Cloning and No-Telegraphing</h3>
-          Contributed talk at <a href="http://itcs-conf.org/" target="_blank">ITCS 2024</a>
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/lf-BgQYtzOk?si=bbe9hmNtDET7asLw" title="ITCS 2024: A Computational Separation Between Quantum No-cloning and No-telegraphing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-venue">Contributed talk at <a href="http://itcs-conf.org/" target="_blank">ITCS 2024</a></div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/lf-BgQYtzOk?si=bbe9hmNtDET7asLw" title="ITCS 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <h4>Other recorded versions of this talk:</h4>
-          <a href="https://www.youtube.com/watch?v=vT__6ShiRsA" target="_blank">Cornell Theory Seminar</a> /
-          <a href="https://www.youtube.com/watch?v=LHfUA-LXTlY" target="_blank">Princeton Theory Lunch</a> /
-          <a href="https://www.youtube.com/watch?v=ComfHKBJJb8" target="_blank">Hon Hai Quantum Computing Research Center (Foxconn)</a> /
-          <a href="https://www.youtube.com/watch?v=d4IcJR6D4wQ" target="_blank">QIP 2023</a>
+          <div class="talk-alt-links">
+            Other versions:
+            <a href="https://www.youtube.com/watch?v=vT__6ShiRsA" target="_blank">Cornell Theory Seminar</a> &nbsp;/&nbsp;
+            <a href="https://www.youtube.com/watch?v=LHfUA-LXTlY" target="_blank">Princeton Theory Lunch</a> &nbsp;/&nbsp;
+            <a href="https://www.youtube.com/watch?v=ComfHKBJJb8" target="_blank">Hon Hai Quantum Computing Research Center</a> &nbsp;/&nbsp;
+            <a href="https://www.youtube.com/watch?v=d4IcJR6D4wQ" target="_blank">QIP 2023</a>
+          </div>
         </li>
-        <br>
+
         <li>
           <h3>Unconditionally Secure Commitments with Quantum Auxiliary Inputs</h3>
-          <a href="https://quantum-meets.github.io" target="_blank">Quantum Meets</a> Seminar
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/QyG-PpGoIMY?si=fbz9Os_H3juS4Wqj" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-venue"><a href="https://quantum-meets.github.io" target="_blank">Quantum Meets</a> Seminar</div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/QyG-PpGoIMY?si=fbz9Os_H3juS4Wqj" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <h4>Other recorded versions of this talk:</h4>
-          <a href="https://youtu.be/sYhHAloQZ7k?si=1yZ-PTtashVjfkZZ" target="_blank">QIP 2025</a>
-          /
-          <a href="https://www.youtube.com/embed/tWA_KeGo5WQ?si=3wrHNi6DTiTcrV9l&amp;start=2341" target="_blank">Crypto 2024</a>
-        <br>
+          <div class="talk-alt-links">
+            Other versions:
+            <a href="https://youtu.be/sYhHAloQZ7k?si=1yZ-PTtashVjfkZZ" target="_blank">QIP 2025</a> &nbsp;/&nbsp;
+            <a href="https://www.youtube.com/embed/tWA_KeGo5WQ?si=3wrHNi6DTiTcrV9l&start=2341" target="_blank">Crypto 2024</a>
+          </div>
+        </li>
+
         <li>
           <h3>Oracle Separation Between Quantum Commitments and Quantum One-wayness</h3>
-          Non-technical talk at <a href="https://splab.cis.upenn.edu/seminars.html" target="_blank">UPenn Security and Privacy Seminar</a>
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/T4LTds38zdc?si=Oi-QPl3RveGM0Y8j" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-venue">Non-technical talk at <a href="https://splab.cis.upenn.edu/seminars.html" target="_blank">UPenn Security and Privacy Seminar</a></div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/T4LTds38zdc?si=Oi-QPl3RveGM0Y8j" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </li>
-        <br>
+
         <li>
           <h3>Introduction to Quantum Information Theory</h3>
-          Guest Lecture in <a href="https://www.cs.princeton.edu/courses/archive/spring22/cos585/" target="_blank"> COS 585 (Graduate Information Theory Course)</a>, Spring 2024 @ Princeton University
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/vJ0C8ghuxNM?si=S0hmqgBQye9hAyad" title="Introduction to Quantum Information Theory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-venue">Guest Lecture in <a href="https://www.cs.princeton.edu/courses/archive/spring22/cos585/" target="_blank">COS 585 (Graduate Information Theory)</a>, Spring 2024 &middot; Princeton University</div>
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/vJ0C8ghuxNM?si=S0hmqgBQye9hAyad" title="Introduction to Quantum Information Theory" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <h4>Previous versions: </h4>
-          <a href="https://www.youtube.com/watch?v=p-Z7GN7wyI4" target="_blank">COS 585 Spring 2022</a>
-        </li>
-        <!-- <br>
-        <li>
-          <h3>Quantum Money from Abelian Group Actions<br><span style="font-weight: normal;">(by Mark Zhandry)</span></h3>
-          Given at <a href="https://qip2024.tw/" target="_blank">QIP 2024</a> as a substitute presenter.
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/a41RZ_pluBc?si=m182IxyCul37k11a" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="talk-alt-links">
+            Previous version: <a href="https://www.youtube.com/watch?v=p-Z7GN7wyI4" target="_blank">COS 585 Spring 2022</a>
           </div>
         </li>
-        <br>
-        <li>
-          <h3>Another Round of Breaking and Making Quantum Money: How to Not Build It from Lattices, and More <br><span style="font-weight: normal;">(by Jiahui Liu, Hart Montgomery, and Mark Zhandry)</span></h3>
-          Given at <a href="https://eurocrypt.iacr.org/2023/" target="_blank">Eurocrypt 2023</a> as a substitute presenter.
-          <div class="video-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 56.25%;">
-            <iframe style="position: absolute; width: 100%; height: 100%;" src="https://www.youtube.com/embed/3ay0dVg2kWY?si=FyKYKlEiGes1Wjs7&amp;start=1283" title="Another Round of Breaking and Making Quantum Money: How to Not Build It from Lattices, and More" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          </div>
-        </li> -->
+
       </ul>
     </div>
-    <div class="card" id="teaching">
+
+    <!-- TEACHING -->
+    <div class="section" id="teaching">
       <h2>Teaching</h2>
       <ul>
-        <li> <a href="https://www.cs.princeton.edu/courses/archive/spring24/cos585/" target="_blank"> Information Theory (COS 585) - Spring 2024 </a> (Guest Lecturer) </li>
-        <li> <a href="https://www.cs.princeton.edu/courses/archive/spring22/cos585/" target="_blank"> Information Theory (COS 585) - Spring 2022 </a> (Graduate TA and Guest Lecturer) </li>
-        <li> <a href="https://registrar.princeton.edu/course-offerings/course-details?term=1222&courseid=010006" target="_blank"> Quantum Computing (ELE 396 / COS 396) - Fall 2021 </a> (Graduate TA) </li>
-        <li> <a href="https://www.cs.princeton.edu/~smattw/Teaching/cos445sp21.htm" target="_blank"> Economics and Computation (COS 445) - Spring 2021 </a> (Graduate TA) </li>
-        <li> <a href="https://faculty.cc.gatech.edu/~ssingla7/courses/COS521.html" target="_blank"> Advanced Algorithm Design (COS 521) - Fall 2020 </a> (Graduate TA) </li>
-        <li> <a href="https://mcgraw.princeton.edu/undergraduates/programs/digital-learning-lab" target="_blank">The Digital Learning Lab</a> of <a href="https://mcgraw.princeton.edu/" target="_blank"> The McGraw Center for Teaching and Learning </a> (Student Staff Consultant) </li>
+        <li><a href="https://www.cs.princeton.edu/courses/archive/spring24/cos585/" target="_blank">Information Theory (COS 585) &mdash; Spring 2024</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Guest Lecturer)</span></li>
+        <li><a href="https://www.cs.princeton.edu/courses/archive/spring22/cos585/" target="_blank">Information Theory (COS 585) &mdash; Spring 2022</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Graduate TA &amp; Guest Lecturer)</span></li>
+        <li><a href="https://registrar.princeton.edu/course-offerings/course-details?term=1222&courseid=010006" target="_blank">Quantum Computing (ELE 396 / COS 396) &mdash; Fall 2021</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Graduate TA)</span></li>
+        <li><a href="https://www.cs.princeton.edu/~smattw/Teaching/cos445sp21.htm" target="_blank">Economics and Computation (COS 445) &mdash; Spring 2021</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Graduate TA)</span></li>
+        <li><a href="https://faculty.cc.gatech.edu/~ssingla7/courses/COS521.html" target="_blank">Advanced Algorithm Design (COS 521) &mdash; Fall 2020</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Graduate TA)</span></li>
+        <li><a href="https://mcgraw.princeton.edu/undergraduates/programs/digital-learning-lab" target="_blank">The Digital Learning Lab</a>, <a href="https://mcgraw.princeton.edu/" target="_blank">McGraw Center for Teaching and Learning</a> &nbsp;<span style="color:var(--text-muted); font-size:0.9rem;">(Student Staff Consultant)</span></li>
       </ul>
     </div>
-    <div class="card" id="service">
+
+    <!-- SERVICE -->
+    <div class="section" id="service">
       <h2>Service</h2>
+
       <h3>Program Committees</h3>
-      <div class="container">
-        <div class="column">
-          <p>
-            <a href="https://tqc-conference.org/2026/" target="_blank">TQC 2026</a>
-          </p>
+      <ul>
+        <li><a href="https://tqc-conference.org/2026/" target="_blank">TQC 2026</a></li>
+      </ul>
+
+      <h3>Subreviewing</h3>
+      <div class="service-cols">
+        <div class="service-col">
+          <p>FOCS 2023</p>
+          <p>Asiacrypt 2023</p>
+          <p>ITCS 2024</p>
+          <p>Crypto 2024</p>
+          <p>TQC 2024</p>
+          <p>TCC 2024</p>
+          <p>Asiacrypt 2024</p>
+        </div>
+        <div class="service-col">
+          <p>STOC 2025</p>
+          <p>Crypto 2025</p>
+          <p>TQC 2025</p>
+          <p>FOCS 2025</p>
+          <p>Latincrypt 2025</p>
+          <p>Eurocrypt 2026</p>
         </div>
       </div>
-      <h3>Subreviews</h3>
-      <div class="container">
-        <div class="column">
-          <p>
-            FOCS 2023
-          </p>
-          <p>
-            Asiacrypt 2023
-          </p>
-          <p>
-            ITCS 2024
-          </p>
-          <p>
-            Crypto 2024
-          </p>
-          <p>
-            TQC 2024
-          </p>
-          <p>
-            TCC 2024
-          </p>
-          <p>
-            Asiacrypt 2024
-          </p>
-        </div>
-        <div class="column">
-          <p>
-            STOC 2025
-          </p>
-          <p>
-            Crypto 2025
-          </p>
-          <p>
-            TQC 2025
-          </p>
-          <p>
-            FOCS 2025
-          </p>
-          <p>
-            Latincrypt 2025
-          </p>
-          <p>
-            Eurocrypt 2026
-          </p>
-        </div>
-      </div>
+
       <h3>Other</h3>
-      <p style="padding:20px">I am a co-founder and former core maintainer of <a href="https://www.tigerpath.io/" target="_blank" rel="noopener">TigerPath</a>, a web app now used by thousands of Princeton undergraduate students to plan their four-year schedules. It was written about in the <a href="https://www.dailyprincetonian.com/article/2018/09/tiger-path-app-debut" target="_blank" rel="noopener">Daily Princetonian</a>.</p> 
-      <!-- <p>I am also a sometimes-contributor to the open source <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a> machine learning framework. I&rsquo;ve refactored and written code for PyTorch&rsquo;s spatial transformer module, which is used in various applications in image registration, optical flow estimation, and other deep computer vision tasks.</p> -->
+      <p>I am a co-founder and former core maintainer of <a href="https://www.tigerpath.io/" target="_blank" rel="noopener">TigerPath</a>, a web app used by thousands of Princeton undergraduates to plan their four-year schedules, written about in the <a href="https://www.dailyprincetonian.com/article/2018/09/tiger-path-app-debut" target="_blank" rel="noopener">Daily Princetonian</a>.</p>
     </div>
-    <div class="card" id="guide">
+
+    <!-- QUANTUM SURVIVAL GUIDE -->
+    <div class="section" id="guide">
       <h2>Quantum Survival Guide</h2>
-      <table style="border-collapse: separate;">
-        <tr>
-          <td style="padding-right: 40px; vertical-align: top;">
-          </td>
-          <td style="vertical-align: top; font-size: medium;">
-            <p>
-              Never build a quantum bridge. <br>
-              Oh what a judgment lapse. <br>
-              The slightest little measurement, <br>
-              Would cause it to collapse. <br>
-            </p>
-            <p>
-              And don't play quantum football, <br>
-              Or at least do not be phased, <br>
-              Since every interference <br>
-              Runs the risk of being erased. <br>
-            </p>
-            <p>
-              But you should also never, <br>
-              Ever build a quantum car. <br>
-              You check your speed and you'll indeed <br>
-              Lose track of where you are. <br>
-            </p>
-            <p>
-              And if you do, don't use it to commute <br>
-              From there to here. <br>
-              For if you commute spatially, <br>
-              You'll surely disappear. <br>
-            </p>
-            <p>
-              It's quite a risk of life and death. <br>
-              Can you imagine that? <br>
-              You'll find out what I mean <br>
-              If you adopt a quantum cat. <br>
-            </p>
-            <p>
-              And don't give birth to quantum kids. <br>
-              The mess they'll bring about. <br>
-              One moment they're inside the crib. <br>
-              The next, they've tunneled out. <br>
-            </p>
-          </td>
-          <td style="padding-right: 40px; vertical-align: top;">
-          </td>
-          <td style="vertical-align: top; font-size: medium;">
-            <p>
-              And if they're twins and fermions, <br>
-              Oh what a chore you've got! <br>
-              They'll never be in the same state. <br>
-              If one's asleep, the other's not. <br>
-            </p>
-            <p>
-              Don't write to quantum notebooks, <br>
-              As it could be very sloppy. <br>
-              You can't erase a single word, <br>
-              Or even make a copy. <br>
-            </p>
-            <p>
-              Don't make quantum decisions. <br>
-              You'll have troubles big and small. <br>
-              You'll do these things and others, <br>
-              And you won't do them at all. <br>
-            </p>
-            <p>
-              No quantum keys. <br>
-              No quantum locks, <br>
-              Or clocks or clouds or weather. <br>
-              If I were in your shoes, <br>
-              I would avoid these altogether. <br>
-            </p>
-            <p>
-              The bottom line, be warned:  <br>
-              If you don't want a quantum curse, <br>
-              Avoid anything quantum <br>
-              In our quantum universe. <br>
-            </p>
-          </td>
-          <td style="padding-right: 40px; vertical-align: top;">
-          </td>
-        </tr>
-        <tr>
-          <td colspan="5" style="text-align: center; font-size: medium;">
-            &mdash; Barak Nehoran
-          </td>
-        </tr>
-      </table>
+      <div class="poem-grid">
+        <div>
+          <p>
+            Never build a quantum bridge.<br>
+            Oh what a judgment lapse.<br>
+            The slightest little measurement,<br>
+            Would cause it to collapse.
+          </p>
+          <p>
+            And don't play quantum football,<br>
+            Or at least do not be phased,<br>
+            Since every interference<br>
+            Runs the risk of being erased.
+          </p>
+          <p>
+            But you should also never,<br>
+            Ever build a quantum car.<br>
+            You check your speed and you'll indeed<br>
+            Lose track of where you are.
+          </p>
+          <p>
+            And if you do, don't use it to commute<br>
+            From there to here.<br>
+            For if you commute spatially,<br>
+            You'll surely disappear.
+          </p>
+          <p>
+            It's quite a risk of life and death.<br>
+            Can you imagine that?<br>
+            You'll find out what I mean<br>
+            If you adopt a quantum cat.
+          </p>
+          <p>
+            And don't give birth to quantum kids.<br>
+            The mess they'll bring about.<br>
+            One moment they're inside the crib.<br>
+            The next, they've tunneled out.
+          </p>
+        </div>
+        <div>
+          <p>
+            And if they're twins and fermions,<br>
+            Oh what a chore you've got!<br>
+            They'll never be in the same state.<br>
+            If one's asleep, the other's not.
+          </p>
+          <p>
+            Don't write to quantum notebooks,<br>
+            As it could be very sloppy.<br>
+            You can't erase a single word,<br>
+            Or even make a copy.
+          </p>
+          <p>
+            Don't make quantum decisions.<br>
+            You'll have troubles big and small.<br>
+            You'll do these things and others,<br>
+            And you won't do them at all.
+          </p>
+          <p>
+            No quantum keys.<br>
+            No quantum locks,<br>
+            Or clocks or clouds or weather.<br>
+            If I were in your shoes,<br>
+            I would avoid these altogether.
+          </p>
+          <p>
+            The bottom line, be warned:<br>
+            If you don't want a quantum curse,<br>
+            Avoid anything quantum<br>
+            In our quantum universe.
+          </p>
+        </div>
+      </div>
+      <div class="poem-attribution">&mdash; Barak Nehoran</div>
     </div>
-    <div class="card" id="contact">
+
+    <!-- CONTACT -->
+    <div class="section" id="contact">
       <h2>Contact</h2>
-      <p> I am very friendly, so feel free to reach out to me at <br> [<i>my_first_initial</i>][dot][<i>last_name</i>]@columbia.edu </p> <!-- <form> -->
-      <!--   <label for="name">Name:</label><br> -->
-      <!--   <input type="text" id="name" name="name"><br> -->
-      <!--   <label for="email">Email:</label><br> -->
-      <!--   <input type="email" id="email" name="email"><br> -->
-      <!--   <label for="message">Message:</label><br> -->
-      <!--   <textarea id="message" name="message"></textarea><br> -->
-      <!--   <input type="submit" value="Submit"> -->
-      <!-- </form>  -->
+      <p>I am very friendly, so feel free to reach out at<br>
+      <strong>[first initial].[last name]@columbia.edu</strong></p>
     </div>
-  </div>
+
+  </div><!-- /#content -->
+
   <script>
-    // When the user scrolls the page, execute toggleSticky
-    window.onscroll = function() {toggleSticky()};
-    
-    // Get the nav
+    // Sticky nav
     var nav = document.getElementById("nav");
-    
-    // Get the offset position of the navbar
     var sticky = nav.offsetTop;
-    
-    // Add the sticky class to the nav when you reach its scroll position. Remove  "sticky" when you leave the scroll position
+
     function toggleSticky() {
       if (window.pageYOffset > sticky) {
         nav.classList.add("sticky");
@@ -505,37 +755,33 @@
         nav.classList.remove("sticky");
       }
     }
+    window.onscroll = function() { toggleSticky(); };
 
-    async function fetchAsync (url) {
+    async function fetchAsync(url) {
       try {
         let response = await fetch(url);
         let data = await response.json();
-        console.log(data);
         return data;
       } catch (error) {
-        return {
-          papers: []
-        }
+        return { papers: [] };
       }
     }
-    
-    // Scrape publications, process them, and add them to the webpage
+
     async function updatePapers() {
-      // Ad-hoc edits to be made to specific papers
       const paperEdits = {
         "fb9632a472ee891a716f49795122cba19e3d5c26": function(paper) {
           paper.title = "A Computational Separation Between Quantum No-Cloning and No-Telegraphing";
-          paper.comment = "📰 Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>";
+          paper.comment = "ðŸ“° Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>";
           paper.url = "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.82";
           return paper;
         },
         "479b03654deeaae21805033c6bc8b76aa9b4448d": function(paper) {
-          paper.comment = "📰 Contributed talk at <a href=\"https://crypto.iacr.org/2024/\" target=\"_blank\">Crypto 2024</a>, <a href=\"https://2024.qcrypt.net/\" target=\"_blank\">QCrypt 2024</a>, and <a href=\"https://rsvp.duke.edu/event/qip2025/home\" target=\"_blank\">QIP 2025</a>";
+          paper.comment = "ðŸ“° Contributed talk at <a href=\"https://crypto.iacr.org/2024/\" target=\"_blank\">Crypto 2024</a>, <a href=\"https://2024.qcrypt.net/\" target=\"_blank\">QCrypt 2024</a>, and <a href=\"https://rsvp.duke.edu/event/qip2025/home\" target=\"_blank\">QIP 2025</a>";
           paper.url = "https://link.springer.com/chapter/10.1007/978-3-031-68394-7_3";
           return paper;
         },
         "945a9e016d9279a577416e514aabdc1dbb2feba7": function(paper) {
-          paper.comment = "📰 Contributed talk at <a href=\"https://acm-stoc.org/stoc2025/\" target=\"_blank\">STOC 2025</a> and <a href=\"https://rsvp.duke.edu/event/qip2025/home\" target=\"_blank\">QIP 2025</a>, <b>invited plenary talk</b> at <a href=\"https://qcrypt.net/2025/\" target=\"_blank\">QCrypt 2025</a>";
+          paper.comment = "ðŸ“° Contributed talk at <a href=\"https://acm-stoc.org/stoc2025/\" target=\"_blank\">STOC 2025</a> and <a href=\"https://rsvp.duke.edu/event/qip2025/home\" target=\"_blank\">QIP 2025</a>, <b>invited plenary talk</b> at <a href=\"https://qcrypt.net/2025/\" target=\"_blank\">QCrypt 2025</a>";
           paper.url = "https://dl.acm.org/doi/10.1145/3717823.3718195";
           return paper;
         },
@@ -544,113 +790,88 @@
           return paper;
         },
         "8a6d8e170e052d6df5f09e0e7c7a026239b61492": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-024-07558-y\" target=\"_blank\">Nature</a> (<b>featured on the <a href=\"https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8032\" target=\"_blank\">cover</a> of the <a href=\"https://www.nature.com/nature/volumes/634/issues/8032\" target=\"_blank\">October 3, 2024 issue</a></b>)";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-024-07558-y\" target=\"_blank\">Nature</a> (<b>featured on the <a href=\"https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/634/8032\" target=\"_blank\">cover</a> of the <a href=\"https://www.nature.com/nature/volumes/634/issues/8032\" target=\"_blank\">October 3, 2024 issue</a></b>)";
           paper.url = "https://www.nature.com/articles/s41586-024-07558-y";
           return paper;
         },
         "02192dd2392b25fbabaf4b12d04ef54849c5314a": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-024-07765-7\" target=\"_blank\">Nature</a>";
-          // paper.year = 2023;
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-024-07765-7\" target=\"_blank\">Nature</a>";
           paper.url = "https://www.nature.com/articles/s41586-024-07765-7";
           return paper;
         },
         "a641df4e738354237c2ba9cdb13c7dbca7d58171": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41467-023-44354-0\" target=\"_blank\">Nature Communications</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41467-023-44354-0\" target=\"_blank\">Nature Communications</a>";
           paper.url = "https://www.nature.com/articles/s41467-023-44354-0";
           return paper;
         },
         "3149671f907078eac6835a05a99da756c493a15b": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41592-021-01330-0\" target=\"_blank\">Nature Methods</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41592-021-01330-0\" target=\"_blank\">Nature Methods</a>";
           paper.url = "https://www.nature.com/articles/s41592-021-01330-0";
           return paper;
         },
         "a346af9804eec3d24f6a97c6c8f8583f784ce7c4": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-024-07780-8\" target=\"_blank\">Nature</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-024-07780-8\" target=\"_blank\">Nature</a>";
           paper.url = "https://www.nature.com/articles/s41586-024-07780-8";
           return paper;
         },
         "4b63dab3ae51107d337727b64c51035c721cb627": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41592-024-02426-z\" target=\"_blank\">Nature Methods</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41592-024-02426-z\" target=\"_blank\">Nature Methods</a>";
           paper.url = "https://www.nature.com/articles/s41592-024-02426-z";
           return paper;
         },
         "c83e6fb058b44eb025458dd7ace81692f50040ae": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-025-08805-6\" target=\"_blank\">Nature</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-025-08805-6\" target=\"_blank\">Nature</a>";
           paper.url = "https://www.nature.com/articles/s41586-025-08805-6";
           return paper;
         },
         "6f6b4737b2558267d481a564923bff29e00d3236": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-025-08790-w\" target=\"_blank\">Nature</a>  (<b>featured on the <a href=\"https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/640/8058\" target=\"_blank\">cover</a> of the <a href=\"https://www.nature.com/nature/volumes/640/issues/8058\" target=\"_blank\">April 10, 2025 issue</a></b>)";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-025-08790-w\" target=\"_blank\">Nature</a> (<b>featured on the <a href=\"https://media.springernature.com/w440/springer-static/cover-hires/journal/41586/640/8058\" target=\"_blank\">cover</a> of the <a href=\"https://www.nature.com/nature/volumes/640/issues/8058\" target=\"_blank\">April 10, 2025 issue</a></b>)";
           paper.url = "https://www.nature.com/articles/s41586-025-08790-w";
           paper.year = 2025;
           return paper;
         },
         "be8b18a1935a162a07d9cb67da74d3adea1bd0d3": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-025-08660-5\" target=\"_blank\">Nature</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-025-08660-5\" target=\"_blank\">Nature</a>";
           paper.url = "https://www.nature.com/articles/s41586-025-08660-5";
           return paper;
         },
         "5b1fbe0d1597d929d749ebfdc4f320f9be94f686": function(paper) {
-          paper.comment = "📰 Contributed talk at <a href=\"https://eurocrypt.iacr.org/2025/\" target=\"_blank\">Eurocrypt 2025</a>";
+          paper.comment = "ðŸ“° Contributed talk at <a href=\"https://eurocrypt.iacr.org/2025/\" target=\"_blank\">Eurocrypt 2025</a>";
           return paper;
         },
         "1246b589f66c0e0b47870f301fd013784a4def66": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41586-025-08840-3\" target=\"_blank\">Nature</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41586-025-08840-3\" target=\"_blank\">Nature</a>";
           paper.url = "https://www.nature.com/articles/s41586-025-08840-3";
           return paper;
         },
         "0a80e0cf55b6a3554da9ccbaafc40a6554b7a625": function(paper) {
-          paper.comment = "📰 To appear in <a href=\"https://www.nature.com/neuro/\" target=\"_blank\">Nature Neuroscience</a>";
+          paper.comment = "ðŸ“° To appear in <a href=\"https://www.nature.com/neuro/\" target=\"_blank\">Nature Neuroscience</a>";
           return paper;
         },
         "1f50f04ca5d1e80e2574c653fdd07dbd425b6450": function(paper) {
-          paper.comment = "📰 Published in <a href=\"https://www.nature.com/articles/s41467-025-58763-w\" target=\"_blank\">Nature Communications</a>";
+          paper.comment = "ðŸ“° Published in <a href=\"https://www.nature.com/articles/s41467-025-58763-w\" target=\"_blank\">Nature Communications</a>";
           paper.url = "https://www.nature.com/articles/s41467-025-58763-w";
           return paper;
         },
       };
 
-      // List of duplicate papers to merge. Each paper identifier is a list of papers to be merged into that one 
       const paperMerges = {
-        "fb9632a472ee891a716f49795122cba19e3d5c26": [ // A Computational Separation Between Quantum No-Cloning and No-Telegraphing
-          "a410b5734ee9d821f5accc7a269d1efe5fc1577e",
-        ],
-        "945a9e016d9279a577416e514aabdc1dbb2feba7": [
-          "11a9ffd33d03dca49e5cc3c8d76993f627932cc0",
-        ],
-        "3149671f907078eac6835a05a99da756c493a15b": [ // FlyWire: Online community for whole-brain connectomics
-          "7d1824c61645371a977706ce860a678e3741a53f",
-        ],
-        "be8b18a1935a162a07d9cb67da74d3adea1bd0d3": [ // NEURD: automated proofreading and feature extraction for connectomics
-          "c1bf00ba6d7d1d835ab02c102800a31288983711",
-          "05765b193c2c7269cbb6b68ecd3a2078e710afe4",
-          "d520a4e4e439d0b770f0fde7ee8da57934355d72",
-          "9f1f192903b1d00483623600aa37fb514a9a6600",
-        ],
-        "8a6d8e170e052d6df5f09e0e7c7a026239b61492": [ // Neuronal wiring diagram of an adult brain 
-          "1ec35fded5cec7758dd4a884477ccb7bb19662b6",
-        ],
-        "c83e6fb058b44eb025458dd7ace81692f50040ae": [ // Connectomics of predicted Sst transcriptomic types in mouse visual cortex  
-          "137cbe8190d056530a2cf44cf4b6bc2c89da63a5",
-        ],
-        "4b63dab3ae51107d337727b64c51035c721cb627": [ // CAVE: Connectome Annotation Versioning Engine  
-          "293e98e1eb78383656a27d2774abb34130dba48b",
-        ],
-        "02192dd2392b25fbabaf4b12d04ef54849c5314a": [ // Perisomatic ultrastructure efficiently classifies cells in mouse cortex
-          "2bf223d27a98474a498337067ee842b657dbfceb",
-        ],
-        "a346af9804eec3d24f6a97c6c8f8583f784ce7c4": [ // Inhibitory specificity from a connectomic census of mouse visual cortex
-          "c6dd3c889d46a09a07af4dbbe6f8980198071859",
-        ]
+        "fb9632a472ee891a716f49795122cba19e3d5c26": ["a410b5734ee9d821f5accc7a269d1efe5fc1577e"],
+        "945a9e016d9279a577416e514aabdc1dbb2feba7": ["11a9ffd33d03dca49e5cc3c8d76993f627932cc0"],
+        "3149671f907078eac6835a05a99da756c493a15b": ["7d1824c61645371a977706ce860a678e3741a53f"],
+        "be8b18a1935a162a07d9cb67da74d3adea1bd0d3": ["c1bf00ba6d7d1d835ab02c102800a31288983711","05765b193c2c7269cbb6b68ecd3a2078e710afe4","d520a4e4e439d0b770f0fde7ee8da57934355d72","9f1f192903b1d00483623600aa37fb514a9a6600"],
+        "8a6d8e170e052d6df5f09e0e7c7a026239b61492": ["1ec35fded5cec7758dd4a884477ccb7bb19662b6"],
+        "c83e6fb058b44eb025458dd7ace81692f50040ae": ["137cbe8190d056530a2cf44cf4b6bc2c89da63a5"],
+        "4b63dab3ae51107d337727b64c51035c721cb627": ["293e98e1eb78383656a27d2774abb34130dba48b"],
+        "02192dd2392b25fbabaf4b12d04ef54849c5314a": ["2bf223d27a98474a498337067ee842b657dbfceb"],
+        "a346af9804eec3d24f6a97c6c8f8583f784ce7c4": ["c6dd3c889d46a09a07af4dbbe6f8980198071859"],
       };
 
-      // Papers to skip
       const paperSkip = [
         "cbda3f294aba542a22d19b9a9926d5318a27ea66",
         "893a853ba57c94a93002d721634800077be74501",
-      ]
+      ];
 
-      // Papers to bring to the top
       const paperEmph = [
         "945a9e016d9279a577416e514aabdc1dbb2feba7",
         "6f6b4737b2558267d481a564923bff29e00d3236",
@@ -660,48 +881,30 @@
         "c83e6fb058b44eb025458dd7ace81692f50040ae",
         "8a6d8e170e052d6df5f09e0e7c7a026239b61492",
       ];
-  
+
       var papers = document.getElementById("papers");
 
       var papjson;
       if (window.location.hostname.endsWith('assets.github.dev')) {
-        console.log('Skipped loading papers in development environment');
         papjson = await fetchAsync("https://raw.githubusercontent.com/bnehoran/bnehoran.github.io/dev_papers/papers.json");
       } else {
-        console.log('Loading papers...');
         papjson = await fetchAsync("https://api.semanticscholar.org/graph/v1/author/1926235266?fields=papers,papers.title,papers.url,papers.authors,papers.year,papers.citationCount,papers.abstract,papers.venue,papers.publicationVenue,papers.fieldsOfStudy,papers.publicationDate");
       }
+
       if (papjson.papers.length === 0) {
-        papers.innerHTML = "<p>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
+        papers.innerHTML = "<p style='text-align:center;color:var(--text-muted)'>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
         return;
       }
 
-      // Custom sorting of papers by category and emphasis
-      var fieldvalues = {
-        "Computer Science": 0,
-        "Biology": 1,
-        "Medicine": 1,
-      }
+      var fieldvalues = { "Computer Science": 0, "Biology": 1, "Medicine": 1 };
       papjson.papers.sort((a, b) => {
-        // Place Biology papers at the end of the list (to emphasize CS/Physics papers)
-        if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) {
-          return 0;
-        }
+        if (!('fieldsOfStudy' in a) || !('fieldsOfStudy' in b) || !(Array.isArray(a.fieldsOfStudy)) || !(Array.isArray(b.fieldsOfStudy))) return 0;
         a.val = a.fieldsOfStudy.reduce((acc, item) => acc || (fieldvalues[item] || 0), 0);
         b.val = b.fieldsOfStudy.reduce((acc, item) => acc || (fieldvalues[item] || 0), 0);
-        if (a.val != b.val) {
-          return a.val - b.val;
-        }
-        
-        if ((paperEmph.includes(a.paperId)) && !(paperEmph.includes(b.paperId))) {
-          return -1;
-        }
-        if (!(paperEmph.includes(a.paperId)) && (paperEmph.includes(b.paperId))) {
-          return 1;
-        }
-        if ((paperEmph.includes(a.paperId)) && (paperEmph.includes(b.paperId))) {
-          return paperEmph.indexOf(a.paperId) - paperEmph.indexOf(b.paperId);
-        }
+        if (a.val != b.val) return a.val - b.val;
+        if (paperEmph.includes(a.paperId) && !paperEmph.includes(b.paperId)) return -1;
+        if (!paperEmph.includes(a.paperId) && paperEmph.includes(b.paperId)) return 1;
+        if (paperEmph.includes(a.paperId) && paperEmph.includes(b.paperId)) return paperEmph.indexOf(a.paperId) - paperEmph.indexOf(b.paperId);
         return 0;
       });
 
@@ -715,9 +918,9 @@
         for (subId of paperMerges[id]) {
           if (subId in papLookup) {
             if ('citationCount' in papLookup[subId]) {
-              citCount += papLookup[subId].citationCount;  // Add in the citations of the duplicate
+              citCount += papLookup[subId].citationCount;
             }
-            papLookup[subId].skip = true;  // Skip the duplicate paper
+            papLookup[subId].skip = true;
           }
         }
         papLookup[id].citationCount = citCount;
@@ -729,7 +932,7 @@
           papLookup[id].skip = true;
         }
       }
-      
+
       var first = true;
       for (pap of papjson.papers) {
         console.log(pap);
@@ -738,7 +941,7 @@
         if (pap.paperId in paperEdits) {
           pap = paperEdits[pap.paperId](pap);
         }
-        
+
         // Drop certain papers from display (for example, duplicates)
         if ("skip" in pap) {
           continue;
@@ -749,11 +952,10 @@
 
         var litem = document.createElement("li");
         litem.classList.add("collapsible");
-        
+
         var header = document.createElement("div");
         header.classList.add("collapsible-header", defaultState);
-        header.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title +"</a>" + " (" + pap.year + ")";
-        // header.innerHTML = "<u><b>" + pap.title + "</b></u> (" + pap.year + ")";
+        header.innerHTML = "<a href=\"" + pap.url + "\" target=\"_blank\">" + pap.title + "</a>" + " (" + pap.year + ")";
         litem.appendChild(header);
 
         var content = document.createElement("div");
@@ -773,8 +975,7 @@
         }
 
         if ("comment" in pap) {
-            content.innerHTML += "<br>";
-            content.innerHTML += pap.comment;
+            content.innerHTML += "<br><span class=\"paper-comment\">" + pap.comment + "</span>";
         }
 
         content.innerHTML += "<br>";
@@ -787,7 +988,6 @@
 
         // In development only, show the paper ID
         if (window.location.hostname.endsWith('assets.github.dev')) {
-            // content.innerHTML += "<br>";
             content.innerHTML += "&nbsp;&nbsp;<span style='font-size: 0.5em; color: gray;'>" + pap.paperId + "</span>";
         }
 
@@ -809,10 +1009,9 @@
         papers.appendChild(litem);
       }
     }
-    
-    updatePapers();
-    
-  </script>
-</body>
 
+    updatePapers();
+  </script>
+
+</body>
 </html>
