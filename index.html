@@ -7,7 +7,7 @@
   <title>Barak Nehoran</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #f7f5f0;
@@ -172,6 +172,15 @@
       color: #9a5200;
       font-weight: 600;
     }
+    .paper-comment b a,
+    .paper-comment strong a {
+      color: #9a5200 !important;
+      border-bottom-color: rgba(154, 82, 0, 0.3);
+    }
+    .paper-comment b a:hover,
+    .paper-comment strong a:hover {
+      border-bottom-color: #9a5200;
+    }
 
     .sticky {
       position: fixed;
@@ -254,15 +263,11 @@
 
     .section li {
       margin: 0.5rem 0;
-      padding-left: 1.2rem;
-      position: relative;
+      padding-left: 0;
     }
 
     .section li::before {
-      content: "â€“";
-      position: absolute;
-      left: 0;
-      color: var(--rule);
+      content: none;
     }
 
     /* â”€â”€ PUBLICATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
@@ -329,10 +334,10 @@
       content: "\25B8";
       position: absolute;
       left: 0;
-      top: 0.78rem;
-      font-size: 0.75rem;
-      color: var(--rule);
-      transition: transform 0.2s, color 0.2s;
+      top: 0.7rem;
+      font-size: 1rem;
+      color: var(--text-muted);
+      transition: color 0.2s;
     }
 
     .collapsible li .collapsible-header.expanded::before {
@@ -499,7 +504,7 @@
         <h2>Postdoctoral Scholar in Computer Science &middot; Columbia University</h2>
         <h3>Quantum information &middot; Cryptography &middot; Complexity theory</h3>
         <div id="header-links">
-          <a href="https://scholar.google.com/citations?user=DMxcDioAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://scholar.google.com/citations?user=DMxcDioAAAAJ&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>
           <a href="https://www.semanticscholar.org/author/B.-Nehoran/1926235266" target="_blank" rel="noopener">Semantic Scholar</a>
           <a href="#contact">Contact</a>
         </div>
@@ -535,7 +540,7 @@
       <h2>Publications</h2>
       <ul class="collapsible" id="papers">
         <div class="loader"></div>
-        <p style="text-align:center; color: var(--text-muted); font-size:0.95rem;">Loading publications&hellip; See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>
+        <p style="text-align:center; color: var(--text-muted); font-size:0.95rem;">Loading publications&hellip; See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ&sortby=pubdate' target='_blank'>Google Scholar</a>.</p>
       </ul>
     </div>
 
@@ -892,7 +897,7 @@
       }
 
       if (papjson.papers.length === 0) {
-        papers.innerHTML = "<p style='text-align:center;color:var(--text-muted)'>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ' target='_blank'>Google Scholar</a>.</p>";
+        papers.innerHTML = "<p style='text-align:center;color:var(--text-muted)'>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ&sortby=pubdate' target='_blank'>Google Scholar</a>.</p>";
         return;
       }
 
