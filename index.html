@@ -891,6 +891,7 @@
       ];
 
       const paperEmph = [
+        "arxiv-2606.30281",
         "1ca9913e81ddda223e4cf03e6952182178a47abe",
         "945a9e016d9279a577416e514aabdc1dbb2feba7",
         "6f6b4737b2558267d481a564923bff29e00d3236",
@@ -914,6 +915,20 @@
         papers.innerHTML = "<p style='text-align:center;color:var(--text-muted)'>Loading publications failed. See my profile on <a href='https://scholar.google.com/citations?user=DMxcDioAAAAJ&sortby=pubdate' target='_blank'>Google Scholar</a>.</p>";
         return;
       }
+
+      // Manually-added papers not yet indexed on Semantic Scholar
+      papjson.papers.push({
+        paperId: "arxiv-2606.30281",
+        title: "Quantum Lazy Sampling and Path Recording for Any Group",
+        url: "https://arxiv.org/abs/2606.30281",
+        year: 2026,
+        authors: [
+          {name: "Ben Foxman"}, {name: "Alex Lombardi"}, {name: "Fermi Ma"},
+          {name: "Barak Nehoran"}, {name: "John Wright"}
+        ],
+        citationCount: 0,
+        fieldsOfStudy: ["Computer Science"],
+      });
 
       var fieldvalues = { "Computer Science": 0, "Biology": 1, "Medicine": 1 };
       papjson.papers.sort((a, b) => {
