@@ -835,6 +835,7 @@
         "479b03654deeaae21805033c6bc8b76aa9b4448d": function(paper) {
           paper.comment = "&#128240; Contributed talk at <a href=\"https://crypto.iacr.org/2024/\" target=\"_blank\">Crypto 2024</a>, <a href=\"https://2024.qcrypt.net/\" target=\"_blank\">QCrypt 2024</a>, and <a href=\"https://rsvp.duke.edu/event/qip2025/home\" target=\"_blank\">QIP 2025</a>";
           paper.url = "https://link.springer.com/chapter/10.1007/978-3-031-68394-7_3";
+          paper.authors = paper.authors.map(a => a.name === "T. Morimae" ? {...a, name: "Tomoyuki Morimae"} : a);
           return paper;
         },
         "945a9e016d9279a577416e514aabdc1dbb2feba7": function(paper) {
@@ -912,6 +913,14 @@
         },
         "1d1515635dbdfb377cdf30c54f51b2c7f36a4f54": function(paper) {
           paper.url = "https://arxiv.org/abs/2606.30281";
+          return paper;
+        },
+        "9b5096c1e56b826fe248f67c7200f7bcc484a381": function(paper) {
+          paper.authors = paper.authors.map(a => a.name === "S. Aaronson" ? {...a, name: "Scott Aaronson"} : a);
+          return paper;
+        },
+        "89be10f7ead0d61abefcb5c61a800a486a241357": function(paper) {
+          paper.authors = paper.authors.map(a => a.name === "R. Raz" ? {...a, name: "Ran Raz"} : a);
           return paper;
         },
       };
