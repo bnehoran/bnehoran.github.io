@@ -576,6 +576,14 @@
       <ul>
 
         <li>
+          <h3>All Unitaries Have Constant Depth Quantum Circuits</h3>
+          <div class="talk-venue">Talk at the <a href="https://uwaterloo.ca/institute-for-quantum-computing/events/iqc-math-and-cs-seminar-featuring-barak-nehoran-0" target="_blank">IQC Math and CS Seminar</a>, University of Waterloo</div>
+          <div class="video-container">
+            <iframe src="https://docs.google.com/presentation/d/1OpcdHcjJECuP2QAs3qTSwcHRzQA4Wpu6W5hjUIb6sb4/embed?start=false&loop=false&delayms=0" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+        </li>
+
+        <li>
           <h3>Quantum Lazy Sampling and Path Recording for Any Group</h3>
           <div class="talk-venue">Talk at the University of Washington and the Simons Institute for the Theory of Computing</div>
           <div class="video-container">
@@ -856,6 +864,11 @@
 
     async function updatePapers() {
       const paperEdits = {
+        "2ce0a4c84ca98437a61c11ccced1893b7c692dba": function(paper) {
+          paper.url = "https://arxiv.org/abs/2609.40351";
+          paper.comment = "🖥️ <a href=\"https://docs.google.com/presentation/d/1OpcdHcjJECuP2QAs3qTSwcHRzQA4Wpu6W5hjUIb6sb4/mobilepresent\" target=\"_blank\">Link to my slides</a>";
+          return paper;
+        },
         "fb9632a472ee891a716f49795122cba19e3d5c26": function(paper) {
           paper.title = "A Computational Separation Between Quantum No-Cloning and No-Telegraphing";
           paper.comment = "&#128240; Contributed talk at <a href=\"http://itcs-conf.org/\" target=\"_blank\">ITCS 2024</a> and <a href=\"https://indico.cern.ch/event/1175020/\" target=\"_blank\">QIP 2023</a>";
